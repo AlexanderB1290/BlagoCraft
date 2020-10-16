@@ -623,6 +623,12 @@
     },
     "done": true
   },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2020-10-15 16:13:07 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2020-10-11 19:36:10 +0300"
@@ -800,7 +806,8 @@
       "minecraft:piglin": "2020-10-12 23:19:21 +0300",
       "minecraft:enderman": "2020-10-11 20:28:03 +0300",
       "minecraft:zombie": "2020-10-08 19:59:54 +0300",
-      "minecraft:drowned": "2020-10-12 00:47:09 +0300"
+      "minecraft:drowned": "2020-10-12 00:47:09 +0300",
+      "minecraft:zombie_villager": "2020-10-15 16:03:02 +0300"
     },
     "done": false
   },
@@ -1722,6 +1729,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/honey_bottle": {
+    "criteria": {
+      "has_honey_block": "2020-10-15 16:58:30 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_brick": "2020-10-14 16:35:10 +0300"
@@ -2431,7 +2444,8 @@
     "criteria": {
       "minecraft:sheep": "2020-10-12 22:36:36 +0300",
       "minecraft:cow": "2020-10-12 02:22:35 +0300",
-      "minecraft:chicken": "2020-10-12 20:40:23 +0300"
+      "minecraft:chicken": "2020-10-12 20:40:23 +0300",
+      "minecraft:bee": "2020-10-15 15:24:12 +0300"
     },
     "done": false
   },

@@ -1,156 +1,180 @@
-[00:39:51] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[00:39:51] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:39:51] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:39:51] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:39:51] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[00:39:51] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[00:39:51] [main/INFO]: Reloading ResourceManager: Default
-[00:39:51] [Worker-Main-13/INFO]: Loaded 7 recipes
-[00:39:51] [Worker-Main-13/INFO]: Loaded 927 advancements
-[00:39:52] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[00:39:52] [Server thread/INFO]: Loading properties
-[00:39:52] [Server thread/INFO]: Default game type: SURVIVAL
-[00:39:52] [Server thread/INFO]: Generating keypair
-[00:39:52] [Server console handler/ERROR]: Exception handling console input
+[15:17:51] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[15:17:52] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:17:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:17:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:17:52] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[15:17:52] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[15:17:52] [main/INFO]: Reloading ResourceManager: Default
+[15:17:52] [Worker-Main-14/INFO]: Loaded 7 recipes
+[15:17:53] [Worker-Main-14/INFO]: Loaded 927 advancements
+[15:17:54] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[15:17:54] [Server thread/INFO]: Loading properties
+[15:17:54] [Server thread/INFO]: Default game type: SURVIVAL
+[15:17:54] [Server thread/INFO]: Generating keypair
+[15:17:54] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_261]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_261]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_261]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_261]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_261]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_51]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
 	at zg$1.run(SourceFile:89) [server.jar:?]
-[00:39:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:39:53] [Server thread/INFO]: Using default channel type
-[00:39:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:39:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:39:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:39:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:39:53] [Server thread/WARN]: Failed to load white-list: 
+[15:17:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:17:54] [Server thread/INFO]: Using default channel type
+[15:17:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:17:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:17:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:17:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:17:56] [Server thread/WARN]: Failed to load white-list: 
 com.google.gson.JsonSyntaxException: Expected entry to be a JsonObject, was "abadok"
 	at afa.m(SourceFile:393) ~[server.jar:?]
 	at acw.f(SourceFile:122) ~[server.jar:?]
-	at zf.B(SourceFile:119) ~[server.jar:?]
-	at zf.<init>(SourceFile:27) ~[server.jar:?]
-	at zg.d(SourceFile:164) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.w(SourceFile:642) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:254) ~[server.jar:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
-[00:39:53] [Server thread/INFO]: Preparing level "world"
-[00:39:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:39:54] [Server thread/INFO]: Preparing spawn area: 0%
-[00:39:54] [Server thread/INFO]: Preparing spawn area: 0%
-[00:39:55] [Server thread/INFO]: Time elapsed: 1165 ms
-[00:39:55] [Server thread/INFO]: Done (1.222s)! For help, type "help"
-[00:40:08] [Server thread/INFO]: Abadok[/46.10.213.116:61321] logged in with entity id 782 at (0.7824225477563997, 62.9375, 48.195520064750475)
-[00:40:08] [Server thread/INFO]: Abadok joined the game
-[00:40:11] [Server thread/INFO]: Neko[/46.10.213.116:51078] logged in with entity id 842 at (-78.46338853400147, 79.0, 125.38010247003771)
-[00:40:11] [Server thread/INFO]: Neko joined the game
-[00:40:33] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/968, l='ServerLevel[world]', x=-141.90, y=63.00, z=102.17]
-[00:41:15] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/1095, l='ServerLevel[world]', x=-143.98, y=63.00, z=96.95]
-[00:41:15] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/1097, l='ServerLevel[world]', x=-144.40, y=63.00, z=95.72]
-[00:42:39] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/1368, l='ServerLevel[world]', x=-141.25, y=63.00, z=101.62]
-[00:45:33] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/1894, l='ServerLevel[world]', x=-141.22, y=63.00, z=101.19]
-[00:46:48] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/2168, l='ServerLevel[world]', x=-145.38, y=63.00, z=95.27]
-[00:47:52] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/2374, l='ServerLevel[world]', x=-141.78, y=63.00, z=97.65]
-[00:48:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/2626, l='ServerLevel[world]', x=-146.74, y=63.00, z=99.80]
-[00:51:27] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/3211, l='ServerLevel[world]', x=-144.01, y=63.00, z=100.91]
-[00:55:01] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/4327, l='ServerLevel[world]', x=-144.05, y=63.00, z=95.87]
-[00:55:52] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/4582, l='ServerLevel[world]', x=-141.24, y=63.00, z=95.76]
-[01:02:16] [Server thread/INFO]: <Abadok> zdr bushev :D
-[01:51:12] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.25191943302231046
-[01:51:24] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4500665467202083
-[01:51:24] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.49423344021903404
-[01:53:24] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/18567, l='ServerLevel[world]', x=-146.04, y=63.00, z=96.73]
-[01:54:12] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/18828, l='ServerLevel[world]', x=-143.21, y=63.00, z=99.74]
-[01:57:16] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/19541, l='ServerLevel[world]', x=-146.59, y=63.00, z=100.33]
-[01:58:12] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.2895979330720593
-[01:58:12] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.34457641227881197
-[01:58:12] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.37163811405272895
-[01:58:12] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3891571280568087
-[01:58:50] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.30071623754201937
-[02:22:05] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/25404, l='ServerLevel[world]', x=-146.21, y=63.00, z=101.76]
-[02:22:40] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/25555, l='ServerLevel[world]', x=-143.08, y=63.00, z=96.64]
-[02:34:04] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.41601787982204996
-[02:35:27] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3746973088512746
-[02:35:27] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.41867807325488116
-[02:35:27] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4626619523018789
-[02:35:27] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4877504133366628
-[02:35:27] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.48720683731539083
-[02:35:27] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4901491301042995
-[02:35:28] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.27478570766629673
-[02:35:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3190303731269566
-[02:56:01] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/34045, l='ServerLevel[world]', x=-144.79, y=63.00, z=96.26]
-[02:58:23] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/34635, l='ServerLevel[world]', x=-142.22, y=63.00, z=97.60]
-[02:58:52] [Server thread/INFO]: Abadok has reached the goal [Hired Help]
-[03:00:18] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.45987648097189293
-[03:00:18] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4994731226548126
-[03:00:45] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/35537, l='ServerLevel[world]', x=-144.29, y=63.00, z=96.33]
-[03:08:56] [Server thread/INFO]: Neko has made the advancement [Bee Our Guest]
-[03:09:44] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3483375546573484
-[03:10:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/38068, l='ServerLevel[world]', x=-145.93, y=63.00, z=99.04]
-[03:11:33] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.2931368077127132
-[03:11:33] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.33631412019151696
-[03:11:33] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.33631555552990733
-[03:11:33] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3794934616363719
-[03:11:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.37949368152897023
-[03:11:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4228192697783726
-[03:11:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.46637017831763217
-[03:11:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3803734038581723
-[03:11:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4244661348315617
-[03:11:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.46810158551636505
-[03:11:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.46424303754940865
-[03:11:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.25208242515449797
-[03:11:35] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.7935846466011753
-[03:11:35] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 1.3356733711986095
-[03:11:35] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 1.8786218902426555
-[03:12:30] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.40667921467547075
-[03:12:30] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4421742907567108
-[03:12:30] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4113289571565346
-[03:12:38] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4303925770835946
-[03:13:28] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.423374183294726
-[03:14:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/39257, l='ServerLevel[world]', x=-146.20, y=63.00, z=100.06]
-[03:14:56] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/39303, l='ServerLevel[world]', x=-142.17, y=63.00, z=97.82]
-[03:15:10] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/39333, l='ServerLevel[world]', x=-141.90, y=63.00, z=96.92]
-[03:15:31] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-4, y=63, z=135} fx{x=-1, y=63, z=136}
-[03:15:32] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-4, y=63, z=135} fx{x=-1, y=63, z=136}
-[03:21:18] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/40520, l='ServerLevel[world]', x=-143.13, y=63.00, z=100.04]
-[03:30:48] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.37238731857273066
-[03:30:48] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.5245012331094046
-[03:30:56] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.2561978124853823
-[03:30:56] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.400633128073256
-[03:30:56] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.474179224996945
-[03:30:57] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.5355412331616378
-[03:31:04] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.2525902664673936
-[03:31:04] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.6403365484148935
-[03:31:04] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 1.1004021195255689
-[03:31:05] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/42460, l='ServerLevel[world]', x=-141.31, y=63.00, z=96.96]
-[03:31:32] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/42506, l='ServerLevel[world]', x=-104.66, y=77.00, z=121.46]
-[03:31:32] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/42506, l='ServerLevel[world]', x=-104.66, y=77.00, z=121.46]
-[03:32:00] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.2906950881146031
-[03:32:00] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3343234628601408
-[03:32:00] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.37794330844454294
-[03:32:00] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4217314515469468
-[03:32:00] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4659171862300866
-[03:34:51] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/43185, l='ServerLevel[world]', x=-140.83, y=63.00, z=95.99]
-[03:34:51] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/43185, l='ServerLevel[world]', x=-140.83, y=63.00, z=95.99]
-[03:35:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-28, y=63, z=53} fx{x=-28, y=62, z=52}
-[03:37:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/43766, l='ServerLevel[world]', x=-146.69, y=63.00, z=95.72]
-[03:39:21] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/44164, l='ServerLevel[world]', x=-144.76, y=63.00, z=102.17]
-[03:39:36] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/44215, l='ServerLevel[world]', x=-145.27, y=63.00, z=94.83]
-[03:48:48] [Server thread/INFO]: <Abadok> Dobro utro bushev!
-[03:48:48] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/46024, l='ServerLevel[world]', x=-104.60, y=77.00, z=121.18]
-[03:48:51] [Server thread/INFO]: <Abadok> priqtna rabota
-[03:48:54] [Server thread/INFO]: Abadok lost connection: Disconnected
-[03:48:54] [Server thread/INFO]: Abadok left the game
-[03:49:35] [Server thread/INFO]: Neko lost connection: Disconnected
-[03:49:35] [Server thread/INFO]: Neko left the game
-[06:28:01] [Server thread/INFO]: Stopping server
-[06:28:01] [Server thread/INFO]: Saving players
-[06:28:01] [Server thread/INFO]: Saving worlds
-[06:28:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+	at zf.B(SourceFile:119) [server.jar:?]
+	at zf.<init>(SourceFile:27) [server.jar:?]
+	at zg.d(SourceFile:164) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.w(SourceFile:642) [server.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:254) [server.jar:?]
+	at net.minecraft.server.MinecraftServer$$Lambda$3293/2106423676.run(Unknown Source) [server.jar:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_51]
+[15:17:56] [Server thread/INFO]: Preparing level "world"
+[15:17:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:17:57] [Server thread/INFO]: Preparing spawn area: 0%
+[15:17:57] [Server thread/INFO]: Preparing spawn area: 0%
+[15:17:57] [Server thread/INFO]: Preparing spawn area: 0%
+[15:17:57] [Server thread/INFO]: Preparing spawn area: 47%
+[15:17:58] [Server thread/INFO]: Time elapsed: 2036 ms
+[15:17:58] [Server thread/INFO]: Done (2.152s)! For help, type "help"
+[15:18:04] [Server thread/INFO]: Abadok[/192.168.1.4:62639] logged in with entity id 792 at (-1.4465356873070667, 76.0, 19.235075398697333)
+[15:18:04] [Server thread/INFO]: Abadok joined the game
+[15:32:27] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3406011431683851
+[15:33:31] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3880589524354079
+[15:33:32] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4322431107607727
+[15:33:32] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.47642726908536304
+[15:33:33] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.48914234976808046
+[15:35:32] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/4959, l='ServerLevel[world]', x=-146.22, y=63.00, z=96.16]
+[15:36:43] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/5127, l='ServerLevel[world]', x=-143.15, y=63.00, z=95.14]
+[15:37:23] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/5215, l='ServerLevel[world]', x=-145.06, y=63.00, z=99.91]
+[15:38:33] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/5432, l='ServerLevel[world]', x=-104.68, y=77.00, z=121.80]
+[15:42:49] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/6111, l='ServerLevel[world]', x=-144.66, y=63.00, z=96.75]
+[15:54:44] [Server thread/INFO]: Incorrect argument for command
+[15:54:44] [Server thread/INFO]: /gamerule keepInventry true<--[HERE]
+[15:55:11] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[15:58:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2357ms or 47 ticks behind
+[16:13:07] [Server thread/INFO]: Abadok has completed the challenge [Return to Sender]
+[16:22:49] [Server thread/INFO]: Abadok lost connection: Disconnected
+[16:22:49] [Server thread/INFO]: Abadok left the game
+[16:23:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25860ms or 517 ticks behind
+[16:23:25] [Server thread/INFO]: Abadok[/192.168.1.4:62711] logged in with entity id 11747 at (-22.3612088301623, 68.9375, 78.22200184964143)
+[16:23:25] [Server thread/INFO]: Abadok joined the game
+[16:24:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12043, l='ServerLevel[world]', x=-140.83, y=63.00, z=96.22]
+[16:25:35] [Server thread/INFO]: Neko[/192.168.1.31:53323] logged in with entity id 12189 at (-23.54120566566773, 69.0, 64.41719967367018)
+[16:25:35] [Server thread/INFO]: Neko joined the game
+[16:27:44] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12837, l='ServerLevel[world]', x=-142.94, y=63.00, z=101.24]
+[16:28:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13125, l='ServerLevel[world]', x=-144.37, y=63.00, z=100.60]
+[16:28:51] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13172, l='ServerLevel[world]', x=-145.31, y=63.00, z=100.41]
+[16:29:45] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13384, l='ServerLevel[world]', x=-141.73, y=63.00, z=95.25]
+[16:29:53] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13418, l='ServerLevel[world]', x=-143.42, y=63.00, z=99.67]
+[16:30:05] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13453, l='ServerLevel[world]', x=-144.12, y=63.00, z=100.38]
+[16:30:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13774, l='ServerLevel[world]', x=-143.84, y=63.00, z=99.25]
+[16:31:23] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13899, l='ServerLevel[world]', x=-141.27, y=63.00, z=98.59]
+[16:33:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/14700, l='ServerLevel[world]', x=-144.97, y=63.00, z=101.43]
+[16:33:54] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/14807, l='ServerLevel[world]', x=-146.79, y=63.00, z=100.95]
+[16:34:46] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/15117, l='ServerLevel[world]', x=-144.00, y=63.00, z=100.90]
+[16:35:35] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/15318, l='ServerLevel[world]', x=-145.35, y=63.00, z=101.71]
+[16:37:15] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/15698, l='ServerLevel[world]', x=-145.44, y=63.00, z=100.16]
+[16:45:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-31, y=83, z=26} fx{x=-34, y=81, z=26}
+[16:45:34] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-31, y=83, z=26} fx{x=-37, y=77, z=26}
+[16:52:19] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/19365, l='ServerLevel[world]', x=-141.30, y=63.00, z=99.54]
+[16:58:21] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21125, l='ServerLevel[world]', x=-145.93, y=63.00, z=101.76]
+[16:58:27] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21137, l='ServerLevel[world]', x=-140.83, y=63.00, z=99.61]
+[16:58:31] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21143, l='ServerLevel[world]', x=-142.66, y=63.00, z=98.11]
+[16:59:12] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21318, l='ServerLevel[world]', x=-143.46, y=63.00, z=98.89]
+[16:59:12] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21318, l='ServerLevel[world]', x=-143.46, y=63.00, z=98.89]
+[16:59:25] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21373, l='ServerLevel[world]', x=-141.28, y=63.00, z=98.50]
+[16:59:25] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21373, l='ServerLevel[world]', x=-141.28, y=63.00, z=98.50]
+[16:59:27] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21381, l='ServerLevel[world]', x=-144.82, y=63.00, z=96.15]
+[16:59:27] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21381, l='ServerLevel[world]', x=-144.82, y=63.00, z=96.15]
+[16:59:44] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21406, l='ServerLevel[world]', x=-145.87, y=63.00, z=94.83]
+[16:59:44] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21406, l='ServerLevel[world]', x=-145.87, y=63.00, z=94.83]
+[16:59:54] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21447, l='ServerLevel[world]', x=-145.72, y=63.00, z=98.31]
+[16:59:54] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/21447, l='ServerLevel[world]', x=-145.72, y=63.00, z=98.31]
+[17:02:29] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/22294, l='ServerLevel[world]', x=-143.52, y=63.00, z=95.98]
+[17:04:24] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/22756, l='ServerLevel[world]', x=-141.39, y=63.00, z=98.38]
+[17:05:15] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4178325669595928
+[17:05:16] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3790216820748995
+[17:05:16] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.920749356273852
+[17:05:16] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 1.462495674580019
+[17:05:16] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 2.0042519689762344
+[17:05:16] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 2.546408223481464
+[17:05:17] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.27477864099380156
+[17:05:27] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.43443804779900574
+[17:05:28] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4785940938721467
+[17:05:28] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.47848414505989467
+[17:05:28] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.2871231978817548
+[17:05:28] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.33119923285406117
+[17:05:28] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.331080840766532
+[17:05:28] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3749449913297269
+[17:05:28] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.41871367884010624
+[17:05:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.9623687026005427
+[17:05:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 1.5059629071545828
+[17:05:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 2.0495245685638963
+[17:05:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 2.5930688167852907
+[17:05:30] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23030, l='ServerLevel[world]', x=-146.14, y=63.00, z=99.26]
+[17:05:30] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23030, l='ServerLevel[world]', x=-146.14, y=63.00, z=99.26]
+[17:05:32] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23048, l='ServerLevel[world]', x=-146.32, y=63.00, z=100.56]
+[17:05:32] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23048, l='ServerLevel[world]', x=-146.32, y=63.00, z=100.56]
+[17:05:36] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23058, l='ServerLevel[world]', x=-145.21, y=63.00, z=97.47]
+[17:05:36] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23058, l='ServerLevel[world]', x=-145.21, y=63.00, z=97.47]
+[17:05:47] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23091, l='ServerLevel[world]', x=-143.24, y=63.00, z=101.96]
+[17:05:47] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23091, l='ServerLevel[world]', x=-143.24, y=63.00, z=101.96]
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.2857802392830848
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3299724418264276
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.8741646443740336
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.32897808675199514
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.8706998977597706
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 1.4104113208712619
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 1.945460274331495
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 2.4770715506242666
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 2.9990231871476354
+[17:06:29] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 3.4956058586577115
+[17:06:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3339541314734831
+[17:06:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3213753499668499
+[17:06:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.33448900892191347
+[17:06:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3618143380244945
+[17:06:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.3965009836975
+[17:06:34] [Server thread/WARN]: Horse (vehicle of Abadok) moved wrongly! 0.4599146942170975
+[17:07:15] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23645, l='ServerLevel[world]', x=-143.06, y=63.00, z=95.32]
+[17:07:16] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/23649, l='ServerLevel[world]', x=-144.19, y=63.00, z=99.47]
+[17:11:52] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/24722, l='ServerLevel[world]', x=-144.87, y=63.00, z=97.06]
+[17:12:29] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/24832, l='ServerLevel[world]', x=-146.10, y=63.00, z=99.32]
+[17:12:42] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/24865, l='ServerLevel[world]', x=-146.76, y=63.00, z=99.87]
+[17:14:51] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/25276, l='ServerLevel[world]', x=-144.14, y=63.00, z=101.00]
+[17:15:16] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/25344, l='ServerLevel[world]', x=-140.83, y=63.00, z=97.71]
+[17:20:02] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/26203, l='ServerLevel[world]', x=-141.40, y=63.00, z=97.77]
+[17:24:04] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/27067, l='ServerLevel[world]', x=-140.84, y=63.00, z=97.07]
+[17:24:52] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/27242, l='ServerLevel[world]', x=-144.26, y=63.00, z=99.30]
+[17:35:23] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/29250, l='ServerLevel[world]', x=-141.41, y=63.00, z=95.60]
+[17:35:59] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/29347, l='ServerLevel[world]', x=-144.24, y=63.00, z=95.26]
+[17:36:27] [Server thread/INFO]: Neko lost connection: Disconnected
+[17:36:27] [Server thread/INFO]: Neko left the game
+[17:36:39] [Server thread/INFO]: Stopping the server
+[17:36:39] [Server thread/INFO]: Stopping server
+[17:36:39] [Server thread/INFO]: Saving players
+[17:36:39] [Server thread/INFO]: Abadok lost connection: Disconnected
+[17:36:39] [Server thread/INFO]: Abadok left the game
+[17:36:39] [Server thread/INFO]: Saving worlds
+[17:36:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:36:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:36:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[17:36:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:36:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[17:36:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:36:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:36:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:36:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
