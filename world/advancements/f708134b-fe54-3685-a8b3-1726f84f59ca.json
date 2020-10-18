@@ -2022,6 +2022,7 @@
       "bread": "2020-10-08 22:59:26 +0300",
       "rotten_flesh": "2020-10-15 03:33:59 +0300",
       "cookie": "2020-10-17 01:13:22 +0300",
+      "golden_carrot": "2020-10-18 03:28:43 +0300",
       "cooked_chicken": "2020-10-09 00:00:13 +0300",
       "enchanted_golden_apple": "2020-10-08 22:07:34 +0300",
       "cooked_salmon": "2020-10-08 19:56:02 +0300",
@@ -2974,6 +2975,12 @@
   "minecraft:recipes/tools/compass": {
     "criteria": {
       "has_redstone": "2020-10-08 21:04:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/repeater": {
+    "criteria": {
+      "has_redstone_torch": "2020-10-18 03:08:57 +0300"
     },
     "done": true
   },
