@@ -1,17 +1,17 @@
-[10:35:17] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[10:35:17] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:35:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:35:17] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:35:17] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[10:35:17] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[10:35:17] [main/INFO]: Reloading ResourceManager: Default
-[10:35:18] [Worker-Main-13/INFO]: Loaded 7 recipes
-[10:35:18] [Worker-Main-13/INFO]: Loaded 927 advancements
-[10:35:19] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[10:35:19] [Server thread/INFO]: Loading properties
-[10:35:19] [Server thread/INFO]: Default game type: SURVIVAL
-[10:35:19] [Server thread/INFO]: Generating keypair
-[10:35:19] [Server console handler/ERROR]: Exception handling console input
+[16:09:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
+[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16:09:45] [main/INFO]: Reloading ResourceManager: Default
+[16:09:45] [Worker-Main-10/INFO]: Loaded 7 recipes
+[16:09:46] [Worker-Main-10/INFO]: Loaded 927 advancements
+[16:09:47] [Server thread/INFO]: Starting minecraft server version 1.16.3
+[16:09:47] [Server thread/INFO]: Loading properties
+[16:09:47] [Server thread/INFO]: Default game type: SURVIVAL
+[16:09:47] [Server thread/INFO]: Generating keypair
+[16:09:47] [Server console handler/ERROR]: Exception handling console input
 java.io.IOException: The handle is invalid
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_261]
 	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_261]
@@ -25,13 +25,13 @@ java.io.IOException: The handle is invalid
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
 	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
 	at zg$1.run(SourceFile:89) [server.jar:?]
-[10:35:19] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:35:19] [Server thread/INFO]: Using default channel type
-[10:35:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:35:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:35:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:35:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:35:20] [Server thread/WARN]: Failed to load white-list: 
+[16:09:47] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:09:47] [Server thread/INFO]: Using default channel type
+[16:09:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:09:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:09:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:09:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:09:48] [Server thread/WARN]: Failed to load white-list: 
 com.google.gson.JsonSyntaxException: Expected entry to be a JsonObject, was "abadok"
 	at afa.m(SourceFile:393) ~[server.jar:?]
 	at acw.f(SourceFile:122) ~[server.jar:?]
@@ -41,38 +41,55 @@ com.google.gson.JsonSyntaxException: Expected entry to be a JsonObject, was "aba
 	at net.minecraft.server.MinecraftServer.w(SourceFile:642) ~[server.jar:?]
 	at net.minecraft.server.MinecraftServer.a(SourceFile:254) ~[server.jar:?]
 	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
-[10:35:20] [Server thread/INFO]: Preparing level "world"
-[10:35:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:35:20] [Server thread/INFO]: Preparing spawn area: 0%
-[10:35:20] [Server thread/INFO]: Preparing spawn area: 0%
-[10:35:21] [Server thread/INFO]: Time elapsed: 955 ms
-[10:35:21] [Server thread/INFO]: Done (1.017s)! For help, type "help"
-[10:38:00] [Server thread/INFO]: HellAlex[/127.0.0.1:51887] logged in with entity id 556 at (-55.57019440507165, 83.0, 216.3508156092593)
-[10:38:00] [Server thread/INFO]: HellAlex joined the game
-[10:39:23] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/875, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.42]
-[10:40:06] [Server thread/INFO]: HellAlex has made the advancement [Hot Stuff]
-[10:43:35] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/1688, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
-[10:45:32] [Server thread/INFO]: Gamerule mobGriefing is now set to: false
-[10:50:13] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/2762, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
-[10:57:49] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/4059, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.64]
-[10:58:52] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/4181, l='ServerLevel[world]', x=-126.80, y=79.00, z=169.80]
-[11:08:45] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/5624, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.94]
-[11:09:49] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/5765, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.74]
-[11:12:55] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/6117, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.48]
-[11:17:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/6631, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.83]
-[11:18:07] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/6740, l='ServerLevel[world]', x=-126.27, y=79.00, z=169.18]
-[11:30:39] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/8323, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.20]
-[11:41:34] [Server thread/INFO]: HellAlex lost connection: Disconnected
-[11:41:34] [Server thread/INFO]: HellAlex left the game
-[11:41:47] [Server thread/INFO]: Stopping server
-[11:41:47] [Server thread/INFO]: Saving players
-[11:41:47] [Server thread/INFO]: Saving worlds
-[11:41:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:41:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:41:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[11:41:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:41:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[11:41:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:41:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:41:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:41:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:09:48] [Server thread/INFO]: Preparing level "world"
+[16:09:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:09:49] [Server thread/INFO]: Preparing spawn area: 0%
+[16:09:49] [Server thread/INFO]: Preparing spawn area: 0%
+[16:09:49] [Server thread/INFO]: Time elapsed: 1193 ms
+[16:09:49] [Server thread/INFO]: Done (1.247s)! For help, type "help"
+[16:11:14] [Server thread/INFO]: Seed: [8255093338481935110]
+[16:12:15] [Server thread/INFO]: HellAlex[/127.0.0.1:64680] logged in with entity id 588 at (-34.98377698202795, 84.0, 204.35838195453766)
+[16:12:15] [Server thread/INFO]: HellAlex joined the game
+[16:16:54] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/1365, l='ServerLevel[world]', x=-147.80, y=63.00, z=96.20]
+[16:19:55] [Server thread/INFO]: HellAlex was blown up by Creeper
+[16:21:08] [Server thread/INFO]: HellAlex was shot by Skeleton
+[16:22:17] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/2441, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
+[16:26:09] [Server thread/INFO]: HellAlex was blown up by Creeper
+[16:27:27] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/3340, l='ServerLevel[world]', x=-141.95, y=63.00, z=100.44]
+[16:53:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7119, l='ServerLevel[world]', x=-147.17, y=63.00, z=100.90]
+[16:56:49] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7738, l='ServerLevel[world]', x=-126.80, y=79.00, z=169.25]
+[16:59:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/8300, l='ServerLevel[world]', x=-147.17, y=63.00, z=100.49]
+[17:03:39] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/8893, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.93]
+[17:18:50] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/11272, l='ServerLevel[world]', x=-145.18, y=63.00, z=95.26]
+[17:19:04] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/11338, l='ServerLevel[world]', x=-146.77, y=63.00, z=97.06]
+[17:19:56] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/11579, l='ServerLevel[world]', x=-147.17, y=63.00, z=95.64]
+[17:23:12] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12281, l='ServerLevel[world]', x=-141.26, y=63.00, z=97.39]
+[17:25:28] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12630, l='ServerLevel[world]', x=-143.16, y=63.00, z=100.56]
+[17:29:06] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13174, l='ServerLevel[world]', x=-143.03, y=63.00, z=95.85]
+[17:30:08] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13298, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
+[17:33:44] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13888, l='ServerLevel[world]', x=-146.64, y=63.00, z=100.79]
+[18:04:12] [Server thread/INFO]: Made HellAlex a server operator
+[18:08:04] [Server thread/INFO]: [HellAlex: Teleported HellAlex to -639.5, 64.0, 1739.5]
+[18:10:35] [Server thread/INFO]: [HellAlex: Teleported HellAlex to -58.5, 86.0, 205.5]
+[18:10:35] [Server thread/WARN]: HellAlex moved too quickly! 577.4847004076847,21.0,-1697.199999988079
+[18:10:35] [Server thread/WARN]: HellAlex moved too quickly! 577.4847004076847,21.0,-1697.199999988079
+[18:10:36] [Server thread/WARN]: HellAlex moved too quickly! 577.4847004076847,21.0,-1697.199999988079
+[18:11:03] [Server thread/INFO]: Made HellAlex no longer a server operator
+[18:12:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/22001, l='ServerLevel[world]', x=-141.48, y=63.00, z=100.75]
+[18:13:08] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/22168, l='ServerLevel[world]', x=-140.83, y=63.00, z=100.35]
+[18:33:14] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/24910, l='ServerLevel[world]', x=-142.94, y=63.00, z=100.34]
+[18:35:07] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/25271, l='ServerLevel[world]', x=-145.72, y=63.00, z=98.82]
+[18:38:02] [Server thread/INFO]: HellAlex lost connection: Disconnected
+[18:38:02] [Server thread/INFO]: HellAlex left the game
+[18:38:12] [Server thread/INFO]: Stopping server
+[18:38:12] [Server thread/INFO]: Saving players
+[18:38:12] [Server thread/INFO]: Saving worlds
+[18:38:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:38:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:38:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
