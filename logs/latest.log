@@ -1,95 +1,129 @@
-[16:09:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', name='PROD'
-[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16:09:45] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16:09:45] [main/INFO]: Reloading ResourceManager: Default
-[16:09:45] [Worker-Main-10/INFO]: Loaded 7 recipes
-[16:09:46] [Worker-Main-10/INFO]: Loaded 927 advancements
-[16:09:47] [Server thread/INFO]: Starting minecraft server version 1.16.3
-[16:09:47] [Server thread/INFO]: Loading properties
-[16:09:47] [Server thread/INFO]: Default game type: SURVIVAL
-[16:09:47] [Server thread/INFO]: Generating keypair
-[16:09:47] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_261]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_261]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_261]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_261]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_261]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_261]
-	at zg$1.run(SourceFile:89) [server.jar:?]
-[16:09:47] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:09:47] [Server thread/INFO]: Using default channel type
-[16:09:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[16:09:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[16:09:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[16:09:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[16:09:48] [Server thread/WARN]: Failed to load white-list: 
-com.google.gson.JsonSyntaxException: Expected entry to be a JsonObject, was "abadok"
-	at afa.m(SourceFile:393) ~[server.jar:?]
-	at acw.f(SourceFile:122) ~[server.jar:?]
-	at zf.B(SourceFile:119) ~[server.jar:?]
-	at zf.<init>(SourceFile:27) ~[server.jar:?]
-	at zg.d(SourceFile:164) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.w(SourceFile:642) ~[server.jar:?]
-	at net.minecraft.server.MinecraftServer.a(SourceFile:254) ~[server.jar:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
-[16:09:48] [Server thread/INFO]: Preparing level "world"
-[16:09:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:09:49] [Server thread/INFO]: Preparing spawn area: 0%
-[16:09:49] [Server thread/INFO]: Preparing spawn area: 0%
-[16:09:49] [Server thread/INFO]: Time elapsed: 1193 ms
-[16:09:49] [Server thread/INFO]: Done (1.247s)! For help, type "help"
-[16:11:14] [Server thread/INFO]: Seed: [8255093338481935110]
-[16:12:15] [Server thread/INFO]: HellAlex[/127.0.0.1:64680] logged in with entity id 588 at (-34.98377698202795, 84.0, 204.35838195453766)
-[16:12:15] [Server thread/INFO]: HellAlex joined the game
-[16:16:54] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/1365, l='ServerLevel[world]', x=-147.80, y=63.00, z=96.20]
-[16:19:55] [Server thread/INFO]: HellAlex was blown up by Creeper
-[16:21:08] [Server thread/INFO]: HellAlex was shot by Skeleton
-[16:22:17] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/2441, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
-[16:26:09] [Server thread/INFO]: HellAlex was blown up by Creeper
-[16:27:27] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/3340, l='ServerLevel[world]', x=-141.95, y=63.00, z=100.44]
-[16:53:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7119, l='ServerLevel[world]', x=-147.17, y=63.00, z=100.90]
-[16:56:49] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/7738, l='ServerLevel[world]', x=-126.80, y=79.00, z=169.25]
-[16:59:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/8300, l='ServerLevel[world]', x=-147.17, y=63.00, z=100.49]
-[17:03:39] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/8893, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.93]
-[17:18:50] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/11272, l='ServerLevel[world]', x=-145.18, y=63.00, z=95.26]
-[17:19:04] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/11338, l='ServerLevel[world]', x=-146.77, y=63.00, z=97.06]
-[17:19:56] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/11579, l='ServerLevel[world]', x=-147.17, y=63.00, z=95.64]
-[17:23:12] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12281, l='ServerLevel[world]', x=-141.26, y=63.00, z=97.39]
-[17:25:28] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/12630, l='ServerLevel[world]', x=-143.16, y=63.00, z=100.56]
-[17:29:06] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13174, l='ServerLevel[world]', x=-143.03, y=63.00, z=95.85]
-[17:30:08] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13298, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
-[17:33:44] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/13888, l='ServerLevel[world]', x=-146.64, y=63.00, z=100.79]
-[18:04:12] [Server thread/INFO]: Made HellAlex a server operator
-[18:08:04] [Server thread/INFO]: [HellAlex: Teleported HellAlex to -639.5, 64.0, 1739.5]
-[18:10:35] [Server thread/INFO]: [HellAlex: Teleported HellAlex to -58.5, 86.0, 205.5]
-[18:10:35] [Server thread/WARN]: HellAlex moved too quickly! 577.4847004076847,21.0,-1697.199999988079
-[18:10:35] [Server thread/WARN]: HellAlex moved too quickly! 577.4847004076847,21.0,-1697.199999988079
-[18:10:36] [Server thread/WARN]: HellAlex moved too quickly! 577.4847004076847,21.0,-1697.199999988079
-[18:11:03] [Server thread/INFO]: Made HellAlex no longer a server operator
-[18:12:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/22001, l='ServerLevel[world]', x=-141.48, y=63.00, z=100.75]
-[18:13:08] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/22168, l='ServerLevel[world]', x=-140.83, y=63.00, z=100.35]
-[18:33:14] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/24910, l='ServerLevel[world]', x=-142.94, y=63.00, z=100.34]
-[18:35:07] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/25271, l='ServerLevel[world]', x=-145.72, y=63.00, z=98.82]
-[18:38:02] [Server thread/INFO]: HellAlex lost connection: Disconnected
-[18:38:02] [Server thread/INFO]: HellAlex left the game
-[18:38:12] [Server thread/INFO]: Stopping server
-[18:38:12] [Server thread/INFO]: Saving players
-[18:38:12] [Server thread/INFO]: Saving worlds
-[18:38:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:38:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:38:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:38:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:12] [Server thread/INFO]: HellAlex tried to swim in lava
+[00:00:17] [Server thread/INFO]: Neko lost connection: Disconnected
+[00:00:17] [Server thread/INFO]: Neko left the game
+[00:04:32] [Server thread/INFO]: Neko[/46.10.213.116:59716] logged in with entity id 100124 at (-222.8875724947453, 29.02281458931616, -7.279922460801558)
+[00:04:32] [Server thread/INFO]: Neko joined the game
+[00:04:35] [Server thread/INFO]: Neko tried to swim in lava
+[00:05:10] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/100292, l='ServerLevel[world]', x=-144.90, y=63.00, z=97.02]
+[00:05:43] [Server thread/INFO]: HellAlex lost connection: Disconnected
+[00:05:43] [Server thread/INFO]: HellAlex left the game
+[00:06:09] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/100666, l='ServerLevel[world]', x=-144.02, y=63.00, z=96.53]
+[00:06:31] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/100816, l='ServerLevel[world]', x=-141.29, y=63.00, z=100.36]
+[00:06:31] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/100816, l='ServerLevel[world]', x=-141.29, y=63.00, z=100.36]
+[00:06:51] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/100879, l='ServerLevel[world]', x=-147.17, y=63.00, z=97.03]
+[00:07:07] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/100940, l='ServerLevel[world]', x=-147.17, y=63.00, z=95.28]
+[00:07:13] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/100948, l='ServerLevel[world]', x=-147.17, y=63.00, z=96.16]
+[00:09:27] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/101569, l='ServerLevel[world]', x=-145.36, y=63.00, z=100.52]
+[00:09:35] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/101589, l='ServerLevel[world]', x=-141.28, y=63.00, z=99.05]
+[00:09:37] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/101597, l='ServerLevel[world]', x=-146.69, y=63.00, z=100.44]
+[00:09:58] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/101716, l='ServerLevel[world]', x=-143.11, y=63.00, z=99.60]
+[00:10:02] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/101733, l='ServerLevel[world]', x=-140.83, y=63.00, z=96.13]
+[00:10:17] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-5, y=68, z=87} fx{x=-4, y=67, z=87}
+[00:10:45] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/101926, l='ServerLevel[world]', x=-145.39, y=63.00, z=98.78]
+[00:11:56] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/102219, l='ServerLevel[world]', x=-142.17, y=63.00, z=97.53]
+[00:12:43] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/102440, l='ServerLevel[world]', x=-146.32, y=63.00, z=102.17]
+[00:13:12] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/102558, l='ServerLevel[world]', x=-146.26, y=63.00, z=100.34]
+[00:15:28] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/103254, l='ServerLevel[world]', x=-147.17, y=63.00, z=101.77]
+[00:15:44] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/103312, l='ServerLevel[world]', x=-141.28, y=63.00, z=96.53]
+[00:16:26] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/103493, l='ServerLevel[world]', x=-146.26, y=63.00, z=96.47]
+[00:16:33] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/103516, l='ServerLevel[world]', x=-143.07, y=63.00, z=100.41]
+[00:18:50] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/104051, l='ServerLevel[world]', x=-145.36, y=63.00, z=99.23]
+[00:19:22] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/104183, l='ServerLevel[world]', x=-142.66, y=63.00, z=95.23]
+[00:19:22] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/104183, l='ServerLevel[world]', x=-142.66, y=63.00, z=95.23]
+[00:19:40] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/104281, l='ServerLevel[world]', x=-142.18, y=63.00, z=96.62]
+[00:20:30] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/104484, l='ServerLevel[world]', x=-145.31, y=63.00, z=96.60]
+[00:21:15] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/104680, l='ServerLevel[world]', x=-143.98, y=63.00, z=102.17]
+[00:21:28] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/104730, l='ServerLevel[world]', x=-143.96, y=63.00, z=94.83]
+[00:22:55] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/105112, l='ServerLevel[world]', x=-144.47, y=63.00, z=99.52]
+[00:23:30] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/105260, l='ServerLevel[world]', x=-140.83, y=63.00, z=96.65]
+[00:24:24] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/105466, l='ServerLevel[world]', x=-140.83, y=63.00, z=95.69]
+[00:24:50] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/105564, l='ServerLevel[world]', x=-142.18, y=63.00, z=101.32]
+[00:25:44] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/105786, l='ServerLevel[world]', x=-142.18, y=63.00, z=96.62]
+[00:26:47] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/106029, l='ServerLevel[world]', x=-145.05, y=63.00, z=98.40]
+[00:26:47] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/106029, l='ServerLevel[world]', x=-145.05, y=63.00, z=98.40]
+[00:27:42] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/106251, l='ServerLevel[world]', x=-141.69, y=63.00, z=100.95]
+[00:27:48] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/106273, l='ServerLevel[world]', x=-146.31, y=63.00, z=97.42]
+[00:27:55] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/106286, l='ServerLevel[world]', x=-145.30, y=63.00, z=100.10]
+[00:31:01] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/106913, l='ServerLevel[world]', x=-146.07, y=63.00, z=96.14]
+[00:32:07] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/107162, l='ServerLevel[world]', x=-145.18, y=63.00, z=96.47]
+[00:33:40] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/107547, l='ServerLevel[world]', x=-142.72, y=63.00, z=94.83]
+[00:34:49] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/107870, l='ServerLevel[world]', x=-144.36, y=63.00, z=102.17]
+[00:34:49] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/107870, l='ServerLevel[world]', x=-144.36, y=63.00, z=102.17]
+[00:36:09] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/108212, l='ServerLevel[world]', x=-142.61, y=63.00, z=96.87]
+[00:37:56] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/108682, l='ServerLevel[world]', x=-140.83, y=63.00, z=100.48]
+[00:38:13] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/108742, l='ServerLevel[world]', x=-145.62, y=63.00, z=101.70]
+[00:38:15] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/108756, l='ServerLevel[world]', x=-142.55, y=63.00, z=97.28]
+[00:42:24] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/109862, l='ServerLevel[world]', x=-141.24, y=63.00, z=100.90]
+[00:43:28] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/110098, l='ServerLevel[world]', x=-141.24, y=63.00, z=100.00]
+[00:43:35] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/110124, l='ServerLevel[world]', x=-141.64, y=63.00, z=96.40]
+[00:43:46] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/110190, l='ServerLevel[world]', x=-142.97, y=63.00, z=101.74]
+[00:45:17] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/110528, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
+[00:45:41] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/110605, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.20]
+[00:46:30] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/110835, l='ServerLevel[world]', x=-142.12, y=63.00, z=101.36]
+[00:47:40] [Server thread/INFO]: Neko burned to death
+[00:48:03] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/111392, l='ServerLevel[world]', x=-146.07, y=63.00, z=96.14]
+[00:49:20] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/111680, l='ServerLevel[world]', x=-147.17, y=63.00, z=95.64]
+[00:49:20] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/111680, l='ServerLevel[world]', x=-147.17, y=63.00, z=95.64]
+[00:50:31] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/112028, l='ServerLevel[world]', x=-145.26, y=63.00, z=100.88]
+[00:50:35] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/112045, l='ServerLevel[world]', x=-143.41, y=63.00, z=95.94]
+[00:52:01] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/112448, l='ServerLevel[world]', x=-141.29, y=63.00, z=99.10]
+[00:52:05] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/112477, l='ServerLevel[world]', x=-146.60, y=63.00, z=101.73]
+[00:53:43] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/112938, l='ServerLevel[world]', x=-144.34, y=63.00, z=96.48]
+[00:54:43] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/113155, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.72]
+[00:56:13] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/113506, l='ServerLevel[world]', x=-145.27, y=63.00, z=101.29]
+[00:57:52] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/113924, l='ServerLevel[world]', x=-143.03, y=63.00, z=100.37]
+[00:58:17] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/114024, l='ServerLevel[world]', x=-143.41, y=63.00, z=95.41]
+[00:58:25] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/114077, l='ServerLevel[world]', x=-146.48, y=63.00, z=96.14]
+[00:59:02] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/114276, l='ServerLevel[world]', x=-142.97, y=63.00, z=97.28]
+[00:59:39] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/114476, l='ServerLevel[world]', x=-144.78, y=63.00, z=98.73]
+[01:00:47] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/114772, l='ServerLevel[world]', x=-142.52, y=63.00, z=95.90]
+[01:01:56] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/115037, l='ServerLevel[world]', x=-145.14, y=63.00, z=94.83]
+[01:02:47] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/115177, l='ServerLevel[world]', x=-145.27, y=63.00, z=101.29]
+[01:02:50] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/115183, l='ServerLevel[world]', x=-147.17, y=63.00, z=95.75]
+[01:03:13] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/115264, l='ServerLevel[world]', x=-143.86, y=63.00, z=95.96]
+[01:05:38] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/115742, l='ServerLevel[world]', x=-142.55, y=63.00, z=99.96]
+[01:05:58] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/115812, l='ServerLevel[world]', x=-147.17, y=63.00, z=96.14]
+[01:07:22] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/116133, l='ServerLevel[world]', x=-125.86, y=79.00, z=169.80]
+[01:07:22] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/116133, l='ServerLevel[world]', x=-125.86, y=79.00, z=169.80]
+[01:11:03] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/117706, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
+[01:11:03] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/117706, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
+[01:11:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/117742, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
+[01:11:11] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/117742, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
+[01:13:16] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/118401, l='ServerLevel[world]', x=-126.80, y=79.00, z=169.35]
+[01:15:48] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/119004, l='ServerLevel[world]', x=-147.17, y=63.00, z=95.05]
+[01:18:13] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/119631, l='ServerLevel[world]', x=-146.66, y=63.00, z=101.86]
+[01:18:17] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/119640, l='ServerLevel[world]', x=-142.33, y=63.00, z=101.69]
+[01:18:27] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/119682, l='ServerLevel[world]', x=-142.62, y=63.00, z=101.20]
+[01:22:42] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/120653, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.63]
+[01:22:51] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/120677, l='ServerLevel[world]', x=-145.22, y=63.00, z=96.71]
+[01:28:04] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/121723, l='ServerLevel[world]', x=-144.68, y=63.00, z=96.49]
+[01:30:20] [Server thread/INFO]: Abadok lost connection: Disconnected
+[01:30:20] [Server thread/INFO]: Abadok left the game
+[01:30:24] [Server thread/INFO]: Abadok[/46.10.213.116:55350] logged in with entity id 122202 at (-33.37339111768121, 62.07326374172108, 57.1430622619759)
+[01:30:24] [Server thread/INFO]: Abadok joined the game
+[01:30:58] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/122301, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.20]
+[02:14:31] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/131295, l='ServerLevel[world]', x=-141.59, y=63.00, z=95.57]
+[02:14:31] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/131295, l='ServerLevel[world]', x=-141.59, y=63.00, z=95.57]
+[02:19:50] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/132448, l='ServerLevel[world]', x=-146.03, y=63.00, z=100.05]
+[02:21:09] [Server thread/INFO]: Abadok lost connection: Disconnected
+[02:21:09] [Server thread/INFO]: Abadok left the game
+[02:24:24] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/133218, l='ServerLevel[world]', x=-146.68, y=63.00, z=101.29]
+[02:43:30] [Server thread/INFO]: Abadok[/46.10.213.116:55666] logged in with entity id 135938 at (-65.41140415367198, 80.0, 104.72955486934137)
+[02:43:30] [Server thread/INFO]: Abadok joined the game
+[02:49:14] [Server thread/INFO]: Abadok lost connection: Disconnected
+[02:49:14] [Server thread/INFO]: Abadok left the game
+[02:51:26] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/137356, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
+[02:53:39] [Server thread/INFO]: Neko lost connection: Disconnected
+[02:53:39] [Server thread/INFO]: Neko left the game
+[19:08:06] [Server thread/INFO]: Stopping server
+[19:08:06] [Server thread/INFO]: Saving players
+[19:08:06] [Server thread/INFO]: Saving worlds
+[19:08:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:08:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:08:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:08:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:08:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:08:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
