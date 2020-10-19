@@ -846,6 +846,7 @@
       "minecraft:spider": "2020-10-08 20:00:50 +0300",
       "minecraft:piglin_brute": "2020-10-14 02:52:24 +0300",
       "minecraft:creeper": "2020-10-08 22:53:47 +0300",
+      "minecraft:evoker": "2020-10-19 23:05:13 +0300",
       "minecraft:phantom": "2020-10-12 01:12:28 +0300",
       "minecraft:zombified_piglin": "2020-10-14 02:17:49 +0300",
       "minecraft:witch": "2020-10-13 01:41:04 +0300",
@@ -854,6 +855,7 @@
       "minecraft:piglin": "2020-10-12 23:19:21 +0300",
       "minecraft:enderman": "2020-10-11 20:28:03 +0300",
       "minecraft:silverfish": "2020-10-17 22:14:23 +0300",
+      "minecraft:vex": "2020-10-19 22:52:47 +0300",
       "minecraft:zombie": "2020-10-08 19:59:54 +0300",
       "minecraft:drowned": "2020-10-12 00:47:09 +0300",
       "minecraft:zombie_villager": "2020-10-15 16:03:02 +0300"
@@ -1505,6 +1507,12 @@
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2020-10-11 19:24:58 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2020-10-19 23:05:30 +0300"
     },
     "done": true
   },

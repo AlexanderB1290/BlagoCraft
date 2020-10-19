@@ -589,16 +589,22 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2020-10-19 22:40:41 +0300",
       "minecraft:skeleton": "2020-10-16 23:36:53 +0300",
+      "minecraft:ravager": "2020-10-19 22:53:18 +0300",
+      "minecraft:vindicator": "2020-10-19 22:47:46 +0300",
       "minecraft:magma_cube": "2020-10-18 23:53:14 +0300",
       "minecraft:spider": "2020-10-16 21:41:41 +0300",
       "minecraft:creeper": "2020-10-17 01:16:49 +0300",
       "minecraft:slime": "2020-10-17 18:45:24 +0300",
+      "minecraft:evoker": "2020-10-19 23:09:31 +0300",
       "minecraft:phantom": "2020-10-17 01:47:17 +0300",
+      "minecraft:witch": "2020-10-19 22:52:40 +0300",
       "minecraft:cave_spider": "2020-10-17 17:31:36 +0300",
       "minecraft:piglin": "2020-10-18 23:02:54 +0300",
       "minecraft:silverfish": "2020-10-17 15:01:54 +0300",
       "minecraft:enderman": "2020-10-18 22:58:51 +0300",
+      "minecraft:vex": "2020-10-19 23:09:42 +0300",
       "minecraft:zombie": "2020-10-16 21:09:55 +0300",
       "minecraft:drowned": "2020-10-17 13:34:15 +0300",
       "minecraft:zombie_villager": "2020-10-16 21:24:30 +0300"
@@ -614,6 +620,12 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2020-10-17 14:50:15 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2020-10-19 22:59:25 +0300"
     },
     "done": true
   },
@@ -680,6 +692,12 @@
   "minecraft:recipes/misc/iron_nugget_from_smelting": {
     "criteria": {
       "has_iron_axe": "2020-10-15 00:09:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2020-10-19 22:40:57 +0300"
     },
     "done": true
   },
@@ -881,6 +899,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_red_flower": "2020-10-19 22:52:37 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/blackstone_stairs": {
     "criteria": {
       "has_blackstone": "2020-10-16 22:37:47 +0300"
@@ -977,6 +1001,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2020-10-19 22:59:25 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-10-16 20:12:52 +0300"
@@ -1028,6 +1058,12 @@
   "minecraft:recipes/combat/iron_chestplate": {
     "criteria": {
       "has_iron_ingot": "2020-10-15 00:17:13 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2020-10-19 23:00:50 +0300"
     },
     "done": true
   },
@@ -1486,6 +1522,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2020-10-19 23:09:33 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_hoe": {
     "criteria": {
       "has_gold_ingot": "2020-10-16 21:18:17 +0300"
@@ -1652,11 +1694,13 @@
     "criteria": {
       "cooked_porkchop": "2020-10-16 23:15:14 +0300",
       "cooked_beef": "2020-10-17 13:11:38 +0300",
+      "baked_potato": "2020-10-19 21:57:18 +0300",
       "pumpkin_pie": "2020-10-16 20:25:08 +0300",
       "rotten_flesh": "2020-10-16 22:27:29 +0300",
       "golden_carrot": "2020-10-18 23:13:42 +0300",
       "cooked_chicken": "2020-10-17 18:32:52 +0300",
-      "cod": "2020-10-16 21:39:21 +0300"
+      "cod": "2020-10-16 21:39:21 +0300",
+      "carrot": "2020-10-19 21:11:22 +0300"
     },
     "done": false
   },
