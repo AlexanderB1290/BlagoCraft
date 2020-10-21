@@ -847,6 +847,7 @@
       "minecraft:piglin_brute": "2020-10-14 02:52:24 +0300",
       "minecraft:creeper": "2020-10-08 22:53:47 +0300",
       "minecraft:evoker": "2020-10-19 23:05:13 +0300",
+      "minecraft:slime": "2020-10-21 20:24:59 +0300",
       "minecraft:phantom": "2020-10-12 01:12:28 +0300",
       "minecraft:zombified_piglin": "2020-10-14 02:17:49 +0300",
       "minecraft:witch": "2020-10-13 01:41:04 +0300",
@@ -901,6 +902,12 @@
   "minecraft:recipes/food/cooked_beef_from_smoking": {
     "criteria": {
       "has_beef": "2020-10-11 19:11:14 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2020-10-21 20:47:35 +0300"
     },
     "done": true
   },
@@ -1096,6 +1103,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-10-21 20:40:44 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2020-10-08 22:56:09 +0300"
@@ -1177,6 +1190,12 @@
   "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
       "has_blaze_rod": "2020-10-14 03:16:42 +0300"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2020-10-21 22:11:07 +0300"
     },
     "done": true
   },
@@ -1636,6 +1655,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2020-10-21 20:25:00 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone": {
     "criteria": {
       "has_cobblestone": "2020-10-08 19:55:46 +0300"
@@ -1669,6 +1694,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:jungle_edge": "2020-10-13 02:43:42 +0300",
+      "minecraft:cold_ocean": "2020-10-21 20:46:07 +0300",
       "minecraft:snowy_mountains": "2020-10-12 00:57:22 +0300",
       "minecraft:forest": "2020-10-08 20:02:20 +0300",
       "minecraft:mountains": "2020-10-08 19:54:30 +0300",
@@ -2184,6 +2210,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2020-10-21 20:47:35 +0300"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2020-10-12 23:18:11 +0300"
@@ -2358,6 +2390,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2020-10-21 20:47:35 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/terracotta": {
     "criteria": {
       "has_clay_block": "2020-10-13 01:59:17 +0300"
@@ -2507,6 +2545,12 @@
   "minecraft:adventure/bullseye": {
     "criteria": {
       "bullseye": "2020-10-14 15:09:01 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2020-10-21 20:47:35 +0300"
     },
     "done": true
   },
@@ -2966,6 +3010,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2020-10-21 19:55:27 +0300"
+    },
+    "done": true
+  },
   "minecraft:nether/use_lodestone": {
     "criteria": {
       "use_lodestone": "2020-10-14 03:53:41 +0300"
@@ -3014,6 +3064,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2020-10-21 19:55:27 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/dark_oak_sign": {
     "criteria": {
       "has_dark_oak_planks": "2020-10-08 21:31:48 +0300"
@@ -3047,6 +3103,12 @@
   "minecraft:recipes/building_blocks/jack_o_lantern": {
     "criteria": {
       "has_carved_pumpkin": "2020-10-15 02:57:55 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2020-10-21 20:25:00 +0300"
     },
     "done": true
   },
@@ -3266,6 +3328,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2020-10-21 20:47:35 +0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_white_wool": "2020-10-12 01:09:29 +0300"
@@ -3281,6 +3349,12 @@
   "minecraft:nether/find_fortress": {
     "criteria": {
       "fortress": "2020-10-14 03:14:56 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2020-10-21 20:47:35 +0300"
     },
     "done": true
   },
@@ -3479,6 +3553,12 @@
   "minecraft:recipes/redstone/acacia_trapdoor": {
     "criteria": {
       "has_planks": "2020-10-18 21:42:08 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2020-10-21 20:25:00 +0300"
     },
     "done": true
   },
@@ -3869,6 +3949,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2020-10-14 16:09:45 +0300"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2020-10-21 22:11:07 +0300"
     },
     "done": true
   },
