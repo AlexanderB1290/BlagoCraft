@@ -1,14 +1,80 @@
-[00:13:50] [Server thread/INFO]: HellAlex lost connection: Disconnected
-[00:13:50] [Server thread/INFO]: HellAlex left the game
-[00:14:11] [Server thread/INFO]: Stopping server
-[00:14:11] [Server thread/INFO]: Saving players
-[00:14:11] [Server thread/INFO]: Saving worlds
-[00:14:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:14:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:14:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:14:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:14:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:14:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:14:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:14:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:14:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:38:19] [Server thread/INFO]: HellAlex[/127.0.0.1:52537] logged in with entity id 96463 at (-63.5, 83.0, 214.5)
+[17:38:19] [Server thread/INFO]: HellAlex joined the game
+[17:52:37] [Server thread/INFO]: HellAlex fell out of the world
+[17:55:08] [Server thread/INFO]: HellAlex was slain by Piglin
+[18:07:27] [Server thread/INFO]: HellAlex was slain by Enderman
+[18:50:04] [Server thread/INFO]: HellAlex was slain by Enderman
+[19:00:10] [Server thread/INFO]: HellAlex lost connection: Disconnected
+[19:00:10] [Server thread/INFO]: HellAlex left the game
+[19:11:36] [Server thread/INFO]: HellAlex[/127.0.0.1:56415] logged in with entity id 110145 at (1070.5148787977976, 31.0, -1310.0457053535351)
+[19:11:36] [Server thread/INFO]: HellAlex joined the game
+[19:15:47] [Server thread/INFO]: [HellAlex: Gave 256 [Diamond] to HellAlex]
+[19:17:01] [Server thread/INFO]: [HellAlex: Gave 1500 [Stone] to HellAlex]
+[19:18:26] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/111615, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.91]
+[19:18:42] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/111694, l='ServerLevel[world]', x=-142.16, y=63.00, z=95.34]
+[19:19:26] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/111912, l='ServerLevel[world]', x=-143.30, y=63.00, z=98.70]
+[19:21:47] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/112464, l='ServerLevel[world]', x=-144.70, y=63.00, z=96.79]
+[19:22:28] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/112551, l='ServerLevel[world]', x=-143.35, y=63.00, z=100.84]
+[19:24:37] [Server thread/INFO]: [HellAlex: Gave 64 [Spruce Wood] to HellAlex]
+[19:24:48] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/113004, l='ServerLevel[world]', x=-126.33, y=79.00, z=169.04]
+[19:27:00] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/113332, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.20]
+[19:27:23] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/113438, l='ServerLevel[world]', x=-146.60, y=63.00, z=95.78]
+[19:33:51] [Server thread/INFO]: HellAlex was slain by Enderman
+[19:35:17] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/115074, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.65]
+[19:36:19] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/115261, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.60]
+[20:04:58] [Server thread/INFO]: HellAlex was slain by Enderman
+[20:32:09] [Server thread/INFO]: [HellAlex: Gave 2 [Spruce Trapdoor] to HellAlex]
+[20:42:55] [Server thread/INFO]: [HellAlex: Gave 1 [Name Tag] to HellAlex]
+[20:43:05] [Server thread/INFO]: [HellAlex: Gave 1 [Anvil] to HellAlex]
+[20:43:27] [Server thread/INFO]: [HellAlex: Gave 20 [Ender Pearl] to HellAlex]
+[20:44:04] [Server thread/INFO]: [HellAlex: Gave 20 [Golden Carrot] to HellAlex]
+[20:44:24] [Server thread/INFO]: [HellAlex: Gave 1 [Rail] to HellAlex]
+[20:46:42] [Server thread/INFO]: HellAlex was slain by Endermite
+[20:49:13] [Server thread/INFO]: [HellAlex: Teleported HellAlex to 2.5, 51.0, -802.5]
+[20:49:13] [Server thread/WARN]: HellAlex moved too quickly! 0.9622202895737315,-6.0,140.3037944341363
+[20:52:07] [Server thread/INFO]: [HellAlex: Summoned new Endermite]
+[20:54:28] [Server thread/INFO]: [HellAlex: Gave 2 experience levels to HellAlex]
+[20:56:31] [Server thread/INFO]: [HellAlex: Summoned new Endermite]
+[20:56:55] [Server thread/INFO]: [HellAlex: Summoned new Endermite]
+[20:59:35] [Server thread/INFO]: HellAlex fell from a high place
+[21:07:01] [Server thread/INFO]: [HellAlex: Teleported HellAlex to 1.5, 51.0, -806.5]
+[21:07:01] [Server thread/WARN]: HellAlex moved too quickly! -1.7991865657164312,49.0,0.10077977278467642
+[21:07:28] [Server thread/INFO]: [HellAlex: Gave 64 [Dirt] to HellAlex]
+[21:09:05] [Server thread/INFO]: [HellAlex: Gave 1 [Chest] to HellAlex]
+[21:09:47] [Server thread/INFO]: [HellAlex: Gave 1 [Name Tag] to HellAlex]
+[21:10:40] [Server thread/INFO]: [HellAlex: Gave 1 [Minecart] to HellAlex]
+[21:10:56] [Server thread/INFO]: [HellAlex: Gave 19 [Ender Pearl] to HellAlex]
+[21:11:40] [Server thread/INFO]: HellAlex was slain by EnderBait
+[21:14:57] [Server thread/INFO]: [HellAlex: Teleported HellAlex to 1.5, 52.0, -803.5]
+[21:14:57] [Server thread/WARN]: HellAlex moved too quickly! -1.902389365029828,50.0,4.099067344331502
+[21:14:57] [Server thread/WARN]: HellAlex moved too quickly! -1.902389365029828,50.0,4.099067344331502
+[21:14:57] [Server thread/WARN]: HellAlex moved too quickly! -1.902389365029828,50.0,4.099067344331502
+[21:15:07] [Server thread/INFO]: HellAlex was slain by EnderBait
+[21:16:22] [Server thread/INFO]: [HellAlex: Teleported HellAlex to 1.5, 51.0, -805.5]
+[21:16:22] [Server thread/WARN]: HellAlex moved too quickly! 5.27048254806987,-10.0,144.0788064690763
+[21:16:22] [Server thread/WARN]: HellAlex moved too quickly! 5.27048254806987,-10.0,144.0788064690763
+[21:17:08] [Server thread/INFO]: HellAlex was slain by EnderBait
+[21:18:16] [Server thread/INFO]: [HellAlex: Teleported HellAlex to 1.5, 52.0, -805.5]
+[21:18:16] [Server thread/WARN]: HellAlex moved too quickly! 4.918140607235712,-13.0,143.49966890569158
+[21:38:19] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/134375, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.26]
+[21:39:25] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/134559, l='ServerLevel[world]', x=-146.75, y=63.00, z=97.60]
+[21:41:46] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/134914, l='ServerLevel[world]', x=-142.99, y=63.00, z=101.64]
+[21:42:18] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/135002, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.32]
+[21:42:21] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/135010, l='ServerLevel[world]', x=-144.24, y=63.00, z=102.17]
+[21:43:39] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/135219, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.80]
+[21:43:43] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/135223, l='ServerLevel[world]', x=-145.33, y=63.00, z=96.08]
+[21:45:04] [Server thread/WARN]: Fetching packet for removed entity bcs['Air'/135481, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
+[21:47:08] [Server thread/INFO]: HellAlex lost connection: Disconnected
+[21:47:08] [Server thread/INFO]: HellAlex left the game
+[21:47:26] [Server thread/INFO]: Stopping server
+[21:47:26] [Server thread/INFO]: Saving players
+[21:47:26] [Server thread/INFO]: Saving worlds
+[21:47:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:47:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:47:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:47:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:47:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:47:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:47:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:47:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:47:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
