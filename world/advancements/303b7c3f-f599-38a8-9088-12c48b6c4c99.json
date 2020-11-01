@@ -2560,12 +2560,6 @@
     },
     "done": true
   },
-  "vanillatweaks:anti_creeper_grief": {
-    "criteria": {
-      "tick": "2020-10-31 15:57:50 +0200"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/soul_campfire": {
     "criteria": {
       "has_stick": "2020-10-15 00:05:48 +0300"
