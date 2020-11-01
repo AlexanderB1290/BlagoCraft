@@ -2410,6 +2410,12 @@
     },
     "done": true
   },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_bridge": "2020-11-01 21:08:11 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2020-10-15 00:15:53 +0300"
@@ -3205,6 +3211,7 @@
       "minecraft:vindicator": "2020-10-19 22:47:46 +0300",
       "minecraft:magma_cube": "2020-10-18 23:53:14 +0300",
       "minecraft:spider": "2020-10-16 21:41:41 +0300",
+      "minecraft:piglin_brute": "2020-11-01 21:06:52 +0200",
       "minecraft:creeper": "2020-10-17 01:16:49 +0300",
       "minecraft:slime": "2020-10-17 18:45:24 +0300",
       "minecraft:evoker": "2020-10-19 23:09:31 +0300",
@@ -4640,6 +4647,12 @@
   "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2020-10-31 15:57:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/use_lodestone": {
+    "criteria": {
+      "use_lodestone": "2020-11-01 21:28:40 +0200"
     },
     "done": true
   },
