@@ -1,19 +1,26 @@
-[00:01:54] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/41385, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
-[00:04:47] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/41844, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.62]
-[00:12:26] [Server thread/WARN]: Trying to add entity with duplicated UUID aa95b5a0-4e67-45e1-b8e3-bca40a8f5adf. Existing minecraft:armor_stand#42793, new: minecraft:armor_stand#42793
-[00:13:02] [Server thread/WARN]: Trying to add entity with duplicated UUID 5679f5b0-525c-4b4d-89b7-a2d9257c4d60. Existing minecraft:armor_stand#42857, new: minecraft:armor_stand#42857
-[00:14:13] [Server thread/WARN]: Trying to add entity with duplicated UUID 037f5908-fd2c-4e70-b6a8-9b9808973a3e. Existing minecraft:armor_stand#43005, new: minecraft:armor_stand#43005
-[00:14:55] [Server thread/INFO]: HellAlex lost connection: Disconnected
-[00:14:55] [Server thread/INFO]: HellAlex left the game
-[00:15:05] [Server thread/INFO]: Stopping server
-[00:15:05] [Server thread/INFO]: Saving players
-[00:15:05] [Server thread/INFO]: Saving worlds
-[00:15:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:15:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:15:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:04:04] [Server thread/INFO]: No player was found
+[00:05:31] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[00:05:31] [Server thread/INFO]: /alert Server going down for maintenance!<--[HERE]
+[00:07:36] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[00:07:36] [Server thread/INFO]: /alert all Server going down for maintenance!<--[HERE]
+[00:08:18] [Server thread/INFO]: You whisper to Abadok: Server going down for maintenance! Please save.
+[00:08:37] [Server thread/INFO]: <Abadok> t
+[00:08:48] [Server thread/INFO]: You whisper to DonkeyBG: Server going down for maintenance! Please save.
+[00:11:03] [Server thread/INFO]: You whisper to Abadok: You have 10 seconds to comply!
+[00:11:09] [Server thread/INFO]: Abadok lost connection: Disconnected
+[00:11:09] [Server thread/INFO]: Abadok left the game
+[00:11:22] [Server thread/INFO]: DonkeyBG lost connection: Disconnected
+[00:11:22] [Server thread/INFO]: DonkeyBG left the game
+[00:11:23] [Server thread/INFO]: No player was found
+[00:11:27] [Server thread/INFO]: Stopping server
+[00:11:27] [Server thread/INFO]: Saving players
+[00:11:27] [Server thread/INFO]: Saving worlds
+[00:11:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:11:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:11:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
