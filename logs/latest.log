@@ -1,26 +1,76 @@
-[00:04:04] [Server thread/INFO]: No player was found
-[00:05:31] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[00:05:31] [Server thread/INFO]: /alert Server going down for maintenance!<--[HERE]
-[00:07:36] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[00:07:36] [Server thread/INFO]: /alert all Server going down for maintenance!<--[HERE]
-[00:08:18] [Server thread/INFO]: You whisper to Abadok: Server going down for maintenance! Please save.
-[00:08:37] [Server thread/INFO]: <Abadok> t
-[00:08:48] [Server thread/INFO]: You whisper to DonkeyBG: Server going down for maintenance! Please save.
-[00:11:03] [Server thread/INFO]: You whisper to Abadok: You have 10 seconds to comply!
-[00:11:09] [Server thread/INFO]: Abadok lost connection: Disconnected
-[00:11:09] [Server thread/INFO]: Abadok left the game
-[00:11:22] [Server thread/INFO]: DonkeyBG lost connection: Disconnected
-[00:11:22] [Server thread/INFO]: DonkeyBG left the game
-[00:11:23] [Server thread/INFO]: No player was found
-[00:11:27] [Server thread/INFO]: Stopping server
-[00:11:27] [Server thread/INFO]: Saving players
-[00:11:27] [Server thread/INFO]: Saving worlds
-[00:11:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:11:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:11:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:11:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:37:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:37:46] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:37:46] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:37:46] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:37:46] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:37:46] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:37:46] [main/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, armored elytra v1.0.3.zip, coordinates hud v1.2.0.zip, fast leaf decay v2.0.3.zip, homes v1.4.1.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, pillager tools v1.1.0.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, spawn v2.3.0.zip, tag v2.1.0.zip, terracotta rotation wrench v1.1.0.zip, tpa v2.3.0.zip, track raw statistics v1.4.0.zip, unlock all recipes v2.0.0.zip
+[03:37:46] [Worker-Main-10/INFO]: Loaded 7 recipes
+[03:37:47] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/shulker
+[03:37:47] [Worker-Main-10/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
+[03:37:47] [Worker-Main-10/INFO]: Loaded 948 advancements
+[03:37:48] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[03:37:48] [Server thread/INFO]: Loading properties
+[03:37:48] [Server thread/INFO]: Default game type: SURVIVAL
+[03:37:48] [Server thread/INFO]: Generating keypair
+[03:37:48] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_51]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_51]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
+	at zg$1.run(SourceFile:95) [server.jar:?]
+[03:37:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:37:48] [Server thread/INFO]: Using default channel type
+[03:37:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:37:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:37:50] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:37:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:37:50] [Server thread/INFO]: Preparing level "world"
+[03:37:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:37:51] [Server thread/INFO]: Preparing spawn area: 0%
+[03:37:51] [Server thread/INFO]: Preparing spawn area: 0%
+[03:37:51] [Server thread/INFO]: Preparing spawn area: 0%
+[03:37:51] [Server thread/INFO]: Time elapsed: 1544 ms
+[03:37:51] [Server thread/INFO]: Done (1.632s)! For help, type "help"
+[03:37:51] [Server thread/WARN]: Trying to add entity with duplicated UUID 291dfbec-2b7b-4c2b-9899-f665ea53af5d. Existing minecraft:armor_stand#455, new: minecraft:armor_stand#456
+[03:37:57] [Server thread/INFO]: Abadok[/46.10.213.116:53940] logged in with entity id 466 at (5005.711020512842, 19.176759275064235, -1650.924807784518)
+[03:37:57] [Server thread/INFO]: Abadok joined the game
+[03:37:57] [Server thread/INFO]: DonkeyBG[/78.83.125.59:28226] logged in with entity id 473 at (5009.921202249778, 21.0, -1641.3052013847898)
+[03:37:57] [Server thread/INFO]: DonkeyBG joined the game
+[04:36:56] [Server thread/INFO]: Abadok was slain by Piglin
+[04:38:41] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/15105, l='ServerLevel[world]', x=-126.80, y=79.00, z=169.80]
+[04:38:52] [Server thread/INFO]: <DonkeyBG> 119 -230
+[04:42:53] [Server thread/WARN]: DonkeyBG moved too quickly! 10.434894734074703,-0.6044241013267069,-0.007411016054447828
+[04:44:31] [Server thread/INFO]: <Abadok> 100 51 -154
+[04:45:46] [Server thread/INFO]: <DonkeyBG> 120 78 -198
+[04:53:20] [Server thread/INFO]: DonkeyBG was slain by Piglin
+[04:54:08] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/19616, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
+[04:57:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2144ms or 42 ticks behind
+[05:07:20] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[05:07:20] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[05:08:35] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/24509, l='ServerLevel[world]', x=-125.89, y=79.00, z=168.73]
+[05:15:53] [Server thread/INFO]: DonkeyBG has made the advancement [Sweet Dreams]
+[05:22:56] [Server thread/INFO]: DonkeyBG lost connection: Disconnected
+[05:22:56] [Server thread/INFO]: DonkeyBG left the game
+[05:22:58] [Server thread/INFO]: Abadok lost connection: Disconnected
+[05:22:58] [Server thread/INFO]: Abadok left the game
+[05:23:41] [Server thread/INFO]: Stopping server
+[05:23:41] [Server thread/INFO]: Saving players
+[05:23:41] [Server thread/INFO]: Saving worlds
+[05:23:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:23:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:23:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:23:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:23:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05:23:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:23:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:23:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:23:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
