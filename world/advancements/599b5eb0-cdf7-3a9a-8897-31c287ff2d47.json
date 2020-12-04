@@ -695,6 +695,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2020-12-03 20:51:57 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
@@ -1222,9 +1228,10 @@
       "minecraft:crimson_forest": "2020-11-29 22:34:47 +0200",
       "minecraft:nether_wastes": "2020-11-29 22:34:27 +0200",
       "minecraft:soul_sand_valley": "2020-11-29 23:36:49 +0200",
-      "minecraft:basalt_deltas": "2020-11-29 23:39:39 +0200"
+      "minecraft:basalt_deltas": "2020-11-29 23:39:39 +0200",
+      "minecraft:warped_forest": "2020-12-03 23:04:35 +0200"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
@@ -3183,12 +3190,14 @@
       "minecraft:hoglin": "2020-11-29 23:36:46 +0200",
       "minecraft:spider": "2020-11-30 01:13:03 +0200",
       "minecraft:creeper": "2020-11-29 22:24:49 +0200",
+      "minecraft:phantom": "2020-12-04 06:24:21 +0200",
       "minecraft:witch": "2020-11-29 23:21:43 +0200",
       "minecraft:cave_spider": "2020-11-30 01:02:12 +0200",
       "minecraft:piglin": "2020-11-29 23:31:32 +0200",
       "minecraft:enderman": "2020-11-29 22:37:44 +0200",
       "minecraft:silverfish": "2020-11-29 23:54:46 +0200",
       "minecraft:zombie": "2020-11-29 22:19:04 +0200",
+      "minecraft:drowned": "2020-12-04 03:18:17 +0200",
       "minecraft:zombie_villager": "2020-11-29 22:56:19 +0200"
     },
     "done": false
@@ -3214,6 +3223,12 @@
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2020-12-01 01:07:12 +0200"
     },
     "done": true
   },
@@ -3766,16 +3781,36 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2020-11-30 00:49:01 +0200",
+      "minecraft:jungle_edge": "2020-12-03 20:24:18 +0200",
       "minecraft:forest": "2020-11-29 21:51:44 +0200",
       "minecraft:mountains": "2020-11-29 21:49:23 +0200",
       "minecraft:taiga": "2020-11-29 23:52:06 +0200",
+      "minecraft:desert_hills": "2020-12-03 20:52:50 +0200",
+      "minecraft:giant_tree_taiga": "2020-12-03 20:27:05 +0200",
       "minecraft:deep_cold_ocean": "2020-11-30 03:47:12 +0200",
+      "minecraft:snowy_tundra": "2020-12-03 21:06:24 +0200",
       "minecraft:taiga_hills": "2020-11-29 23:52:11 +0200",
+      "minecraft:desert": "2020-12-03 20:50:21 +0200",
+      "minecraft:frozen_river": "2020-12-03 21:06:20 +0200",
+      "minecraft:deep_frozen_ocean": "2020-12-03 22:01:01 +0200",
+      "minecraft:jungle": "2020-12-03 20:25:08 +0200",
+      "minecraft:birch_forest": "2020-12-03 20:36:26 +0200",
+      "minecraft:jungle_hills": "2020-12-03 20:24:38 +0200",
+      "minecraft:warm_ocean": "2020-12-03 21:52:34 +0200",
+      "minecraft:deep_lukewarm_ocean": "2020-12-03 20:49:12 +0200",
       "minecraft:beach": "2020-11-30 00:48:14 +0200",
       "minecraft:dark_forest": "2020-11-29 23:24:27 +0200",
       "minecraft:river": "2020-11-29 21:49:50 +0200",
+      "minecraft:lukewarm_ocean": "2020-12-03 20:48:44 +0200",
+      "minecraft:snowy_taiga": "2020-12-03 21:05:52 +0200",
+      "minecraft:birch_forest_hills": "2020-12-03 20:36:37 +0200",
+      "minecraft:wooded_mountains": "2020-12-03 20:13:29 +0200",
       "minecraft:wooded_hills": "2020-11-29 22:05:55 +0200",
+      "minecraft:giant_tree_taiga_hills": "2020-12-03 20:27:04 +0200",
+      "minecraft:stone_shore": "2020-12-03 21:03:00 +0200",
       "minecraft:swamp": "2020-11-29 22:35:40 +0200",
+      "minecraft:snowy_taiga_hills": "2020-12-03 21:20:38 +0200",
+      "minecraft:savanna": "2020-12-03 20:50:03 +0200",
       "minecraft:plains": "2020-11-29 21:47:16 +0200"
     },
     "done": false
@@ -4170,6 +4205,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2020-12-04 00:46:08 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
@@ -4246,6 +4287,7 @@
     "criteria": {
       "cooked_porkchop": "2020-11-30 01:01:46 +0200",
       "cooked_mutton": "2020-11-29 23:29:22 +0200",
+      "sweet_berries": "2020-12-03 21:51:25 +0200",
       "cooked_beef": "2020-11-29 22:39:45 +0200",
       "porkchop": "2020-11-30 04:55:25 +0200",
       "apple": "2020-11-29 22:34:26 +0200",
@@ -4281,6 +4323,12 @@
   "minecraft:recipes/building_blocks/red_nether_brick_slab": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2020-12-04 01:09:53 +0200"
     },
     "done": true
   },
