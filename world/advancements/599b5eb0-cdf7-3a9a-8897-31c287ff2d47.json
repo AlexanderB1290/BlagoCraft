@@ -1067,6 +1067,12 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2020-12-04 23:07:55 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
@@ -1677,6 +1683,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2020-12-05 04:09:13 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
@@ -2127,6 +2139,12 @@
     },
     "done": true
   },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2020-12-04 23:17:09 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
@@ -2346,6 +2364,12 @@
   "minecraft:recipes/decorations/blue_carpet_from_white_carpet": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2020-12-04 22:43:54 +0200"
     },
     "done": true
   },
@@ -2724,6 +2748,12 @@
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_helmet": "2020-11-30 02:30:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-12-04 19:46:36 +0200"
     },
     "done": true
   },
@@ -3185,13 +3215,19 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2020-12-04 22:43:53 +0200",
       "minecraft:skeleton": "2020-11-29 22:25:28 +0200",
+      "minecraft:elder_guardian": "2020-12-05 02:32:16 +0200",
       "minecraft:ghast": "2020-11-29 23:33:04 +0200",
       "minecraft:hoglin": "2020-11-29 23:36:46 +0200",
+      "minecraft:guardian": "2020-12-05 02:20:31 +0200",
+      "minecraft:magma_cube": "2020-12-04 22:38:06 +0200",
       "minecraft:spider": "2020-11-30 01:13:03 +0200",
       "minecraft:creeper": "2020-11-29 22:24:49 +0200",
       "minecraft:phantom": "2020-12-04 06:24:21 +0200",
+      "minecraft:zombified_piglin": "2020-12-05 03:15:58 +0200",
       "minecraft:witch": "2020-11-29 23:21:43 +0200",
+      "minecraft:wither_skeleton": "2020-12-04 22:36:21 +0200",
       "minecraft:cave_spider": "2020-11-30 01:02:12 +0200",
       "minecraft:piglin": "2020-11-29 23:31:32 +0200",
       "minecraft:enderman": "2020-11-29 22:37:44 +0200",
@@ -3559,6 +3595,12 @@
   "minecraft:recipes/decorations/light_gray_banner": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2020-12-05 07:22:18 +0200"
     },
     "done": true
   },
@@ -4289,10 +4331,14 @@
       "cooked_mutton": "2020-11-29 23:29:22 +0200",
       "sweet_berries": "2020-12-03 21:51:25 +0200",
       "cooked_beef": "2020-11-29 22:39:45 +0200",
+      "baked_potato": "2020-12-05 06:14:51 +0200",
       "porkchop": "2020-11-30 04:55:25 +0200",
       "apple": "2020-11-29 22:34:26 +0200",
+      "potato": "2020-12-05 07:47:14 +0200",
+      "cooked_cod": "2020-12-05 02:47:54 +0200",
       "bread": "2020-11-29 23:06:55 +0200",
-      "cooked_chicken": "2020-11-29 21:59:18 +0200"
+      "cooked_chicken": "2020-11-29 21:59:18 +0200",
+      "carrot": "2020-12-04 21:44:41 +0200"
     },
     "done": false
   },
@@ -4608,6 +4654,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2020-12-04 21:37:54 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
@@ -4821,6 +4873,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2020-12-04 22:33:20 +0200"
     },
     "done": true
   },
@@ -5202,6 +5260,12 @@
     },
     "done": true
   },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2020-12-05 06:36:42 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
@@ -5295,6 +5359,12 @@
   "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
     "criteria": {
       "has_the_recipe": "2020-11-29 21:47:19 +0200"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2020-12-05 04:09:13 +0200"
     },
     "done": true
   },

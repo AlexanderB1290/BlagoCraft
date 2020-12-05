@@ -1091,6 +1091,12 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2020-12-05 01:46:29 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/stone_sword": {
     "criteria": {
       "has_cobblestone": "2020-10-08 19:55:46 +0300"
@@ -1719,6 +1725,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2020-12-05 01:17:09 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/acacia_slab": {
     "criteria": {
       "has_planks": "2020-10-18 21:42:08 +0300"
@@ -1735,6 +1747,7 @@
     "criteria": {
       "minecraft:pig": "2020-10-17 15:19:58 +0300",
       "minecraft:llama": "2020-10-17 15:35:01 +0300",
+      "minecraft:turtle": "2020-12-05 02:12:22 +0200",
       "minecraft:sheep": "2020-10-12 22:36:36 +0300",
       "minecraft:cow": "2020-10-12 02:22:35 +0300",
       "minecraft:chicken": "2020-10-12 20:40:23 +0300",
@@ -1944,6 +1957,12 @@
   "minecraft:recipes/food/baked_potato_from_smoking": {
     "criteria": {
       "has_potato": "2020-10-13 02:07:42 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/two_birds_one_arrow": {
+    "criteria": {
+      "two_birds": "2020-12-04 19:32:29 +0200"
     },
     "done": true
   },
@@ -2835,6 +2854,12 @@
     },
     "done": true
   },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2020-12-04 19:53:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2020-10-08 22:44:46 +0300"
@@ -3296,9 +3321,11 @@
       "minecraft:blaze": "2020-10-14 03:15:22 +0300",
       "minecraft:pillager": "2020-10-14 17:35:32 +0300",
       "minecraft:skeleton": "2020-10-08 20:00:07 +0300",
+      "minecraft:elder_guardian": "2020-12-05 02:23:19 +0200",
       "minecraft:ravager": "2020-10-14 17:40:06 +0300",
       "minecraft:ghast": "2020-10-13 00:49:15 +0300",
       "minecraft:hoglin": "2020-10-13 00:37:22 +0300",
+      "minecraft:guardian": "2020-12-05 02:05:17 +0200",
       "minecraft:vindicator": "2020-10-14 17:36:57 +0300",
       "minecraft:magma_cube": "2020-10-13 22:56:09 +0300",
       "minecraft:spider": "2020-10-08 20:00:50 +0300",
@@ -3930,6 +3957,7 @@
       "minecraft:snowy_tundra": "2020-10-12 00:56:12 +0300",
       "minecraft:taiga_hills": "2020-10-18 19:55:58 +0300",
       "minecraft:frozen_river": "2020-10-12 00:56:11 +0300",
+      "minecraft:deep_frozen_ocean": "2020-12-04 19:46:29 +0200",
       "minecraft:jungle": "2020-10-13 02:27:23 +0300",
       "minecraft:birch_forest": "2020-10-18 19:42:48 +0300",
       "minecraft:jungle_hills": "2020-10-13 02:38:01 +0300",

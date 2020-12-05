@@ -1,101 +1,845 @@
-[18:05:25] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:05:25] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:05:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:05:25] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:05:25] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[18:05:25] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[18:05:25] [main/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, armored elytra v1.0.3.zip, coordinates hud v1.2.0.zip, fast leaf decay v2.0.3.zip, homes v1.4.1.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, pillager tools v1.1.0.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, spawn v2.3.0.zip, tag v2.1.0.zip, terracotta rotation wrench v1.1.0.zip, tpa v2.3.0.zip, track raw statistics v1.4.0.zip, unlock all recipes v2.0.0.zip
-[18:05:26] [Worker-Main-14/INFO]: Loaded 7 recipes
-[18:05:26] [Worker-Main-14/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[2].entries[0]: Unknown loot table called minecraft:entities/reference/extra/shulker
-[18:05:26] [Worker-Main-14/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[0].entries[0]: Unknown loot table called minecraft:entities/reference/extra/ender_dragon
-[18:05:26] [Worker-Main-14/INFO]: Loaded 948 advancements
-[18:05:27] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[18:05:27] [Server thread/INFO]: Loading properties
-[18:05:27] [Server thread/INFO]: Default game type: SURVIVAL
-[18:05:27] [Server thread/INFO]: Generating keypair
-[18:05:27] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_271]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_271]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_271]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_271]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_271]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_271]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_271]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_271]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_271]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_271]
-	at zg$1.run(SourceFile:95) [server.jar:?]
-[18:05:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:05:27] [Server thread/INFO]: Using default channel type
-[18:05:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:05:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:05:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:05:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:05:28] [Server thread/INFO]: Preparing level "world"
-[18:05:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:05:29] [Server thread/INFO]: Preparing spawn area: 0%
-[18:05:29] [Server thread/INFO]: Preparing spawn area: 0%
-[18:05:30] [Server thread/INFO]: Time elapsed: 1111 ms
-[18:05:30] [Server thread/INFO]: Done (1.182s)! For help, type "help"
-[18:05:30] [Server thread/WARN]: Trying to add entity with duplicated UUID 291dfbec-2b7b-4c2b-9899-f665ea53af5d. Existing minecraft:armor_stand#494, new: minecraft:armor_stand#495
-[18:06:36] [Server thread/INFO]: HellAlex[/127.0.0.1:51192] logged in with entity id 541 at (-56.0567956366589, 83.0, 216.16379716434352)
-[18:06:36] [Server thread/INFO]: HellAlex joined the game
-[18:09:35] [Server thread/INFO]: Made HellAlex a server operator
-[18:10:03] [Server thread/INFO]: [HellAlex: Gave 2 [Ender Chest] to HellAlex]
-[18:10:18] [Server thread/INFO]: [HellAlex: Gave 6 [Elytra] to HellAlex]
-[18:12:01] [Server thread/INFO]: [HellAlex: Gave 1 [Uncraftable Potion] to HellAlex]
-[18:12:28] [Server thread/INFO]: [HellAlex: Gave 36 [Shulker Shell] to HellAlex]
-[18:12:42] [Server thread/INFO]: [HellAlex: Gave 2 [Saddle] to HellAlex]
-[18:13:07] [Server thread/INFO]: [HellAlex: Gave 56 [Gold Ingot] to HellAlex]
-[18:13:25] [Server thread/INFO]: [HellAlex: Gave 36 [Iron Ingot] to HellAlex]
-[18:14:40] [Server thread/INFO]: [HellAlex: Gave 1 [Diamond Horse Armor] to HellAlex]
-[18:14:53] [Server thread/INFO]: [HellAlex: Gave 1 [Golden Horse Armor] to HellAlex]
-[18:15:06] [Server thread/INFO]: [HellAlex: Gave 1 [Iron Horse Armor] to HellAlex]
-[18:15:23] [Server thread/INFO]: HellAlex was slain by Zombified Piglin
-[18:15:58] [Server thread/WARN]: Fetching packet for removed entity bcv['Cooked Porkchop'/2364, l='ServerLevel[world]', x=-10.68, y=86.00, z=22.01]
-[18:15:58] [Server thread/WARN]: Fetching packet for removed entity bcv['Steak'/2361, l='ServerLevel[world]', x=-10.33, y=86.00, z=23.14]
-[18:16:29] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/2837, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.80]
-[18:16:43] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/2868, l='ServerLevel[world]', x=-142.39, y=63.00, z=95.25]
-[18:16:51] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/2907, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.04]
-[18:20:07] [Server thread/INFO]: [HellAlex: Gave 2 [Ender Chest] to HellAlex]
-[18:20:23] [Server thread/INFO]: [HellAlex: Gave 12 [Shulker Shell] to HellAlex]
-[18:21:08] [Server thread/INFO]: [HellAlex: Gave 1 [Diamond Horse Armor] to HellAlex]
-[18:21:19] [Server thread/INFO]: [HellAlex: Gave 1 [Golden Horse Armor] to HellAlex]
-[18:21:29] [Server thread/INFO]: [HellAlex: Gave 1 [Iron Horse Armor] to HellAlex]
-[18:21:47] [Server thread/INFO]: [HellAlex: Gave 1 [Saddle] to HellAlex]
-[18:22:04] [Server thread/INFO]: [HellAlex: Gave 3 [Diamond] to HellAlex]
-[18:22:24] [Server thread/INFO]: [HellAlex: Gave 18 [Iron Ingot] to HellAlex]
-[18:22:36] [Server thread/INFO]: [HellAlex: Gave 23 [Gold Ingot] to HellAlex]
-[18:23:04] [Server thread/INFO]: [HellAlex: Gave 3 [Acacia Sign] to HellAlex]
-[18:24:35] [Server thread/INFO]: [HellAlex: Gave 2 [Elytra] to HellAlex]
-[18:24:47] [Server thread/INFO]: [HellAlex: Applied enchantment Unbreaking III to HellAlex's item]
-[18:24:57] [Server thread/INFO]: [HellAlex: Applied enchantment Unbreaking III to HellAlex's item]
-[18:25:10] [Server thread/INFO]: [HellAlex: Applied enchantment Mending to HellAlex's item]
-[18:25:19] [Server thread/INFO]: [HellAlex: Applied enchantment Mending to HellAlex's item]
-[18:27:53] [Server thread/INFO]: [HellAlex: Applied enchantment Mending to HellAlex's item]
-[18:29:11] [Server thread/INFO]: [HellAlex: Applied enchantment Soul Speed I to HellAlex's item]
-[18:29:30] [Server thread/INFO]: [HellAlex: Applied enchantment Mending to HellAlex's item]
-[18:29:37] [Server thread/INFO]: [HellAlex: Applied enchantment Mending to HellAlex's item]
-[18:29:43] [Server thread/INFO]: [HellAlex: Applied enchantment Mending to HellAlex's item]
-[18:29:49] [Server thread/INFO]: [HellAlex: Applied enchantment Mending to HellAlex's item]
-[18:32:22] [Server thread/INFO]: [HellAlex: Gave 15 experience levels to HellAlex]
-[18:33:16] [Server thread/INFO]: [HellAlex: Gave 20 [Netherite Ingot] to HellAlex]
-[18:33:34] [Server thread/INFO]: HellAlex has completed the challenge [Cover Me in Debris]
-[18:33:41] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/5550, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.38]
-[18:35:57] [Server thread/INFO]: HellAlex lost connection: Disconnected
-[18:35:57] [Server thread/INFO]: HellAlex left the game
-[18:36:25] [Server thread/INFO]: Made HellAlex no longer a server operator
-[18:39:54] [Server thread/INFO]: Stopping server
-[18:39:54] [Server thread/INFO]: Saving players
-[18:39:54] [Server thread/INFO]: Saving worlds
-[18:39:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[18:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:39:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[18:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:39:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[18:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[18:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[18:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[18:39:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:22:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2050ms or 41 ticks behind
+[00:23:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-122, y=11, z=-64} fx{x=-123, y=10, z=-65}
+[00:23:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-122, y=11, z=-64} fx{x=-123, y=10, z=-65}
+[00:26:42] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/219268, l='ServerLevel[world]', x=-144.71, y=63.00, z=94.83]
+[00:33:47] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/226470, l='ServerLevel[world]', x=-141.74, y=63.00, z=94.83]
+[00:36:17] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/229750, l='ServerLevel[world]', x=-141.87, y=63.00, z=98.38]
+[00:37:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2624ms or 52 ticks behind
+[00:37:23] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/231706, l='ServerLevel[world]', x=-145.89, y=63.00, z=100.00]
+[00:38:17] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/233327, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.13]
+[00:40:38] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/236617, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.53]
+[00:44:57] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/240935, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
+[00:44:57] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/240935, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
+[00:46:31] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/241578, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
+[00:46:31] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/241578, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.80]
+[00:46:55] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/241629, l='ServerLevel[world]', x=-141.98, y=63.00, z=94.83]
+[00:52:16] [Server thread/WARN]: Neko moved too quickly! -9.944154278497141,1.2491870787446828,1.3178325915380835
+[00:52:16] [Server thread/WARN]: DonkeyBG moved too quickly! -7.36472295405208,-0.8378585789729982,-6.867071311187532
+[00:52:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2384ms or 47 ticks behind
+[00:54:14] [Server thread/INFO]: Abadok lost connection: Disconnected
+[00:54:14] [Server thread/INFO]: Abadok left the game
+[00:54:35] [Server thread/INFO]: Abadok[/46.10.213.116:51270] logged in with entity id 246378 at (45.203013384991024, 29.0, 312.6505916837394)
+[00:54:35] [Server thread/INFO]: Abadok joined the game
+[00:54:44] [Server thread/INFO]: Abadok lost connection: Disconnected
+[00:54:44] [Server thread/INFO]: Abadok left the game
+[00:54:50] [Server thread/INFO]: Abadok[/46.10.213.116:51275] logged in with entity id 246653 at (57.725937631286655, 22.53101190445117, 373.9880888830978)
+[00:54:50] [Server thread/INFO]: Abadok joined the game
+[00:54:56] [Server thread/INFO]: Abadok lost connection: Disconnected
+[00:54:56] [Server thread/INFO]: Abadok left the game
+[00:55:43] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[00:55:49] [Server thread/INFO]: Abadok[/46.10.213.116:51279] logged in with entity id 248041 at (57.725937631286655, 24.87600633070908, 373.9880888830978)
+[00:55:49] [Server thread/INFO]: Abadok joined the game
+[00:56:11] [Server thread/INFO]: Abadok tried to swim in lava
+[00:56:27] [Server thread/INFO]: Gamerule keepInventory is now set to: false
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,11.637073533913906
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,13.383174300815796
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,15.14928286278743
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,16.93504539288446
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,18.740103335929234
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,20.564094786724553
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,22.406653111293657
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,24.267407211238066
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,26.145984001735506
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,28.042006660152296
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,29.9550960939454
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,31.88487133443509
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,33.831185629088644
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,35.794114715835
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,37.773715856512716
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,39.77002837538268
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,41.78307323431759
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,43.81285471000277
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,45.8593609351007
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,47.92256444091342
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,50.00242269780079
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,52.09887803498144
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,54.211859490916154
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,56.341282169744396
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,58.487048392939286
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,60.64904821617101
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,62.82710307020298
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,65.02103635005622
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,67.23067373985452
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,69.45584249474048
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,71.69637177004618
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,73.95209260039127
+[00:57:18] [Server thread/WARN]: Abadok moved too quickly! 8.194166312712575,6.0,0.04999146938833832
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,76.22283787901075
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,78.50844233731036
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,80.80874252464662
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,83.12357678832946
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,85.45278525384481
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,87.79620980529465
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,90.15369406605232
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,92.52508337963052
+[00:57:18] [Server thread/WARN]: Boat (vehicle of Neko) moved too quickly! 0.0,0.0,94.91022479075986
+[00:57:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2309ms or 46 ticks behind
+[00:58:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[01:00:06] [Server thread/INFO]: Abadok lost connection: Disconnected
+[01:00:06] [Server thread/INFO]: Abadok left the game
+[01:00:12] [Server thread/INFO]: Abadok[/46.10.213.116:51289] logged in with entity id 252683 at (-10.699999988079071, 25.686741101190357, 329.6835474144173)
+[01:00:12] [Server thread/INFO]: Abadok joined the game
+[01:00:17] [Server thread/INFO]: Gamerule keepInventory is now set to: true
+[01:00:40] [Server thread/INFO]: Abadok lost connection: Disconnected
+[01:00:40] [Server thread/INFO]: Abadok left the game
+[01:00:45] [Server thread/INFO]: Abadok[/46.10.213.116:51293] logged in with entity id 252985 at (-42.28246628633996, 25.882031217894987, 273.31283873695554)
+[01:00:45] [Server thread/INFO]: Abadok joined the game
+[01:01:02] [Server thread/INFO]: Abadok tried to swim in lava
+[01:08:16] [Server thread/INFO]: Abadok burned to death
+[01:10:21] [Server thread/WARN]: DonkeyBG moved wrongly!
+[01:12:22] [Server thread/WARN]: DonkeyBG moved too quickly! -0.02344071909198142,0.20000004768371582,10.456162104970247
+[01:12:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[01:15:04] [Server thread/WARN]: Fetching packet for removed entity bcv['Netherrack'/266768, l='ServerLevel[world]', x=610.24, y=114.00, z=1098.13]
+[01:15:04] [Server thread/WARN]: Fetching packet for removed entity bcv['Netherrack'/266769, l='ServerLevel[world]', x=609.81, y=114.00, z=1099.88]
+[01:15:05] [Server thread/WARN]: Fetching packet for removed entity bcv['Basalt'/266807, l='ServerLevel[world]', x=641.13, y=114.00, z=1099.13]
+[01:17:09] [Server thread/INFO]: Abadok has made the advancement [Spooky Scary Skeleton]
+[01:17:47] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12328, y=81, z=8859} fx{x=12329, y=81, z=8861}
+[01:17:47] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12328, y=81, z=8859} fx{x=12329, y=81, z=8861}
+[01:17:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12328, y=81, z=8859} fx{x=12329, y=81, z=8861}
+[01:17:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12328, y=81, z=8859} fx{x=12329, y=81, z=8861}
+[01:17:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12328, y=81, z=8859} fx{x=12329, y=81, z=8861}
+[01:17:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=82, z=8863} fx{x=12328, y=81, z=8863}
+[01:17:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=82, z=8863} fx{x=12328, y=81, z=8863}
+[01:17:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=83, z=8863} fx{x=12328, y=81, z=8864}
+[01:17:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=83, z=8863} fx{x=12331, y=84, z=8863}
+[01:17:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=83, z=8863} fx{x=12331, y=84, z=8863}
+[01:17:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=83, z=8863} fx{x=12331, y=84, z=8863}
+[01:17:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=83, z=8863} fx{x=12331, y=84, z=8863}
+[01:17:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=83, z=8863} fx{x=12331, y=84, z=8863}
+[01:17:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=83, z=8863} fx{x=12331, y=84, z=8863}
+[01:18:44] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12334, y=82, z=8850} fx{x=12333, y=82, z=8850}
+[01:18:44] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12334, y=82, z=8850} fx{x=12333, y=82, z=8850}
+[01:19:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12329, y=80, z=8861} fx{x=12329, y=80, z=8862}
+[01:19:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12329, y=80, z=8861} fx{x=12329, y=80, z=8862}
+[01:19:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=80, z=8871} fx{x=12322, y=80, z=8870}
+[01:19:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=80, z=8871} fx{x=12322, y=80, z=8870}
+[01:19:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12315, y=83, z=8850} fx{x=12317, y=81, z=8851}
+[01:19:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12315, y=83, z=8850} fx{x=12317, y=81, z=8851}
+[01:19:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12315, y=83, z=8850} fx{x=12317, y=81, z=8851}
+[01:19:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12315, y=83, z=8850} fx{x=12317, y=81, z=8851}
+[01:19:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12315, y=83, z=8850} fx{x=12317, y=81, z=8851}
+[01:19:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12315, y=83, z=8850} fx{x=12317, y=81, z=8851}
+[01:20:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12314, y=81, z=8851} fx{x=12314, y=80, z=8850}
+[01:20:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12314, y=81, z=8851} fx{x=12314, y=80, z=8850}
+[01:20:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12314, y=81, z=8851} fx{x=12314, y=80, z=8850}
+[01:20:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12314, y=81, z=8851} fx{x=12314, y=80, z=8850}
+[01:20:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12317, y=87, z=8846} fx{x=12313, y=83, z=8847}
+[01:20:23] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12317, y=87, z=8846} fx{x=12310, y=82, z=8848}
+[01:20:23] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12317, y=87, z=8846} fx{x=12310, y=82, z=8848}
+[01:20:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12318, y=82, z=8846} fx{x=12318, y=83, z=8845}
+[01:20:50] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12334, y=85, z=8855} fx{x=12334, y=84, z=8856}
+[01:21:12] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12313, y=82, z=8846} fx{x=12312, y=80, z=8847}
+[01:21:12] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12313, y=82, z=8846} fx{x=12312, y=80, z=8847}
+[01:21:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12324, y=80, z=8843} fx{x=12323, y=80, z=8843}
+[01:21:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12324, y=80, z=8843} fx{x=12323, y=80, z=8843}
+[01:21:28] [Server thread/WARN]: Boat (vehicle of Abadok) moved wrongly! 0.2818023511948695
+[01:21:28] [Server thread/WARN]: Boat (vehicle of Abadok) moved wrongly! 0.30807175516804364
+[01:21:28] [Server thread/WARN]: Boat (vehicle of Abadok) moved wrongly! 0.33758143759479253
+[01:21:28] [Server thread/WARN]: Boat (vehicle of Abadok) moved wrongly! 0.3697505871892872
+[01:21:28] [Server thread/WARN]: Boat (vehicle of Abadok) moved wrongly! 0.4036366241750784
+[01:23:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[01:23:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=78, z=8860} fx{x=12322, y=77, z=8861}
+[01:23:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=78, z=8860} fx{x=12322, y=77, z=8861}
+[01:23:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=78, z=8860} fx{x=12322, y=77, z=8861}
+[01:23:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=78, z=8860} fx{x=12322, y=77, z=8861}
+[01:23:38] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/274465, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.88]
+[01:23:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=77, z=8864} fx{x=12322, y=77, z=8864}
+[01:23:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=77, z=8864} fx{x=12322, y=77, z=8864}
+[01:23:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=77, z=8864} fx{x=12322, y=77, z=8864}
+[01:23:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=77, z=8864} fx{x=12322, y=77, z=8864}
+[01:23:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=77, z=8864} fx{x=12322, y=77, z=8864}
+[01:23:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=77, z=8864} fx{x=12322, y=77, z=8864}
+[01:24:18] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=246, y=16, z=-52} fx{x=251, y=15, z=-52}
+[01:32:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2116ms or 42 ticks behind
+[01:34:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=492, y=14, z=66} fx{x=493, y=14, z=66}
+[01:34:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=492, y=14, z=66} fx{x=493, y=14, z=66}
+[01:34:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=492, y=14, z=66} fx{x=493, y=14, z=66}
+[01:36:32] [Server thread/WARN]: Trying to add entity with duplicated UUID 1eec025e-cf87-4380-b910-0f86f3931746. Existing minecraft:armor_stand#286317, new: minecraft:armor_stand#286317
+[01:36:34] [Server thread/WARN]: Trying to add entity with duplicated UUID a80d88e2-b4cc-462f-8916-1ec95229a2d0. Existing minecraft:armor_stand#286335, new: minecraft:armor_stand#286335
+[01:37:04] [Server thread/WARN]: Trying to add entity with duplicated UUID 0bb938a5-1387-48d3-a911-2e19cb4314d9. Existing minecraft:armor_stand#286543, new: minecraft:armor_stand#286543
+[01:37:07] [Server thread/WARN]: Trying to add entity with duplicated UUID 5bdb65e9-fb31-4e24-a542-19fcf2e2f1ed. Existing minecraft:armor_stand#286564, new: minecraft:armor_stand#286564
+[01:38:40] [Server thread/WARN]: Trying to add entity with duplicated UUID 48f4beaa-2bac-41d5-8bd9-2151bd619ff9. Existing minecraft:armor_stand#287723, new: minecraft:armor_stand#287723
+[01:38:40] [Server thread/WARN]: Trying to add entity with duplicated UUID f5367206-21a4-484b-8959-19823c7850b8. Existing minecraft:armor_stand#287728, new: minecraft:armor_stand#287728
+[01:38:41] [Server thread/WARN]: Trying to add entity with duplicated UUID fce5e0c3-7833-4a97-b779-47ac30e2578e. Existing minecraft:armor_stand#287733, new: minecraft:armor_stand#287733
+[01:38:42] [Server thread/WARN]: Trying to add entity with duplicated UUID 9d6968dc-c7c2-4a18-8eaf-5ef1023809f4. Existing minecraft:armor_stand#287744, new: minecraft:armor_stand#287744
+[01:39:54] [Server thread/WARN]: Trying to add entity with duplicated UUID b645d95b-1df3-4fde-90f9-d7a516d5c0ae. Existing minecraft:armor_stand#288390, new: minecraft:armor_stand#288390
+[01:40:02] [Server thread/WARN]: Trying to add entity with duplicated UUID 8dcc356e-883e-4260-87b8-dfc80a43f5fb. Existing minecraft:armor_stand#288457, new: minecraft:armor_stand#288457
+[01:41:12] [Server thread/WARN]: Trying to add entity with duplicated UUID 4c69ccce-8b2f-4dfc-9718-667bf2385bc2. Existing minecraft:armor_stand#289284, new: minecraft:armor_stand#289284
+[01:41:36] [Server thread/WARN]: Trying to add entity with duplicated UUID 1d35a717-3890-4edf-a50b-5bf19289ce7e. Existing minecraft:armor_stand#289766, new: minecraft:armor_stand#289766
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -12.998622756874283,0.0,0.0
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -16.16923998242578,0.0,0.0
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -19.30498048955394,0.0,0.0
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -22.406227921379923,0.0,0.0
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -25.47336170095889,0.0,0.0
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -28.511662587463547,0.0,9.674576576799154E-4
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -31.521450595643955,0.0,0.0028771470310857694
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -34.50305771869955,0.0,0.005618749979248605
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -37.45682251405526,0.0,0.008997398341307417
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -40.383080292780164,0.0,0.012734426713677749
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -43.27714930152047,0.0,0.016430347857522065
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -46.13438562919009,0.0,0.020227488125783566
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -48.95520889789498,0.0,0.024388439363065118
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -51.74004763438268,0.0,0.02916892285134054
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -54.48933864775711,0.0,0.03481720398053767
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -57.203526501582246,0.0,0.04157402999612714
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -59.883062656982815,0.0,0.04967121390950524
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -62.528405055907115,0.0,0.059332146223141535
+[01:42:28] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -12.413983782372611,0.0,0.009464545778200772
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -11.888336993820573,0.0,0.09074691235605314
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -14.808744413651187,0.0,0.09054060572793787
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -17.692085399240874,0.0,0.09109581668235478
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -20.53880983545493,0.0,0.09116643496054166
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -23.349373254092153,0.0,0.09116643496054166
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -26.124236254418996,0.0,0.09116643496054166
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -28.863864080020793,0.0,0.09116643496054166
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -31.56875973676785,0.0,0.09116643496054166
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -34.239477616653296,0.0,0.09116643496054166
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -36.38481532770856,0.0,0.09116643496054166
+[01:43:00] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -36.38481532770856,0.0,0.08796675914163643
+[01:46:29] [Server thread/INFO]: Abadok has made the advancement [Local Brewery]
+[01:47:30] [Server thread/WARN]: Neko moved too quickly! -10.048222826474728,0.0,-0.06537696247529112
+[01:47:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3618ms or 72 ticks behind
+[01:53:18] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12308, y=71, z=8850} fx{x=12308, y=70, z=8851}
+[01:54:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-191, y=14, z=-86} fx{x=-191, y=13, z=-86}
+[01:57:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2061ms or 41 ticks behind
+[02:00:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12200, y=46, z=8740} fx{x=12199, y=46, z=8741}
+[02:00:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12200, y=46, z=8740} fx{x=12199, y=46, z=8741}
+[02:02:28] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-185, y=16, z=-62} fx{x=-185, y=15, z=-62}
+[02:02:28] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-185, y=16, z=-62} fx{x=-185, y=15, z=-62}
+[02:02:28] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-185, y=16, z=-62} fx{x=-185, y=15, z=-62}
+[02:06:49] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=16, z=-73} fx{x=-144, y=15, z=-71}
+[02:06:49] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=16, z=-73} fx{x=-144, y=15, z=-71}
+[02:06:49] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=16, z=-73} fx{x=-144, y=15, z=-71}
+[02:06:49] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=16, z=-73} fx{x=-144, y=15, z=-71}
+[02:11:57] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/315426, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.01]
+[02:12:14] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/315520, l='ServerLevel[world]', x=-141.80, y=63.00, z=99.29]
+[02:12:23] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/315599, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.29]
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -0.4267964008079499,0.0,-10.138179878954134
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -0.3764087761936974,0.0,-10.955306815018503
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -0.31212238226694033,0.0,-11.800742957215562
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -0.23423324573305315,0.0,-12.674232057835297
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -0.14369280186266842,0.0,-13.575762917437487
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -0.04209731362442426,0.0,-14.505518454267985
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.0689678000341587,0.0,-15.463620159821176
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11717437688311172,0.0,-16.450127660671114
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11717437688311172,0.0,-17.46504097478146
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11717437688311172,0.0,-18.508304017046612
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11717437688311172,0.0,-19.57980520524802
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11717437688311172,0.0,-20.679380201387403
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11717437688311172,0.0,-21.80681394486237
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11717437688311172,0.0,-22.961842737782717
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11628857543509064,0.0,-24.144156430283147
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11384442435289444,0.0,-25.353433949223245
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.10988205782288141,0.0,-26.58937959091122
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.10513882095812832,0.0,-27.851721359958674
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.10034038107559873,0.0,-29.14017725538224
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.09619295414880646,0.0,-30.454455689864517
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.09338713575982283,0.0,-31.79425609066675
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.09259787000405773,0.0,-33.15926940079976
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.0944844324231493,0.0,-34.549178574681946
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.09969042668798878,0.0,-35.963659075795704
+[02:12:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.10884761033457124,0.0,-37.40237896653775
+[02:12:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2233ms or 44 ticks behind
+[02:12:51] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/316367, l='ServerLevel[world]', x=-147.02, y=63.00, z=98.43]
+[02:14:02] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/318007, l='ServerLevel[world]', x=-142.40, y=63.00, z=96.40]
+[02:14:21] [Server thread/INFO]: Gamerule keepInventory is now set to: false
+[02:14:38] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/318965, l='ServerLevel[world]', x=-145.60, y=63.00, z=97.01]
+[02:15:28] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/319912, l='ServerLevel[world]', x=-141.71, y=63.00, z=95.28]
+[02:16:00] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/320347, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
+[02:16:58] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/320809, l='ServerLevel[world]', x=-141.23, y=63.00, z=95.64]
+[02:18:10] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/321260, l='ServerLevel[world]', x=-141.24, y=63.00, z=94.83]
+[02:18:25] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/321327, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.79]
+[02:21:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/322210, l='ServerLevel[world]', x=-146.56, y=63.00, z=101.66]
+[02:22:05] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/322351, l='ServerLevel[world]', x=-142.80, y=63.00, z=98.38]
+[02:23:23] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/322719, l='ServerLevel[world]', x=-145.58, y=63.00, z=99.45]
+[02:23:46] [Server thread/INFO]: DonkeyBG was killed by Guardian using magic
+[02:24:14] [Server thread/INFO]: DonkeyBG drowned
+[02:25:18] [Server thread/INFO]: DonkeyBG was killed by Guardian using magic
+[02:27:22] [Server thread/INFO]: Teleported DonkeyBG to Abadok
+[02:32:17] [Server thread/INFO]: DonkeyBG was slain by Guardian
+[02:33:01] [Server thread/INFO]: No entity was found
+[02:33:28] [Server thread/INFO]: Teleported DonkeyBG to Abadok
+[02:33:28] [Server thread/WARN]: DonkeyBG moved too quickly! -1.396576906705377,-6.400717316867279,-18.65436060277534
+[02:44:09] [Server thread/WARN]: Boat (vehicle of Abadok) moved wrongly! 0.2739204471353105
+[02:45:43] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -10.786203911633663,0.0,-0.08737253000504097
+[02:52:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 0.0,0.0,10.774900446179629
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 0.0,0.0,12.974117592254345
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 0.0,0.0,15.187904251078294
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 0.0,0.0,17.416427771542544
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 0.0,0.0,19.659800542789583
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 0.0,0.0,21.918083344308627
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 0.0,0.0,24.191285991871382
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 0.0,0.0,26.479370230163795
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 0.0,0.0,28.782250973097234
+[02:52:40] [Server thread/WARN]: Boat (vehicle of Abadok) moved too quickly! 3.2596729579381645E-4,0.0,31.099798718844056
+[02:52:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3985ms or 79 ticks behind
+[02:53:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=67, z=8842} fx{x=12318, y=67, z=8842}
+[02:53:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=67, z=8842} fx{x=12318, y=67, z=8842}
+[02:53:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=67, z=8842} fx{x=12318, y=67, z=8842}
+[02:53:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=67, z=8842} fx{x=12318, y=67, z=8842}
+[02:53:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=67, z=8842} fx{x=12318, y=67, z=8842}
+[02:55:47] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12333, y=66, z=8868} fx{x=12333, y=66, z=8869}
+[02:55:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12333, y=66, z=8868} fx{x=12333, y=66, z=8869}
+[02:55:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12333, y=66, z=8868} fx{x=12333, y=66, z=8869}
+[02:55:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12333, y=66, z=8868} fx{x=12333, y=66, z=8869}
+[02:55:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12333, y=66, z=8868} fx{x=12333, y=66, z=8869}
+[02:55:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12333, y=66, z=8868} fx{x=12333, y=66, z=8869}
+[02:55:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12333, y=66, z=8868} fx{x=12333, y=66, z=8869}
+[02:57:36] [Server thread/WARN]: Fetching packet for removed entity bcv['Packed Ice'/355941, l='ServerLevel[world]', x=12325.85, y=66.00, z=8865.88]
+[02:58:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12330, y=64, z=8842} fx{x=12329, y=64, z=8842}
+[02:58:38] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=65, z=8844} fx{x=12331, y=64, z=8842}
+[02:58:38] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=65, z=8844} fx{x=12331, y=64, z=8842}
+[02:58:38] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=65, z=8844} fx{x=12331, y=64, z=8842}
+[02:58:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12346, y=64, z=8843} fx{x=12343, y=65, z=8842}
+[02:58:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12346, y=64, z=8843} fx{x=12343, y=65, z=8842}
+[02:58:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12346, y=64, z=8843} fx{x=12343, y=65, z=8842}
+[02:58:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12346, y=64, z=8843} fx{x=12343, y=65, z=8842}
+[02:58:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12346, y=64, z=8843} fx{x=12343, y=65, z=8842}
+[02:59:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=65, z=8848} fx{x=12335, y=65, z=8849}
+[02:59:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=65, z=8848} fx{x=12335, y=65, z=8849}
+[02:59:47] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=65, z=8848} fx{x=12335, y=65, z=8849}
+[02:59:47] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=65, z=8848} fx{x=12335, y=65, z=8849}
+[02:59:47] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=65, z=8848} fx{x=12335, y=65, z=8849}
+[02:59:47] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=65, z=8848} fx{x=12335, y=65, z=8849}
+[02:59:47] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=65, z=8848} fx{x=12335, y=65, z=8849}
+[03:00:35] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12322, y=65, z=8855} fx{x=12323, y=63, z=8856}
+[03:01:28] [Server thread/INFO]: DonkeyBG was shot by Skeleton
+[03:04:03] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/364816, l='ServerLevel[world]', x=-142.44, y=63.00, z=94.83]
+[03:04:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12123, y=59, z=8643} fx{x=12121, y=59, z=8643}
+[03:04:49] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12125, y=59, z=8641} fx{x=12125, y=57, z=8642}
+[03:04:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12123, y=60, z=8648} fx{x=12123, y=58, z=8647}
+[03:04:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12124, y=60, z=8648} fx{x=12122, y=58, z=8647}
+[03:04:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12124, y=60, z=8648} fx{x=12122, y=58, z=8647}
+[03:04:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12124, y=60, z=8648} fx{x=12122, y=58, z=8647}
+[03:04:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12124, y=60, z=8648} fx{x=12122, y=58, z=8647}
+[03:04:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12124, y=60, z=8648} fx{x=12122, y=58, z=8647}
+[03:04:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12124, y=60, z=8648} fx{x=12122, y=58, z=8647}
+[03:07:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12326, y=65, z=8861} fx{x=12326, y=64, z=8862}
+[03:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=64, z=8867} fx{x=12314, y=64, z=8865}
+[03:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=64, z=8867} fx{x=12314, y=64, z=8865}
+[03:07:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=64, z=8867} fx{x=12314, y=64, z=8865}
+[03:07:52] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/368769, l='ServerLevel[world]', x=-144.16, y=63.00, z=96.11]
+[03:08:33] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/369219, l='ServerLevel[world]', x=-145.29, y=63.00, z=98.57]
+[03:10:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=64, z=8867} fx{x=12318, y=64, z=8868}
+[03:12:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2721ms or 54 ticks behind
+[03:13:00] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/373084, l='ServerLevel[world]', x=-144.79, y=63.00, z=94.83]
+[03:14:16] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/373718, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.51]
+[03:15:11] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/374111, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
+[03:15:21] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/374216, l='ServerLevel[world]', x=-147.17, y=63.00, z=100.70]
+[03:15:21] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/374218, l='ServerLevel[world]', x=-143.60, y=63.00, z=96.36]
+[03:17:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3216ms or 64 ticks behind
+[03:22:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3412ms or 68 ticks behind
+[03:23:18] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12334, y=81, z=8830} fx{x=12332, y=80, z=8830}
+[03:23:18] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12334, y=81, z=8830} fx{x=12332, y=80, z=8830}
+[03:23:18] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12334, y=81, z=8830} fx{x=12332, y=80, z=8830}
+[03:23:34] [Server thread/INFO]: Villager bfj['Farmer'/370628, l='ServerLevel[world]', x=13021.50, y=65.00, z=8786.99] died, message: 'Farmer was slain by Vindicator'
+[03:23:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[03:23:48] [Server thread/INFO]: Villager bfj['Cartographer'/370948, l='ServerLevel[world]', x=13020.60, y=65.00, z=8789.31] died, message: 'Cartographer was slain by Vindicator'
+[03:23:50] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12326, y=76, z=8830} fx{x=12326, y=76, z=8831}
+[03:23:50] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12326, y=76, z=8830} fx{x=12326, y=76, z=8831}
+[03:23:50] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12326, y=76, z=8830} fx{x=12326, y=76, z=8831}
+[03:23:50] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12326, y=76, z=8830} fx{x=12326, y=76, z=8831}
+[03:23:50] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12326, y=76, z=8830} fx{x=12326, y=76, z=8831}
+[03:23:50] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12326, y=76, z=8830} fx{x=12326, y=76, z=8831}
+[03:24:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[03:24:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[03:24:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12921, y=63, z=8583} fx{x=12921, y=60, z=8582}
+[03:24:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12921, y=63, z=8583} fx{x=12921, y=60, z=8582}
+[03:24:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12921, y=63, z=8583} fx{x=12921, y=60, z=8582}
+[03:24:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12921, y=63, z=8583} fx{x=12921, y=60, z=8582}
+[03:24:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12921, y=63, z=8583} fx{x=12921, y=60, z=8582}
+[03:24:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12921, y=63, z=8583} fx{x=12921, y=60, z=8582}
+[03:24:38] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-167, y=15, z=162} fx{x=-168, y=14, z=162}
+[03:24:38] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-167, y=15, z=162} fx{x=-168, y=14, z=162}
+[03:24:38] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-167, y=15, z=162} fx{x=-168, y=14, z=162}
+[03:24:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=75, z=8833} fx{x=12322, y=74, z=8832}
+[03:24:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=75, z=8833} fx{x=12322, y=74, z=8832}
+[03:24:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=75, z=8833} fx{x=12322, y=74, z=8832}
+[03:24:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=75, z=8833} fx{x=12322, y=74, z=8832}
+[03:24:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12323, y=75, z=8833} fx{x=12322, y=74, z=8832}
+[03:24:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[03:25:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[03:26:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[03:28:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12316, y=71, z=8839} fx{x=12330, y=69, z=8837}
+[03:28:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12316, y=71, z=8839} fx{x=12330, y=69, z=8837}
+[03:28:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12316, y=71, z=8839} fx{x=12330, y=69, z=8837}
+[03:28:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=69, z=8837} fx{x=12330, y=69, z=8837}
+[03:28:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=67, z=8837} fx{x=12332, y=68, z=8837}
+[03:28:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=67, z=8837} fx{x=12332, y=68, z=8837}
+[03:28:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=67, z=8837} fx{x=12332, y=68, z=8837}
+[03:28:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=67, z=8837} fx{x=12332, y=68, z=8837}
+[03:28:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=67, z=8837} fx{x=12332, y=68, z=8837}
+[03:28:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=67, z=8837} fx{x=12332, y=68, z=8837}
+[03:33:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=63, z=8831} fx{x=12335, y=64, z=8830}
+[03:33:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=63, z=8831} fx{x=12335, y=64, z=8830}
+[03:33:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=63, z=8831} fx{x=12335, y=64, z=8830}
+[03:33:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12338, y=63, z=8831} fx{x=12335, y=64, z=8830}
+[03:33:57] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12335, y=65, z=8836} fx{x=12335, y=64, z=8838}
+[03:38:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2325ms or 46 ticks behind
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -10.099043077579495,0.0,0.026601901355888913
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -13.471305283098957,0.0,0.03608086312965497
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -10.116754578294831,0.0,0.028406893631881758
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -13.494792208010352,0.0,0.03836861790932744
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -16.87567029161727,0.0,0.048531391419373904
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -10.167603935302026,0.0,0.032924971888860455
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 16.945906498762156,0.0,-0.054789226491948284
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 16.945906498762156,0.0,-0.054789226491948284
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 16.945906498762156,0.0,-0.054789226491948284
+[03:38:29] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 13.548633137946638,0.0,-0.04310134500633467
+[03:38:31] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -10.448185214288628,0.0,0.012345288309006719
+[03:42:36] [Server thread/INFO]: Abadok lost connection: Disconnected
+[03:42:36] [Server thread/INFO]: Abadok left the game
+[03:45:48] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12308, y=65, z=8840} fx{x=12308, y=64, z=8840}
+[03:47:31] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/404933, l='ServerLevel[world]', x=-141.23, y=63.00, z=95.64]
+[03:47:53] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/405049, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.80]
+[03:52:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12331, y=51, z=8954} fx{x=12331, y=52, z=8954}
+[03:53:09] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/406856, l='ServerLevel[world]', x=-146.74, y=63.00, z=102.17]
+[04:00:42] [Server thread/INFO]: Neko lost connection: Disconnected
+[04:00:42] [Server thread/INFO]: Neko left the game
+[04:03:34] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -10.548757815183308,0.0,-0.16714519385459425
+[04:08:55] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/419907, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.32]
+[04:09:13] [Server thread/INFO]: DonkeyBG has made the advancement [The Parrots and the Bats]
+[04:12:12] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/420605, l='ServerLevel[world]', x=-125.20, y=78.00, z=169.80]
+[04:39:35] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/427831, l='ServerLevel[world]', x=-141.27, y=63.00, z=95.31]
+[04:40:35] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/428096, l='ServerLevel[world]', x=-125.80, y=78.00, z=169.48]
+[04:42:41] [Server thread/INFO]: DonkeyBG lost connection: Disconnected
+[04:42:41] [Server thread/INFO]: DonkeyBG left the game
+[04:53:39] [Server thread/INFO]: DonkeyBG[/78.83.125.59:31993] logged in with entity id 428862 at (77.2089152135439, 80.0, 78.02197346594598)
+[04:53:39] [Server thread/INFO]: DonkeyBG joined the game
+[04:58:08] [Server thread/WARN]: DonkeyBG moved too quickly! 10.071105399588191,1.1661092609382138,-0.003838969900300526
+[04:58:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2614ms or 52 ticks behind
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=833, y=17, z=-222} fx{x=833, y=16, z=-223}
+[05:03:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=838, y=18, z=-226} fx{x=836, y=16, z=-226}
+[05:03:21] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=838, y=18, z=-226} fx{x=836, y=16, z=-226}
+[05:04:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:05] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:05] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:05] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=855, y=16, z=-231} fx{x=853, y=14, z=-231}
+[05:04:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=856, y=16, z=-226} fx{x=856, y=15, z=-227}
+[05:04:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=856, y=16, z=-226} fx{x=856, y=15, z=-227}
+[05:04:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=856, y=16, z=-226} fx{x=856, y=15, z=-227}
+[05:04:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=856, y=16, z=-226} fx{x=856, y=15, z=-227}
+[05:04:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=856, y=16, z=-226} fx{x=856, y=15, z=-227}
+[05:04:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=856, y=16, z=-226} fx{x=856, y=15, z=-227}
+[05:05:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=906, y=15, z=-214} fx{x=905, y=15, z=-214}
+[05:05:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=906, y=15, z=-214} fx{x=905, y=15, z=-214}
+[05:05:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=906, y=15, z=-214} fx{x=905, y=15, z=-214}
+[05:05:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=906, y=15, z=-214} fx{x=905, y=15, z=-214}
+[05:05:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=906, y=15, z=-214} fx{x=905, y=15, z=-214}
+[05:05:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=906, y=15, z=-214} fx{x=905, y=15, z=-214}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:03] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=945, y=15, z=-221} fx{x=944, y=14, z=-221}
+[05:06:08] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=949, y=16, z=-224} fx{x=952, y=18, z=-222}
+[05:06:09] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=949, y=16, z=-224} fx{x=950, y=15, z=-223}
+[05:06:09] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=949, y=16, z=-224} fx{x=950, y=15, z=-223}
+[05:06:09] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=949, y=16, z=-224} fx{x=950, y=15, z=-223}
+[05:06:09] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=949, y=16, z=-224} fx{x=950, y=15, z=-223}
+[05:06:09] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=949, y=16, z=-224} fx{x=950, y=15, z=-223}
+[05:06:09] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=949, y=16, z=-224} fx{x=950, y=15, z=-223}
+[05:06:09] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=949, y=16, z=-224} fx{x=950, y=15, z=-223}
+[05:06:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=980, y=18, z=-224} fx{x=981, y=16, z=-224}
+[05:06:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=986, y=17, z=-223} fx{x=986, y=16, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=987, y=18, z=-223} fx{x=988, y=17, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=987, y=18, z=-223} fx{x=988, y=17, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=987, y=18, z=-223} fx{x=988, y=17, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=987, y=18, z=-223} fx{x=988, y=17, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=987, y=18, z=-223} fx{x=988, y=17, z=-223}
+[05:06:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=987, y=18, z=-223} fx{x=988, y=17, z=-223}
+[05:06:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=987, y=18, z=-223} fx{x=988, y=17, z=-223}
+[05:06:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=987, y=18, z=-223} fx{x=988, y=17, z=-223}
+[05:06:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=987, y=18, z=-223} fx{x=988, y=17, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1001, y=16, z=-223} fx{x=1000, y=16, z=-223}
+[05:07:42] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1017, y=17, z=-229} fx{x=1017, y=16, z=-230}
+[05:08:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1063, y=16, z=-244} fx{x=1062, y=16, z=-245}
+[05:08:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1063, y=16, z=-244} fx{x=1062, y=16, z=-245}
+[05:08:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1063, y=16, z=-244} fx{x=1062, y=16, z=-245}
+[05:08:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1063, y=16, z=-244} fx{x=1062, y=16, z=-245}
+[05:08:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1063, y=16, z=-244} fx{x=1062, y=16, z=-245}
+[05:08:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1063, y=16, z=-244} fx{x=1062, y=16, z=-245}
+[05:08:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1063, y=16, z=-244} fx{x=1062, y=16, z=-245}
+[05:08:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1063, y=16, z=-244} fx{x=1062, y=16, z=-245}
+[05:08:53] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1063, y=16, z=-244} fx{x=1062, y=16, z=-245}
+[05:10:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1102, y=15, z=-249} fx{x=1101, y=15, z=-250}
+[05:10:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1102, y=15, z=-249} fx{x=1101, y=15, z=-250}
+[05:10:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1102, y=15, z=-249} fx{x=1101, y=15, z=-250}
+[05:10:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1102, y=15, z=-249} fx{x=1101, y=15, z=-250}
+[05:10:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1102, y=15, z=-249} fx{x=1101, y=15, z=-250}
+[05:10:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1102, y=15, z=-249} fx{x=1101, y=15, z=-250}
+[05:11:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=16, z=-243} fx{x=1118, y=15, z=-241}
+[05:11:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=16, z=-243} fx{x=1118, y=15, z=-241}
+[05:11:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=16, z=-243} fx{x=1118, y=15, z=-241}
+[05:11:08] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=16, z=-243} fx{x=1118, y=15, z=-241}
+[05:12:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1164, y=15, z=-246} fx{x=1163, y=14, z=-247}
+[05:12:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1164, y=15, z=-246} fx{x=1163, y=14, z=-247}
+[05:12:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1164, y=15, z=-246} fx{x=1163, y=14, z=-247}
+[05:12:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1164, y=15, z=-246} fx{x=1163, y=14, z=-247}
+[05:12:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1164, y=15, z=-246} fx{x=1163, y=14, z=-247}
+[05:13:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1180, y=17, z=-282} fx{x=1181, y=16, z=-282}
+[05:13:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1180, y=17, z=-282} fx{x=1181, y=16, z=-282}
+[05:13:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1180, y=17, z=-282} fx{x=1181, y=16, z=-282}
+[05:13:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1180, y=17, z=-282} fx{x=1181, y=16, z=-282}
+[05:15:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1179, y=21, z=-292} fx{x=1179, y=21, z=-293}
+[05:15:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1179, y=21, z=-292} fx{x=1179, y=21, z=-293}
+[05:15:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1179, y=21, z=-292} fx{x=1179, y=21, z=-293}
+[05:15:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1179, y=21, z=-292} fx{x=1179, y=21, z=-293}
+[05:15:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1179, y=21, z=-292} fx{x=1179, y=21, z=-293}
+[05:15:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1179, y=21, z=-292} fx{x=1179, y=21, z=-293}
+[05:15:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1179, y=21, z=-292} fx{x=1179, y=21, z=-293}
+[05:15:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1186, y=22, z=-291} fx{x=1185, y=21, z=-292}
+[05:15:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1186, y=22, z=-291} fx{x=1185, y=21, z=-292}
+[05:15:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1186, y=22, z=-291} fx{x=1185, y=21, z=-292}
+[05:15:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1186, y=22, z=-291} fx{x=1185, y=21, z=-292}
+[05:15:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1186, y=22, z=-291} fx{x=1185, y=21, z=-292}
+[05:15:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1186, y=22, z=-291} fx{x=1185, y=21, z=-292}
+[05:15:46] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1186, y=22, z=-291} fx{x=1185, y=21, z=-292}
+[05:20:15] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1124, y=17, z=-253} fx{x=1124, y=16, z=-253}
+[05:20:15] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1124, y=17, z=-253} fx{x=1124, y=16, z=-253}
+[05:20:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1124, y=17, z=-253} fx{x=1124, y=16, z=-253}
+[05:20:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1124, y=17, z=-253} fx{x=1124, y=16, z=-253}
+[05:20:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1124, y=17, z=-253} fx{x=1124, y=16, z=-253}
+[05:22:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1076, y=13, z=-199} fx{x=1076, y=10, z=-199}
+[05:22:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1076, y=13, z=-199} fx{x=1078, y=12, z=-199}
+[05:22:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1076, y=13, z=-199} fx{x=1078, y=12, z=-199}
+[05:22:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1076, y=13, z=-199} fx{x=1078, y=12, z=-199}
+[05:22:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1075, y=13, z=-195} fx{x=1076, y=12, z=-198}
+[05:22:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1075, y=13, z=-195} fx{x=1076, y=12, z=-198}
+[05:22:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1075, y=13, z=-195} fx{x=1076, y=12, z=-198}
+[05:22:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1075, y=13, z=-195} fx{x=1076, y=12, z=-198}
+[05:22:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1075, y=13, z=-195} fx{x=1076, y=12, z=-198}
+[05:22:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1075, y=13, z=-195} fx{x=1076, y=12, z=-198}
+[05:22:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1075, y=13, z=-195} fx{x=1076, y=12, z=-198}
+[05:25:08] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1099, y=15, z=-125} fx{x=1099, y=15, z=-124}
+[05:26:33] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1114, y=16, z=-99} fx{x=1116, y=16, z=-101}
+[05:33:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1042, y=16, z=-20} fx{x=1042, y=15, z=-21}
+[05:33:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1042, y=16, z=-20} fx{x=1042, y=15, z=-21}
+[05:33:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1042, y=16, z=-20} fx{x=1042, y=15, z=-21}
+[05:38:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1105, y=15, z=-61} fx{x=1104, y=15, z=-60}
+[05:38:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1105, y=15, z=-61} fx{x=1104, y=15, z=-60}
+[05:38:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1105, y=15, z=-61} fx{x=1104, y=15, z=-60}
+[05:38:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1105, y=15, z=-61} fx{x=1104, y=15, z=-60}
+[05:38:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1105, y=15, z=-61} fx{x=1104, y=15, z=-60}
+[05:38:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1105, y=15, z=-61} fx{x=1104, y=15, z=-60}
+[05:38:39] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1105, y=15, z=-61} fx{x=1104, y=15, z=-60}
+[05:40:18] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1136, y=14, z=-46} fx{x=1136, y=13, z=-47}
+[05:40:18] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1136, y=14, z=-46} fx{x=1136, y=13, z=-47}
+[05:40:18] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1136, y=14, z=-46} fx{x=1136, y=13, z=-47}
+[05:40:18] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1136, y=14, z=-46} fx{x=1136, y=13, z=-47}
+[05:41:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1171, y=13, z=-47} fx{x=1171, y=13, z=-46}
+[05:41:28] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1172, y=12, z=-46} fx{x=1173, y=12, z=-45}
+[05:41:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1183, y=19, z=-40} fx{x=1182, y=13, z=-39}
+[05:41:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1183, y=19, z=-40} fx{x=1182, y=13, z=-39}
+[05:41:52] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1183, y=19, z=-40} fx{x=1182, y=13, z=-39}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1186, y=15, z=-59} fx{x=1192, y=13, z=-59}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:36] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:42:37] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1187, y=14, z=-60} fx{x=1188, y=14, z=-59}
+[05:44:15] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=18, z=-91} fx{x=1153, y=15, z=-85}
+[05:44:15] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=18, z=-91} fx{x=1153, y=15, z=-85}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=18, z=-91} fx{x=1153, y=15, z=-85}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=18, z=-91} fx{x=1153, y=15, z=-85}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=18, z=-91} fx{x=1153, y=15, z=-85}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=18, z=-91} fx{x=1153, y=15, z=-85}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=18, z=-91} fx{x=1153, y=15, z=-85}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=18, z=-91} fx{x=1153, y=15, z=-85}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=18, z=-91} fx{x=1153, y=15, z=-85}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1152, y=12, z=-86} fx{x=1153, y=15, z=-85}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:44:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:44:17] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1153, y=14, z=-87} fx{x=1154, y=14, z=-87}
+[05:46:19] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1126, y=14, z=-118} fx{x=1125, y=14, z=-119}
+[05:46:19] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1126, y=14, z=-118} fx{x=1125, y=14, z=-119}
+[05:46:19] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1126, y=14, z=-118} fx{x=1125, y=14, z=-119}
+[05:46:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=13, z=-124} fx{x=1119, y=13, z=-123}
+[05:46:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=13, z=-124} fx{x=1119, y=13, z=-123}
+[05:46:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=13, z=-124} fx{x=1119, y=13, z=-123}
+[05:46:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=13, z=-124} fx{x=1119, y=13, z=-123}
+[05:46:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=13, z=-124} fx{x=1119, y=13, z=-123}
+[05:46:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1119, y=13, z=-124} fx{x=1119, y=13, z=-123}
+[05:50:06] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1201, y=15, z=-33} fx{x=1202, y=14, z=-33}
+[05:50:06] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1201, y=15, z=-33} fx{x=1202, y=14, z=-33}
+[05:50:06] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1201, y=15, z=-33} fx{x=1202, y=14, z=-33}
+[05:50:06] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1201, y=15, z=-33} fx{x=1202, y=14, z=-33}
+[05:50:35] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1189, y=18, z=-1} fx{x=1188, y=17, z=-2}
+[05:50:35] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1189, y=18, z=-1} fx{x=1188, y=17, z=-2}
+[05:50:35] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1189, y=18, z=-1} fx{x=1188, y=17, z=-2}
+[05:50:35] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1189, y=18, z=-1} fx{x=1188, y=17, z=-2}
+[05:52:59] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1189, y=17, z=79} fx{x=1186, y=17, z=78}
+[05:54:56] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1196, y=17, z=118} fx{x=1195, y=17, z=117}
+[05:54:56] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1195, y=18, z=118} fx{x=1195, y=17, z=118}
+[05:54:56] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1196, y=17, z=118} fx{x=1197, y=17, z=118}
+[05:54:56] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1196, y=17, z=118} fx{x=1197, y=17, z=118}
+[05:54:56] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1196, y=17, z=118} fx{x=1197, y=17, z=118}
+[05:59:23] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1205, y=16, z=290} fx{x=1204, y=16, z=290}
+[05:59:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1205, y=16, z=290} fx{x=1204, y=16, z=290}
+[05:59:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1205, y=16, z=290} fx{x=1204, y=16, z=290}
+[05:59:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1205, y=16, z=290} fx{x=1204, y=16, z=290}
+[05:59:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1205, y=16, z=290} fx{x=1204, y=16, z=290}
+[05:59:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1205, y=16, z=290} fx{x=1204, y=16, z=290}
+[05:59:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1205, y=16, z=290} fx{x=1204, y=16, z=290}
+[05:59:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1205, y=16, z=290} fx{x=1204, y=16, z=290}
+[05:59:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1205, y=16, z=290} fx{x=1204, y=16, z=290}
+[06:02:19] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1252, y=14, z=343} fx{x=1252, y=13, z=343}
+[06:02:19] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1252, y=14, z=343} fx{x=1252, y=13, z=343}
+[06:02:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1258, y=18, z=337} fx{x=1260, y=19, z=336}
+[06:02:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1258, y=18, z=337} fx{x=1260, y=19, z=336}
+[06:03:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1269, y=16, z=323} fx{x=1269, y=16, z=324}
+[06:03:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1269, y=16, z=323} fx{x=1269, y=16, z=324}
+[06:03:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1269, y=16, z=323} fx{x=1269, y=16, z=324}
+[06:03:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1269, y=16, z=323} fx{x=1269, y=16, z=324}
+[06:03:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1269, y=16, z=323} fx{x=1269, y=16, z=324}
+[06:03:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1269, y=16, z=323} fx{x=1269, y=16, z=324}
+[06:03:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1269, y=16, z=323} fx{x=1269, y=16, z=324}
+[06:04:16] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1219, y=13, z=296} fx{x=1219, y=13, z=297}
+[06:04:17] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1219, y=13, z=296} fx{x=1219, y=13, z=297}
+[06:04:17] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1219, y=13, z=296} fx{x=1219, y=13, z=297}
+[06:04:17] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1219, y=13, z=296} fx{x=1219, y=13, z=297}
+[06:04:17] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1219, y=13, z=296} fx{x=1219, y=13, z=297}
+[06:04:17] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1219, y=13, z=296} fx{x=1219, y=13, z=297}
+[06:05:11] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1171, y=16, z=294} fx{x=1171, y=16, z=293}
+[06:05:11] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1171, y=16, z=294} fx{x=1171, y=16, z=293}
+[06:05:11] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1171, y=16, z=294} fx{x=1171, y=16, z=293}
+[06:05:11] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1171, y=16, z=294} fx{x=1171, y=16, z=293}
+[06:05:11] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1171, y=16, z=294} fx{x=1171, y=16, z=293}
+[06:05:11] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1171, y=16, z=294} fx{x=1171, y=16, z=293}
+[06:05:11] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1171, y=16, z=294} fx{x=1171, y=16, z=293}
+[06:05:11] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1171, y=16, z=294} fx{x=1171, y=16, z=293}
+[06:08:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1127, y=12, z=259} fx{x=1128, y=11, z=260}
+[06:08:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1127, y=12, z=259} fx{x=1128, y=11, z=260}
+[06:08:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1127, y=12, z=259} fx{x=1128, y=11, z=260}
+[06:08:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1127, y=12, z=259} fx{x=1128, y=11, z=260}
+[06:08:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1127, y=12, z=259} fx{x=1128, y=11, z=260}
+[06:08:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1127, y=12, z=259} fx{x=1128, y=11, z=260}
+[06:08:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1127, y=12, z=259} fx{x=1128, y=11, z=260}
+[06:08:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1127, y=12, z=259} fx{x=1128, y=11, z=260}
+[06:14:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=248}
+[06:14:25] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:26] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:27] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:27] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1032, y=19, z=254} fx{x=1033, y=17, z=247}
+[06:14:35] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1022, y=18, z=248} fx{x=1023, y=19, z=248}
+[06:14:35] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1022, y=18, z=248} fx{x=1023, y=19, z=248}
+[06:22:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=552, y=24, z=260} fx{x=552, y=25, z=260}
+[06:22:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=516, y=38, z=259} fx{x=519, y=39, z=259}
+[06:22:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=516, y=38, z=259} fx{x=519, y=39, z=259}
+[06:36:42] [Server thread/INFO]: DonkeyBG has completed the challenge [Cover Me in Debris]
+[06:53:23] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-180, y=16, z=-207} fx{x=-180, y=15, z=-207}
+[06:53:23] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-180, y=16, z=-207} fx{x=-180, y=15, z=-207}
+[06:53:23] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-180, y=16, z=-207} fx{x=-180, y=15, z=-207}
+[06:53:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-180, y=16, z=-207} fx{x=-180, y=15, z=-207}
+[06:53:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-180, y=16, z=-207} fx{x=-180, y=15, z=-207}
+[06:53:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-180, y=16, z=-207} fx{x=-180, y=15, z=-207}
+[06:53:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-180, y=16, z=-207} fx{x=-180, y=15, z=-207}
+[06:53:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-180, y=16, z=-207} fx{x=-180, y=15, z=-207}
+[06:53:31] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-176, y=17, z=-210} fx{x=-176, y=16, z=-210}
+[06:53:31] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-176, y=17, z=-210} fx{x=-176, y=16, z=-210}
+[06:53:31] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-176, y=17, z=-210} fx{x=-176, y=16, z=-210}
+[07:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-150, y=18, z=-366} fx{x=-150, y=17, z=-366}
+[07:03:00] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-150, y=18, z=-366} fx{x=-150, y=17, z=-366}
+[07:03:20] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=18, z=-375} fx{x=-144, y=17, z=-376}
+[07:03:20] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=18, z=-375} fx{x=-144, y=17, z=-376}
+[07:03:20] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=18, z=-375} fx{x=-144, y=17, z=-376}
+[07:03:20] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=18, z=-375} fx{x=-144, y=17, z=-376}
+[07:03:20] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=18, z=-375} fx{x=-144, y=17, z=-376}
+[07:03:20] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=18, z=-375} fx{x=-144, y=17, z=-376}
+[07:03:20] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=18, z=-375} fx{x=-144, y=17, z=-376}
+[07:03:20] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=18, z=-375} fx{x=-144, y=17, z=-376}
+[07:03:20] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-145, y=18, z=-375} fx{x=-144, y=17, z=-376}
+[07:07:01] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-111, y=24, z=-437} fx{x=-111, y=23, z=-436}
+[07:08:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-49, y=31, z=-453} fx{x=-48, y=30, z=-453}
+[07:08:54] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-49, y=31, z=-453} fx{x=-48, y=30, z=-453}
+[07:11:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-27, y=39, z=-412} fx{x=-31, y=51, z=-273}
+[07:11:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-27, y=39, z=-412} fx{x=-31, y=51, z=-273}
+[07:11:24] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=-27, y=39, z=-412} fx{x=-31, y=51, z=-273}
+[07:12:43] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=17, y=72, z=-201} fx{x=17, y=72, z=-200}
+[07:12:43] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=17, y=72, z=-201} fx{x=17, y=72, z=-200}
+[07:12:43] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=17, y=72, z=-201} fx{x=17, y=72, z=-200}
+[07:14:22] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.2924861963713212
+[07:22:18] [Server thread/INFO]: DonkeyBG has completed the challenge [Serious Dedication]
+[07:23:05] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/502401, l='ServerLevel[world]', x=-146.75, y=63.00, z=95.33]
+[07:47:19] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.29330787881093556
+[07:47:21] [Server thread/INFO]: DonkeyBG was slain by Piglin
+[07:48:14] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/514350, l='ServerLevel[world]', x=-144.15, y=63.00, z=100.95]
+[07:50:13] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.3444940800193308
+[07:50:13] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.3550409202807714
+[07:50:13] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 3.963588973378819
+[07:50:13] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.38189551670029687
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.38960639552260545
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.39876540622753964
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 4.093183717374359
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.3288240753440732
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4213468944917622
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.42888438485920233
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4329637841810836
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4378127289674012
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 4.049041068893075
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.44634527490006803
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4498972727919863
+[07:50:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4539541470733184
+[07:51:34] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12304, y=64, z=9049} fx{x=12304, y=63, z=9051}
+[07:52:10] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12324, y=44, z=9061} fx{x=12323, y=43, z=9060}
+[07:53:22] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12319, y=63, z=9068} fx{x=12319, y=63, z=9067}
+[07:53:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12316, y=63, z=9068} fx{x=12316, y=62, z=9069}
+[07:53:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12316, y=63, z=9068} fx{x=12316, y=62, z=9069}
+[07:53:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12316, y=63, z=9068} fx{x=12316, y=62, z=9069}
+[07:53:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12316, y=63, z=9068} fx{x=12316, y=62, z=9069}
+[07:53:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12316, y=63, z=9068} fx{x=12316, y=62, z=9069}
+[07:53:29] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12316, y=63, z=9068} fx{x=12316, y=62, z=9069}
+[07:54:04] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12310, y=65, z=9055} fx{x=12308, y=63, z=9055}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:07] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:08] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:08] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:08] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:08] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12312, y=65, z=9058} fx{x=12313, y=63, z=9058}
+[07:54:33] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=12321, y=63, z=9051} fx{x=12321, y=62, z=9052}
+[07:56:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.26432014330617903
+[07:56:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.35484118563601896
+[07:56:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.37382457254426527
+[07:56:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.38944726973835486
+[07:56:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4080267449220969
+[07:56:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.42926727561518874
+[07:56:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.34650360374018874
+[07:56:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.35793201072095826
+[07:56:14] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4698030091380474
+[07:56:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 4.1310353054244615
+[07:56:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4880090083856885
+[07:56:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4993114007409645
+[07:56:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.4010854892826501
+[07:56:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.5125854887459695
+[07:56:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 4.182175665741227
+[07:56:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.525274885702288
+[07:56:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.42232892216060236
+[07:56:27] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -12.187865746578023,0.0,0.016649820248858305
+[08:01:31] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/524571, l='ServerLevel[world]', x=-125.91, y=79.00, z=169.34]
+[08:08:33] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=69, y=80, z=78} fx{x=75, y=79, z=86}
+[08:08:33] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=69, y=80, z=78} fx{x=75, y=79, z=86}
+[08:08:33] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=69, y=80, z=78} fx{x=75, y=79, z=86}
+[08:08:33] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=69, y=80, z=78} fx{x=75, y=79, z=86}
+[08:08:33] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=69, y=80, z=78} fx{x=75, y=79, z=86}
+[08:08:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=69, y=80, z=78} fx{x=75, y=79, z=91}
+[08:08:40] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=69, y=80, z=78} fx{x=75, y=79, z=91}
+[08:23:16] [Server thread/INFO]: DonkeyBG lost connection: Disconnected
+[08:23:16] [Server thread/INFO]: DonkeyBG left the game
+[11:49:35] [Server thread/INFO]: Stopping server
+[11:49:35] [Server thread/INFO]: Saving players
+[11:49:35] [Server thread/INFO]: Saving worlds
+[11:49:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:49:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:49:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:49:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:49:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:49:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:49:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:49:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:49:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
