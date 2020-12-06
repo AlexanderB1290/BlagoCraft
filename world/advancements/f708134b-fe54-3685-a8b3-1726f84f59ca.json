@@ -269,6 +269,12 @@
     },
     "done": true
   },
+  "vanillatweaks:spectator_night_vision": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_gray_terracotta": {
     "criteria": {
       "has_terracotta": "2020-10-17 00:03:47 +0300"
@@ -533,6 +539,12 @@
     },
     "done": true
   },
+  "vanillatweaks:durability_ping": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_bed": {
     "criteria": {
       "has_the_recipe": "2020-12-04 18:56:12 +0200"
@@ -626,6 +638,12 @@
   "minecraft:recipes/decorations/prismarine_wall_from_prismarine_stonecutting": {
     "criteria": {
       "has_the_recipe": "2020-12-04 18:56:12 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:spectator_conduit_power": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
@@ -776,6 +794,12 @@
   "minecraft:recipes/building_blocks/stripped_acacia_wood": {
     "criteria": {
       "has_the_recipe": "2020-12-04 18:56:12 +0200"
+    },
+    "done": true
+  },
+  "armor_statues:enable": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
@@ -1088,6 +1112,12 @@
   "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
       "has_cobblestone": "2020-10-08 19:53:20 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:thunder_shrine": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
@@ -1650,6 +1680,12 @@
   "minecraft:recipes/decorations/mossy_cobblestone_wall": {
     "criteria": {
       "has_the_recipe": "2020-12-04 18:56:12 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:dragon_drops": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
@@ -2256,6 +2292,12 @@
   "minecraft:recipes/redstone/acacia_trapdoor": {
     "criteria": {
       "has_the_recipe": "2020-12-04 18:56:12 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:treasure_gems": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
@@ -2985,6 +3027,12 @@
     },
     "done": true
   },
+  "vanillatweaks:gem_villagers": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_terracotta": {
     "criteria": {
       "has_terracotta": "2020-10-17 00:03:47 +0300"
@@ -3108,6 +3156,12 @@
   "minecraft:recipes/decorations/mossy_stone_brick_wall": {
     "criteria": {
       "has_the_recipe": "2020-12-04 18:56:12 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:back": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
@@ -3291,6 +3345,12 @@
   "minecraft:recipes/misc/ender_eye": {
     "criteria": {
       "has_the_recipe": "2020-12-04 18:56:12 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:villager_workstation_highlights": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
@@ -3522,6 +3582,12 @@
     },
     "done": true
   },
+  "vanillatweaks:track_stats": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2020-12-04 18:56:12 +0200"
@@ -3654,6 +3720,12 @@
     },
     "done": true
   },
+  "vanillatweaks:kill_empty_boats": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
       "has_glowstone_dust": "2020-10-14 01:44:37 +0300"
@@ -3705,6 +3777,12 @@
   "minecraft:recipes/building_blocks/black_concrete_powder": {
     "criteria": {
       "has_gravel": "2020-10-08 21:59:25 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:custom_nether_portals": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
@@ -4332,6 +4410,12 @@
     },
     "done": true
   },
+  "vanillatweaks:armor_statues": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/red_carpet_from_white_carpet": {
     "criteria": {
       "has_the_recipe": "2020-12-04 18:56:12 +0200"
@@ -4377,6 +4461,12 @@
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_granite": "2020-10-08 20:20:01 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:double_shulker_shells": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
@@ -5070,6 +5160,12 @@
     },
     "done": true
   },
+  "vanillatweaks:larger_phantoms": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2020-10-13 00:50:33 +0300"
@@ -5223,6 +5319,12 @@
   "minecraft:recipes/redstone/oak_button": {
     "criteria": {
       "has_planks": "2020-10-08 19:50:44 +0300"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2020-12-06 20:23:35 +0200"
     },
     "done": true
   },
