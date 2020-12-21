@@ -1,75 +1,68 @@
-[20:19:41] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[20:19:41] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:19:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:19:41] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:19:41] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[20:19:41] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[20:19:41] [main/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, armored elytra v1.0.3.zip, coordinates hud v1.2.0.zip, fast leaf decay v2.0.3.zip, homes v1.4.1.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, pillager tools v1.1.0.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, spawn v2.3.0.zip, tag v2.1.0.zip, terracotta rotation wrench v1.1.0.zip, tpa v2.3.0.zip, track raw statistics v1.4.0.zip, unlock all recipes v2.0.0.zip, armor statues v2.8.1.zip, back v1.2.0.zip, custom nether portals v2.3.2.zip, double shulker shells v1.3.0.zip, dragon drops v1.3.0.zip, durability ping v1.1.0.zip, gem villagers v4.3.1.zip, graves v2.8.0.zip, kill empty boats v1.1.0.zip, larger phantoms v1.2.1.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, thunder shrine v1.1.0.zip, track statistics v1.1.0.zip, treasure gems v1.2.0.zip, villager workstation highlights v1.1.0.zip
-[20:19:43] [Worker-Main-12/INFO]: Loaded 7 recipes
-[20:19:43] [Worker-Main-12/INFO]: Loaded 1034 advancements
-[20:19:44] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[20:19:44] [Server thread/INFO]: Loading properties
-[20:19:44] [Server thread/INFO]: Default game type: SURVIVAL
-[20:19:44] [Server thread/INFO]: Generating keypair
-[20:19:44] [Server console handler/ERROR]: Exception handling console input
-java.io.IOException: The handle is invalid
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_51]
-	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_51]
-	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_51]
-	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_51]
-	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_51]
-	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
-	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_51]
-	at zg$1.run(SourceFile:95) [server.jar:?]
-[20:19:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:19:44] [Server thread/INFO]: Using default channel type
-[20:19:46] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:19:46] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:19:46] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:19:46] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:19:46] [Server thread/INFO]: Preparing level "world"
-[20:19:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:19:47] [Server thread/INFO]: Preparing spawn area: 0%
-[20:19:47] [Server thread/INFO]: Preparing spawn area: 0%
-[20:19:47] [Server thread/INFO]: Preparing spawn area: 0%
-[20:19:47] [Server thread/INFO]: Time elapsed: 1482 ms
-[20:19:47] [Server thread/INFO]: Done (1.587s)! For help, type "help"
-[20:19:47] [Server thread/WARN]: Trying to add entity with duplicated UUID 291dfbec-2b7b-4c2b-9899-f665ea53af5d. Existing minecraft:armor_stand#593, new: minecraft:armor_stand#594
-[20:20:51] [Server thread/INFO]: Abadok[/84.238.156.164:50430] logged in with entity id 646 at (-21.94822663530636, 72.0, 57.02492802634114)
-[20:20:51] [Server thread/INFO]: Abadok joined the game
-[20:23:35] [Server thread/INFO]: Neko[/127.0.0.1:52218] logged in with entity id 1649 at (-100.3149410626664, 79.0, 133.49360190962622)
-[20:23:35] [Server thread/INFO]: Neko joined the game
-[20:23:44] [Server thread/INFO]: Neko lost connection: Disconnected
-[20:23:44] [Server thread/INFO]: Neko left the game
-[20:24:26] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/1852, l='ServerLevel[world]', x=-140.83, y=63.00, z=102.17]
-[20:24:56] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/1940, l='ServerLevel[world]', x=-143.58, y=63.00, z=100.92]
-[20:25:15] [Server thread/INFO]: Abadok has completed the challenge [Cover Me in Debris]
-[20:26:09] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/2146, l='ServerLevel[world]', x=-142.73, y=63.00, z=99.37]
-[20:30:02] [Server thread/INFO]: Abadok lost connection: Disconnected
-[20:30:02] [Server thread/INFO]: Abadok left the game
-[20:30:03] [Server thread/INFO]: Abadok[/84.238.156.164:50486] logged in with entity id 3079 at (-125.02294921875, 64.8500000178814, 103.897216796875)
-[20:30:03] [Server thread/INFO]: Abadok joined the game
-[20:34:13] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/3667, l='ServerLevel[world]', x=-141.31, y=63.00, z=96.59]
-[20:35:32] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/3849, l='ServerLevel[world]', x=-142.74, y=63.00, z=95.32]
-[20:38:16] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/4241, l='ServerLevel[world]', x=-141.30, y=63.00, z=101.06]
-[20:40:33] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/4555, l='ServerLevel[world]', x=-125.20, y=78.00, z=168.56]
-[20:41:38] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/4717, l='ServerLevel[world]', x=-143.56, y=63.00, z=98.15]
-[20:44:24] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/5139, l='ServerLevel[world]', x=-143.77, y=63.00, z=95.92]
-[20:51:10] [Server thread/INFO]: Abadok lost connection: Disconnected
-[20:51:10] [Server thread/INFO]: Abadok left the game
-[21:53:04] [Server thread/INFO]: Stopping server
-[21:53:04] [Server thread/INFO]: Saving players
-[21:53:04] [Server thread/INFO]: Saving worlds
-[21:53:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[21:53:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:53:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[21:53:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:53:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[21:53:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:53:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[21:53:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:53:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:13:24] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.0,0.0,-10.073318998612763
+[01:13:24] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.0,0.0,-12.139404888586114
+[01:13:24] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.0,0.0,-14.221839277028494
+[01:13:24] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.0,0.0,-16.32026047705199
+[01:13:24] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.0,0.0,-18.434297626316265
+[01:13:24] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.0,0.0,-20.563754582605725
+[01:13:24] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.0,0.0,-22.708611071551445
+[01:17:03] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/105503, l='ServerLevel[world]', x=-145.07, y=63.00, z=98.39]
+[01:18:36] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/105730, l='ServerLevel[world]', x=-145.85, y=63.00, z=99.14]
+[01:19:18] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/105823, l='ServerLevel[world]', x=-144.84, y=63.00, z=100.68]
+[01:22:24] [Server thread/INFO]: Scanning for legacy world dragon fight...
+[01:22:24] [Server thread/INFO]: Found that the dragon has been killed in this world already.
+[02:04:05] [Server thread/WARN]: DonkeyBG moved too quickly! -4.263307927120195,0.23426708840872834,-17.46213443284978
+[02:05:26] [Server thread/WARN]: DonkeyBG moved too quickly! -10.49375934177521,-1.7229834466831306,-13.834578511665768
+[02:10:26] [Server thread/WARN]: DonkeyBG moved too quickly! 2.6056891896469097,1.524840318033469,17.95854517285079
+[02:11:06] [Server thread/INFO]: DonkeyBG was shot by Skeleton
+[03:33:08] [Server thread/INFO]: DonkeyBG was slain by Piglin
+[03:35:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.42571681296986696
+[03:35:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.5390544560395654
+[03:35:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.5996256616730307
+[03:35:15] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved wrongly! 0.621397443354482
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.01052550751973591,0.0,11.998313934652076
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.028825199349974184,0.0,14.437356661586376
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.05270934520538617,0.0,16.889148768619677
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.08215825343803296,0.0,19.353543884754075
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.11714864967721539,0.0,21.83039777061001
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.15766130279304313,0.0,24.31956716621555
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.20367339433284037,0.0,26.820910916446454
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.25516235172412394,0.0,29.334289381628793
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.30608493173803986,0.0,31.820020740022322
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.3564473645130466,0.0,34.278409109182114
+[03:35:26] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! 0.4062558116562194,0.0,36.709755261376934
+[03:57:56] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/170039, l='ServerLevel[world]', x=-125.80, y=78.00, z=168.20]
+[05:10:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3285ms or 65 ticks behind
+[05:13:08] [Server thread/WARN]: DonkeyBG moved wrongly!
+[05:15:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2514ms or 50 ticks behind
+[05:20:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2187ms or 43 ticks behind
+[05:57:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1368, y=11, z=3094} fx{x=1368, y=12, z=3095}
+[05:57:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1368, y=11, z=3094} fx{x=1368, y=12, z=3095}
+[05:57:55] [Server thread/WARN]: Mismatch in destroy block pos: fx{x=1368, y=11, z=3094} fx{x=1368, y=12, z=3095}
+[06:15:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2377ms or 47 ticks behind
+[06:20:36] [Server thread/WARN]: DonkeyBG moved too quickly! -16.982172898476165,-2.2124915186603147,-6.4284861895826
+[06:25:43] [Server thread/INFO]: Villager bfj['Villager'/228176, l='ServerLevel[world]', x=2058.70, y=71.00, z=183.30] died, message: 'Villager was slain by Zombie'
+[07:40:55] [Server thread/WARN]: Boat (vehicle of DonkeyBG) moved too quickly! -10.489778540286238,0.0,0.0
+[07:43:02] [Server thread/INFO]: DonkeyBG lost connection: Disconnected
+[07:43:02] [Server thread/INFO]: DonkeyBG left the game
+[09:45:23] [Server thread/INFO]: Abadok[/94.155.119.100:64510] logged in with entity id 254036 at (-3.1943624719465027, 80.0, 20.03803940889651)
+[09:45:23] [Server thread/INFO]: Abadok joined the game
+[09:48:17] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/254549, l='ServerLevel[world]', x=-144.59, y=63.00, z=101.14]
+[10:20:13] [Server thread/WARN]: Fetching packet for removed entity bcv['Air'/259018, l='ServerLevel[world]', x=-145.93, y=63.00, z=98.87]
+[10:27:55] [Server thread/INFO]: Abadok lost connection: Disconnected
+[10:27:55] [Server thread/INFO]: Abadok left the game
+[10:51:59] [Server thread/INFO]: Abadok[/94.155.119.100:64728] logged in with entity id 261198 at (-55.90917204949634, 65.0, 12.510252418295412)
+[10:51:59] [Server thread/INFO]: Abadok joined the game
+[11:21:36] [Server thread/INFO]: Abadok lost connection: Disconnected
+[11:21:36] [Server thread/INFO]: Abadok left the game
+[11:21:46] [Server thread/INFO]: Stopping server
+[11:21:46] [Server thread/INFO]: Saving players
+[11:21:46] [Server thread/INFO]: Saving worlds
+[11:21:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:21:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:21:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:21:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
