@@ -1,0 +1,1 @@
+sudo java -Xmx4G -Xms4G -jar spigot-server.jar nogui
