@@ -4763,6 +4763,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2021-02-06 23:33:50 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_granite": "2020-10-16 20:54:07 +0300"
@@ -5597,5 +5603,5 @@
     },
     "done": true
   },
-  "DataVersion": 2584
+  "DataVersion": 2586
 }
