@@ -2381,6 +2381,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2021-02-08 18:29:40 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -3053,6 +3059,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2021-02-10 03:45:52 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_rabbit_from_campfire_cooking": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -3163,7 +3175,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2021-01-31 23:36:10 +0200"
+      "minecraft:skeleton": "2021-01-31 23:36:10 +0200",
+      "minecraft:spider": "2021-02-10 04:18:44 +0200",
+      "minecraft:creeper": "2021-02-08 18:29:42 +0200",
+      "minecraft:phantom": "2021-02-08 18:47:26 +0200",
+      "minecraft:cave_spider": "2021-02-10 02:53:57 +0200",
+      "minecraft:zombie": "2021-02-08 18:10:54 +0200",
+      "minecraft:drowned": "2021-02-08 18:34:30 +0200"
     },
     "done": false
   },
@@ -3752,7 +3770,10 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2021-01-31 23:25:18 +0200",
+      "minecraft:mountains": "2021-02-10 03:50:50 +0200",
+      "minecraft:dark_forest": "2021-02-08 18:44:21 +0200",
       "minecraft:river": "2021-01-31 23:25:17 +0200",
+      "minecraft:wooded_hills": "2021-02-10 04:59:11 +0200",
       "minecraft:plains": "2021-01-31 23:24:52 +0200"
     },
     "done": false
@@ -4231,6 +4252,13 @@
     },
     "done": true
   },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "cooked_porkchop": "2021-02-08 18:30:18 +0200",
+      "cooked_chicken": "2021-02-08 17:41:30 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/food/cooked_cod": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -4429,6 +4457,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2021-02-08 17:41:30 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:56 +0200"
@@ -4606,6 +4640,12 @@
   "minecraft:recipes/building_blocks/red_sandstone_stairs_from_red_sandstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2021-02-10 02:33:06 +0200"
     },
     "done": true
   },
@@ -4948,6 +4988,12 @@
   "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2021-02-10 03:23:56 +0200"
     },
     "done": true
   },
@@ -5335,5 +5381,5 @@
     },
     "done": true
   },
-  "DataVersion": 2584
+  "DataVersion": 2586
 }
