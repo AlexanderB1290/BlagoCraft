@@ -1229,6 +1229,13 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2021-02-11 00:46:21 +0200",
+      "minecraft:nether_wastes": "2021-02-11 00:45:19 +0200"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -1370,6 +1377,12 @@
   "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-02-11 00:45:18 +0200"
     },
     "done": true
   },
@@ -1883,6 +1896,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-02-11 00:45:18 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:58 +0200"
@@ -2309,6 +2328,12 @@
     },
     "done": true
   },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2021-02-11 00:48:30 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/iron_ingot": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -2522,6 +2547,12 @@
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
+    },
+    "done": true
+  },
+  "vanillatweaks:anti_creeper_grief": {
+    "criteria": {
+      "tick": "2021-02-10 22:52:56 +0200"
     },
     "done": true
   },
@@ -3178,8 +3209,11 @@
       "minecraft:skeleton": "2021-01-31 23:36:10 +0200",
       "minecraft:spider": "2021-02-10 04:18:44 +0200",
       "minecraft:creeper": "2021-02-08 18:29:42 +0200",
+      "minecraft:slime": "2021-02-10 15:47:57 +0200",
       "minecraft:phantom": "2021-02-08 18:47:26 +0200",
       "minecraft:cave_spider": "2021-02-10 02:53:57 +0200",
+      "minecraft:piglin": "2021-02-11 00:47:11 +0200",
+      "minecraft:enderman": "2021-02-11 00:48:50 +0200",
       "minecraft:zombie": "2021-02-08 18:10:54 +0200",
       "minecraft:drowned": "2021-02-08 18:34:30 +0200"
     },
@@ -3212,6 +3246,12 @@
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2021-02-11 00:51:21 +0200"
     },
     "done": true
   },
@@ -3341,6 +3381,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2021-02-11 00:47:37 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_carpet_from_white_carpet": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -3374,6 +3420,12 @@
   "minecraft:recipes/redstone/jungle_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2021-02-11 00:47:42 +0200"
     },
     "done": true
   },
@@ -3773,7 +3825,9 @@
       "minecraft:mountains": "2021-02-10 03:50:50 +0200",
       "minecraft:dark_forest": "2021-02-08 18:44:21 +0200",
       "minecraft:river": "2021-01-31 23:25:17 +0200",
+      "minecraft:wooded_mountains": "2021-02-10 15:53:57 +0200",
       "minecraft:wooded_hills": "2021-02-10 04:59:11 +0200",
+      "minecraft:swamp": "2021-02-11 00:47:37 +0200",
       "minecraft:plains": "2021-01-31 23:24:52 +0200"
     },
     "done": false
@@ -4565,6 +4619,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2021-02-10 23:21:51 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/granite_slab": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -5240,6 +5300,12 @@
   "minecraft:recipes/decorations/brown_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2021-02-11 00:47:42 +0200"
     },
     "done": true
   },
