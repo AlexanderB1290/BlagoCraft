@@ -1,184 +1,346 @@
-[23:02:00] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:02:03] [main/INFO]: Reloading ResourceManager: Default, afk display v1.1.0.zip, armored elytra v1.0.3.zip, coordinates hud v1.2.0.zip, fast leaf decay v2.0.3.zip, homes v1.4.1.zip, more mob heads v2.8.1.zip, multiplayer sleep v2.5.2.zip, nether portal coords v1.1.0.zip, pillager tools v1.1.0.zip, player head drops v1.1.0.zip, silence mobs v1.1.0.zip, spawn v2.3.0.zip, tag v2.1.0.zip, terracotta rotation wrench v1.1.0.zip, tpa v2.3.0.zip, track raw statistics v1.4.0.zip, unlock all recipes v2.0.0.zip, armor statues v2.8.1.zip, back v1.2.0.zip, custom nether portals v2.3.2.zip, double shulker shells v1.3.0.zip, dragon drops v1.3.0.zip, durability ping v1.1.0.zip, gem villagers v4.3.1.zip, graves v2.8.0.zip, kill empty boats v1.1.0.zip, larger phantoms v1.2.1.zip, spectator conduit power v1.1.0.zip, spectator night vision v1.1.0.zip, thunder shrine v1.1.0.zip, track statistics v1.1.0.zip, treasure gems v1.2.0.zip, villager workstation highlights v1.1.0.zip, bukkit, anti creeper grief v1.1.0.zip
-[23:02:14] [Worker-Main-5/INFO]: Loaded 7 recipes
-[23:02:24] [Server thread/INFO]: Starting minecraft server version 1.16.5
-[23:02:24] [Server thread/INFO]: Loading properties
-[23:02:25] [Server thread/INFO]: This server is running CraftBukkit version 2991-Spigot-018b9a0-f3f3094 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
-[23:02:26] [Server thread/INFO]: Debug logging is disabled
-[23:02:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[23:02:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[23:02:26] [Server thread/INFO]: Default game type: SURVIVAL
-[23:02:26] [Server thread/INFO]: Generating keypair
-[23:02:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:02:28] [Server thread/INFO]: Using default channel type
-[23:02:32] [Server thread/INFO]: [UltimateAutoRestart] Loading UltimateAutoRestart vBuild 42a
-[23:02:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:02:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:02:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:02:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:02:32] [Server thread/INFO]: Preparing level "world"
-[23:02:33] [Server thread/INFO]: -------- World Settings For [world] --------
-[23:02:33] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:02:33] [Server thread/INFO]: Mob Spawn Range: 4
-[23:02:33] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:02:33] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:02:33] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:02:33] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[23:02:33] [Server thread/INFO]: Max TNT Explosions: 100
-[23:02:33] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:02:33] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:02:33] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:02:33] [Server thread/INFO]: View Distance: 20
-[23:02:33] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:02:33] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:02:33] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:02:33] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:02:33] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[23:02:34] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[23:02:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:02:34] [Server thread/INFO]: Mob Spawn Range: 4
-[23:02:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:02:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:02:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[23:02:34] [Server thread/INFO]: Max TNT Explosions: 100
-[23:02:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:02:34] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:02:34] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:02:34] [Server thread/INFO]: View Distance: 20
-[23:02:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:02:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:02:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:02:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:02:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[23:02:34] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[23:02:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[23:02:34] [Server thread/INFO]: Mob Spawn Range: 4
-[23:02:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Potato Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[23:02:34] [Server thread/INFO]: Vine Growth Modifier: 100%
-[23:02:35] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[23:02:35] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[23:02:35] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[23:02:35] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[23:02:35] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[23:02:35] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[23:02:35] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[23:02:35] [Server thread/INFO]: Max TNT Explosions: 100
-[23:02:35] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[23:02:35] [Server thread/INFO]: Item Despawn Rate: 6000
-[23:02:35] [Server thread/INFO]: Item Merge Radius: 2.5
-[23:02:35] [Server thread/INFO]: View Distance: 20
-[23:02:35] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[23:02:35] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[23:02:35] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[23:02:35] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[23:02:35] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[23:02:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:44] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:45] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:46] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:46] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:46] [Server thread/INFO]: Preparing spawn area: 7%
-[23:02:47] [Worker-Main-4/INFO]: Preparing spawn area: 51%
-[23:02:47] [Server thread/INFO]: Preparing spawn area: 51%
-[23:02:48] [Server thread/INFO]: Preparing spawn area: 83%
-[23:02:52] [Server thread/INFO]: Preparing spawn area: 100%
-[23:02:52] [Server thread/INFO]: Preparing spawn area: 100%
-[23:02:52] [Server thread/INFO]: Preparing spawn area: 100%
-[23:02:52] [Server thread/INFO]: Preparing spawn area: 100%
-[23:02:52] [Server thread/INFO]: Preparing spawn area: 100%
-[23:02:52] [Server thread/INFO]: Preparing spawn area: 100%
-[23:02:52] [Server thread/INFO]: Preparing spawn area: 100%
-[23:02:52] [Server thread/INFO]: Preparing spawn area: 100%
-[23:02:52] [Server thread/INFO]: Time elapsed: 17194 ms
-[23:02:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:56] [Server thread/INFO]: Preparing spawn area: 0%
-[23:02:58] [Server thread/INFO]: Time elapsed: 5652 ms
-[23:02:58] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[23:03:00] [Server thread/INFO]: Preparing spawn area: 0%
-[23:03:00] [Server thread/INFO]: Preparing spawn area: 0%
-[23:03:00] [Server thread/INFO]: Preparing spawn area: 0%
-[23:03:00] [Server thread/INFO]: Preparing spawn area: 0%
-[23:03:00] [Server thread/INFO]: Preparing spawn area: 0%
-[23:03:00] [Server thread/INFO]: Preparing spawn area: 0%
-[23:03:01] [Server thread/INFO]: Time elapsed: 3641 ms
-[23:03:01] [Server thread/INFO]: [UltimateAutoRestart] Enabling UltimateAutoRestart vBuild 42a
-[23:03:03] [Server thread/INFO]: 
-[23:03:03] [Server thread/INFO]: UltimateAutoRestart Build 42a, a free resource by Norska - Enabled!
-[23:03:03] [Server thread/INFO]: 
-[23:03:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[23:03:03] [Server thread/INFO]: Done (30.730s)! For help, type "help"
-[23:03:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6708ms or 134 ticks behind
-[23:04:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30020ms or 600 ticks behind
-[23:04:53] [User Authenticator #1/INFO]: UUID of player Kukerka is 30de7bda-df56-36dd-8d68-7fb134078c27
-[23:04:56] [Server thread/INFO]: Kukerka[/94.155.119.100:56057] logged in with entity id 566 at ([world]-32.490202799639235, 79.0, 168.54074977167562)
-[23:04:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5137ms or 102 ticks behind
-[23:05:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6474ms or 129 ticks behind
+[00:00:32] [Server thread/INFO]: HellAlex fell from a high place
+[00:00:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 46905ms or 938 ticks behind
+[00:01:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 34275ms or 685 ticks behind
+[00:02:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 36070ms or 721 ticks behind
+[00:03:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29375ms or 587 ticks behind
+[00:04:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 24821ms or 496 ticks behind
+[00:05:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25379ms or 507 ticks behind
+[00:06:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21101ms or 422 ticks behind
+[00:07:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33535ms or 670 ticks behind
+[00:08:22] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.3023508288592893
+[00:08:22] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.48370836850222076
+[00:08:22] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.47289459543571866
+[00:08:22] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.38552267492104875
+[00:08:22] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.8226369133740263
+[00:08:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30834ms or 616 ticks behind
+[00:09:22] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.31624756503697427
+[00:09:23] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.43131100238201725
+[00:09:23] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.903447667728642
+[00:09:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33521ms or 670 ticks behind
+[00:10:09] [Server thread/WARN]: HellAlex moved wrongly!
+[00:10:44] [Server thread/WARN]: HellAlex moved wrongly!
+[00:10:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33384ms or 667 ticks behind
+[00:11:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28630ms or 572 ticks behind
+[00:12:03] [Server thread/INFO]: Kukerka lost connection: Disconnected
+[00:12:03] [Server thread/INFO]: Kukerka left the game
+[00:12:04] [User Authenticator #4/INFO]: UUID of player Kukerka is 30de7bda-df56-36dd-8d68-7fb134078c27
+[00:12:05] [Server thread/INFO]: Kukerka[/94.155.119.100:56542] logged in with entity id 19637 at ([world]-1525.1289968315637, 68.8500000178814, 964.8907044972627)
+[00:12:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25938ms or 518 ticks behind
+[00:13:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27308ms or 546 ticks behind
+[00:13:52] [Server thread/WARN]: HellAlex moved wrongly!
+[00:14:05] [Server thread/INFO]: Kukerka lost connection: Disconnected
+[00:14:05] [Server thread/INFO]: Kukerka left the game
+[00:14:08] [User Authenticator #5/INFO]: UUID of player Kukerka is 30de7bda-df56-36dd-8d68-7fb134078c27
+[00:14:09] [Server thread/INFO]: Kukerka[/94.155.119.100:56558] logged in with entity id 20469 at ([world]-1195.5741365643823, 73.8500000178814, 993.3195106845593)
+[00:14:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27835ms or 556 ticks behind
+[00:15:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29164ms or 583 ticks behind
+[00:16:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33572ms or 671 ticks behind
+[00:17:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 40786ms or 815 ticks behind
+[00:17:48] [Server thread/WARN]: Entity EntityPlayer['HellAlex'/985, l='ServerLevel[world]', x=161.19, y=108.73, z=751.35](HellAlex at 161.18631135725875,108.73168568470186,751.3479296281188) left loaded chunk area
+[00:17:56] [Server thread/WARN]: Entity EntityPlayer['HellAlex'/985, l='ServerLevel[world]', x=215.26, y=85.00, z=527.75](HellAlex at 215.26017615606168,85.00025117388526,527.7503488575761) left loaded chunk area
+[00:17:57] [Server thread/WARN]: Entity EntityPlayer['HellAlex'/985, l='ServerLevel[world]', x=218.92, y=83.29, z=511.57](HellAlex at 218.92077571987957,83.28760902845112,511.5700687442112) left loaded chunk area
+[00:17:57] [Server thread/WARN]: Entity EntityPlayer['HellAlex'/985, l='ServerLevel[world]', x=217.46, y=81.57, z=495.66](HellAlex at 217.46215824478296,81.57050231346138,495.6554883521243) left loaded chunk area
+[00:17:58] [Server thread/WARN]: Entity EntityPlayer['HellAlex'/985, l='ServerLevel[world]', x=212.21, y=79.69, z=479.16](HellAlex at 212.20611782458403,79.68651429540682,479.16383749994634) left loaded chunk area
+[00:17:58] [Server thread/WARN]: Entity EntityPlayer['HellAlex'/985, l='ServerLevel[world]', x=207.47, y=78.27, z=466.97](HellAlex at 207.47350412817693,78.27109442350203,466.97474740990174) left loaded chunk area
+[00:17:59] [Server thread/WARN]: Entity EntityPlayer['HellAlex'/985, l='ServerLevel[world]', x=205.84, y=77.80, z=462.91](HellAlex at 205.83599479185753,77.79913140575457,462.914482762104) left loaded chunk area
+[00:18:01] [Server thread/WARN]: HellAlex moved wrongly!
+[00:18:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26739ms or 534 ticks behind
+[00:19:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32327ms or 646 ticks behind
+[00:20:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 35287ms or 705 ticks behind
+[00:21:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 35791ms or 715 ticks behind
+[00:23:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 35928ms or 718 ticks behind
+[00:24:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33008ms or 660 ticks behind
+[00:25:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32765ms or 655 ticks behind
+[00:26:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27924ms or 558 ticks behind
+[00:27:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31664ms or 633 ticks behind
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 13.155238317812291,-1.0,-15.489748355177767
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 13.310507855669414,-1.0,-15.941328617146723
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 13.458274094243563,-1.0,-16.395463128389338
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 13.602025466970986,-1.0,-16.85096436749211
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 13.743628565031656,-1.0,-17.30719691542322
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 13.88408216415013,-1.0,-17.7638207721277
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 14.023920689303168,-1.0,-18.220654010354906
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 14.16343010064054,-1.0,-18.677599284460257
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 14.302763409736997,-1.0,-19.134604506730284
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 14.442002490035406,-1.0,-19.59164180606797
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 14.58397665255859,-1.0,-20.04782835012236
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 14.74755937847516,-1.0,-20.496045147460677
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 14.955023568069294,-1.0,-20.92284585254845
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 15.210686699983853,0.0,-21.319791964560068
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 15.502021490885,0.0,-21.691753898269894
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 15.823323107714543,-0.07683200149536162,-22.03903895398298
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 16.0125396774136,-0.2274534586630068,-22.182642098102974
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 16.02726038574906,-0.4489423104376016,-22.182642098102974
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 16.02726038574906,-0.7384922093173572,-22.182642098102974
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 16.02726038574906,0.0,-22.194500782051705
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 16.216628127650495,1.0,-22.321185997767657
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 16.50792135123902,1.0,-22.504100430316043
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 16.85406123980647,1.0,-22.71659162173262
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 17.230139318484248,1.0,-22.943922131800605
+[00:27:40] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 17.62223672578699,1.0,-23.179192865414848
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 18.022905756445937,1.0,-23.41871225433772
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 18.42666350817433,1.0,-23.662983944914686
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 18.83207397296451,0.9231679985046384,-23.909798497356064
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 19.067937804162455,0.7725465413369932,-24.053475007713473
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 19.297247941869557,0.5510576895623984,-24.193167629616596
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 19.521009580778298,0.26150779068264285,-24.328807088225858
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 19.740269473426906,0.0,-24.460015412147186
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! 20.134484459734153,0.0,-24.676366026357982
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 5.26679390154609
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 6.970174383310408
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 7.198779129138795
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 7.371282324485791
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 7.542975790855799
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 7.720278887804986
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 8.096995842921665
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 8.517345033561819
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 8.961015456313826
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 9.220819702527166
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 9.474716290043798
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 9.723312899364998
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 9.876858190117105
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.990176541364463
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.986138342818094
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.981705857751876
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.34173645159052,0.0,13.030014420486623
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.977606573416494
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.782650588183174,-1.0,13.213450258119678
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.974264084951074
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.511790634362967
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.971106091906393
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:41] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved too quickly! -15.782650588183174,-1.0,13.213450258119678
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.970517088677184
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.548340651674948
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.434680318379947
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 14.034970177025457
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.64728130254241
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 13.266024768284126
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 12.88821005103307
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 12.46993502485509
+[00:27:42] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 12.03331995440567
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.3189326371320931
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.8251843927914138
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.49274312233802675
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9782580443189204
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.48164725608455683
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9612526992567609
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4397656090489477
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4779283169633004
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9555438299593675
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4774481378298674
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9548067165453631
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4773106574190251
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.47728501568877846
+[00:27:46] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9545563109988962
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4772639538090857
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9545239793272913
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4317819028954091
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4772567988565015
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9545129959022916
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.47733085292099986
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9547800862340523
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.43219017200601684
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.25545261836634836
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.3921402212784528
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.46527903233993584
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.2607928990323103
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.6219957591189882
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.44397119051160416
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9035703335892435
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.3716039991575144
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.47255877931041823
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4749831226434935
+[00:27:47] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9512470587582129
+[00:27:48] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.42819633262473644
+[00:27:48] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4773075770588662
+[00:27:48] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9547722260374485
+[00:27:48] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.47754869503114605
+[00:27:48] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9551423614293526
+[00:27:48] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.43276009110940095
+[00:27:48] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.6883238155909908
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.27729854088651656
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.7326145553329582
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.46489585462979105
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9343591930645279
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.47300626206043284
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9478160658416229
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4761764491971827
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9529563228545174
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4770652649980832
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9543141674655352
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.47748323556177436
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.9550894943308813
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.47768668307998485
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.25560062007113626
+[00:27:57] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.39236741574463824
+[00:28:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 44199ms or 883 ticks behind
+[00:29:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 30208ms or 604 ticks behind
+[00:30:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 27212ms or 544 ticks behind
+[00:31:01] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.4343902241375943
+[00:31:01] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.2958828794202617
+[00:31:01] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.2718540473490094
+[00:31:01] [Server thread/WARN]: Horse (vehicle of Kukerka) moved wrongly! 0.2685272668047318
+[00:31:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20656ms or 413 ticks behind
+[00:31:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14261ms or 285 ticks behind
+[00:32:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13332ms or 266 ticks behind
+[00:33:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13019ms or 260 ticks behind
+[00:34:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13759ms or 275 ticks behind
+[00:34:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18822ms or 376 ticks behind
+[00:35:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18945ms or 378 ticks behind
+[00:36:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18759ms or 375 ticks behind
+[00:37:09] [Server thread/INFO]: Abadok23 has made the advancement [Voluntary Exile]
+[00:37:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17640ms or 352 ticks behind
+[00:38:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15946ms or 318 ticks behind
+[00:38:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16720ms or 334 ticks behind
+[00:39:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17701ms or 354 ticks behind
+[00:40:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15482ms or 309 ticks behind
+[00:41:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15341ms or 306 ticks behind
+[00:41:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15059ms or 301 ticks behind
+[00:42:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13542ms or 270 ticks behind
+[00:43:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10934ms or 218 ticks behind
+[00:44:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18078ms or 361 ticks behind
+[00:44:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13314ms or 266 ticks behind
+[00:45:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11452ms or 229 ticks behind
+[00:46:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 21639ms or 432 ticks behind
+[00:47:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17072ms or 341 ticks behind
+[00:47:17] [Server thread/INFO]: HellAlex fell from a high place
+[00:47:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 17672ms or 353 ticks behind
+[00:48:33] [Server thread/INFO]: Abadok23 has completed the challenge [Hero of the Village]
+[00:48:33] [Server thread/INFO]: Kukerka has completed the challenge [Hero of the Village]
+[00:48:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12082ms or 241 ticks behind
+[00:49:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8330ms or 166 ticks behind
+[00:50:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10294ms or 205 ticks behind
+[00:50:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10980ms or 219 ticks behind
+[00:51:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12596ms or 251 ticks behind
+[00:52:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11080ms or 221 ticks behind
+[00:52:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13552ms or 271 ticks behind
+[00:53:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11762ms or 235 ticks behind
+[00:54:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10657ms or 213 ticks behind
+[00:54:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11200ms or 224 ticks behind
+[00:55:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7863ms or 157 ticks behind
+[00:56:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10595ms or 211 ticks behind
+[00:56:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10868ms or 217 ticks behind
+[00:57:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9928ms or 198 ticks behind
+[00:58:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13604ms or 272 ticks behind
+[00:58:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10133ms or 202 ticks behind
+[00:59:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9607ms or 192 ticks behind
+[01:00:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10281ms or 205 ticks behind
+[01:00:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9564ms or 191 ticks behind
+[01:01:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9756ms or 195 ticks behind
+[01:02:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13896ms or 277 ticks behind
+[01:03:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 16256ms or 325 ticks behind
+[01:03:28] [Server thread/WARN]: HellAlex moved too quickly! -970.0472965227027,15.1875,1290.0943127197781
+[01:04:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26473ms or 529 ticks behind
+[01:04:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13420ms or 268 ticks behind
+[01:05:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20779ms or 415 ticks behind
+[01:06:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22736ms or 454 ticks behind
+[01:07:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 22033ms or 440 ticks behind
+[01:08:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23361ms or 467 ticks behind
+[01:09:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23106ms or 462 ticks behind
+[01:09:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23019ms or 460 ticks behind
+[01:10:50] [Server thread/INFO]: Abadok23 lost connection: Disconnected
+[01:10:50] [Server thread/INFO]: Abadok23 left the game
+[01:10:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23916ms or 478 ticks behind
+[01:11:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 28081ms or 561 ticks behind
+[01:12:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25813ms or 516 ticks behind
+[01:13:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 25389ms or 507 ticks behind
+[01:14:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 29470ms or 589 ticks behind
+[01:15:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18372ms or 367 ticks behind
+[01:16:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 26315ms or 526 ticks behind
+[01:17:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13791ms or 275 ticks behind
+[01:17:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11753ms or 235 ticks behind
+[01:18:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12151ms or 243 ticks behind
+[01:19:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10630ms or 212 ticks behind
+[01:19:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8702ms or 174 ticks behind
+[01:20:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12209ms or 244 ticks behind
+[01:21:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11810ms or 236 ticks behind
+[01:22:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15810ms or 316 ticks behind
+[01:22:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10023ms or 200 ticks behind
+[01:23:20] [Server thread/INFO]: Kukerka lost connection: Disconnected
+[01:23:20] [Server thread/INFO]: Kukerka left the game
+[01:23:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12447ms or 248 ticks behind
+[01:24:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5038ms or 100 ticks behind
+[01:25:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[01:26:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[01:27:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7046ms or 140 ticks behind
+[01:28:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5003ms or 100 ticks behind
+[01:29:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[01:30:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[01:31:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
+[01:32:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5018ms or 100 ticks behind
+[01:33:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12222ms or 244 ticks behind
+[01:34:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5012ms or 100 ticks behind
+[01:34:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5016ms or 100 ticks behind
+[01:35:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5005ms or 100 ticks behind
+[01:35:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5007ms or 100 ticks behind
+[01:36:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[01:37:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[01:38:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
+[01:42:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
+[01:42:44] [Server thread/INFO]: HellAlex lost connection: Disconnected
+[01:42:44] [Server thread/INFO]: HellAlex left the game
+[22:44:59] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 15m!
+[22:49:59] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 10m!
+[22:58:59] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 1m!
+[22:59:29] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 30s!
+[22:59:56] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 3s!
+[22:59:57] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 2s!
+[22:59:58] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 1s!
+[22:59:59] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:59:59] [Server thread/INFO]: Saved the game
+[22:59:59] [Server thread/INFO]: Attempting to restart with ./start.sh
+[23:00:00] [Server thread/INFO]: Stopping server
+[23:00:00] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 42a
+[23:00:00] [Server thread/INFO]: Saving players
+[23:00:00] [Server thread/INFO]: Saving worlds
+[23:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2021-02-11 23:52:16 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_sword": {
     "criteria": {
       "has_the_recipe": "2020-12-24 15:16:04 +0200"
@@ -3268,6 +3274,7 @@
     "criteria": {
       "minecraft:pillager": "2021-01-29 22:49:31 +0200",
       "minecraft:skeleton": "2021-01-26 23:42:49 +0200",
+      "minecraft:ravager": "2021-02-12 00:47:45 +0200",
       "minecraft:ghast": "2021-01-28 01:04:01 +0200",
       "minecraft:hoglin": "2021-01-31 23:17:44 +0200",
       "minecraft:vindicator": "2021-01-30 00:17:50 +0200",
@@ -3275,6 +3282,7 @@
       "minecraft:spider": "2021-01-29 19:44:37 +0200",
       "minecraft:creeper": "2021-01-27 00:20:04 +0200",
       "minecraft:slime": "2021-02-11 00:27:04 +0200",
+      "minecraft:evoker": "2021-02-12 00:42:43 +0200",
       "minecraft:phantom": "2021-01-30 16:25:24 +0200",
       "minecraft:zombified_piglin": "2021-02-02 21:25:31 +0200",
       "minecraft:witch": "2021-01-28 02:39:18 +0200",
@@ -3283,6 +3291,7 @@
       "minecraft:piglin": "2021-01-27 00:26:50 +0200",
       "minecraft:enderman": "2021-01-26 23:20:45 +0200",
       "minecraft:silverfish": "2021-01-26 23:56:21 +0200",
+      "minecraft:vex": "2021-02-12 00:48:25 +0200",
       "minecraft:zombie": "2021-01-26 23:36:08 +0200",
       "minecraft:drowned": "2021-01-29 19:27:18 +0200",
       "minecraft:zombie_villager": "2021-01-30 17:07:55 +0200"
@@ -3899,12 +3908,14 @@
     "criteria": {
       "minecraft:cold_ocean": "2021-01-28 00:14:22 +0200",
       "minecraft:jungle_edge": "2021-01-29 20:13:46 +0200",
+      "minecraft:snowy_mountains": "2021-02-12 00:01:51 +0200",
       "minecraft:mountains": "2020-12-24 15:16:31 +0200",
       "minecraft:forest": "2021-01-27 22:59:07 +0200",
       "minecraft:taiga": "2021-01-29 18:26:05 +0200",
       "minecraft:desert_hills": "2021-01-29 19:05:56 +0200",
       "minecraft:giant_tree_taiga": "2021-01-26 23:14:22 +0200",
       "minecraft:deep_cold_ocean": "2021-01-28 00:14:54 +0200",
+      "minecraft:snowy_tundra": "2021-02-12 00:00:23 +0200",
       "minecraft:taiga_hills": "2021-01-29 18:26:42 +0200",
       "minecraft:desert": "2021-01-29 19:05:45 +0200",
       "minecraft:deep_frozen_ocean": "2021-01-28 00:13:53 +0200",
@@ -3915,9 +3926,11 @@
       "minecraft:beach": "2021-01-28 00:15:10 +0200",
       "minecraft:dark_forest": "2021-01-29 18:31:21 +0200",
       "minecraft:river": "2021-01-26 23:11:21 +0200",
+      "minecraft:snowy_taiga": "2021-02-12 00:03:36 +0200",
       "minecraft:birch_forest_hills": "2021-01-29 18:59:19 +0200",
       "minecraft:wooded_mountains": "2021-01-29 18:40:03 +0200",
       "minecraft:wooded_hills": "2021-01-29 18:28:43 +0200",
+      "minecraft:giant_tree_taiga_hills": "2021-02-12 00:05:33 +0200",
       "minecraft:swamp": "2021-01-26 23:16:36 +0200",
       "minecraft:savanna": "2021-01-29 19:23:15 +0200",
       "minecraft:plains": "2020-10-17 15:45:12 +0300"
@@ -4278,6 +4291,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2021-02-12 00:48:33 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
     "criteria": {
       "has_the_recipe": "2020-12-24 15:16:04 +0200"
@@ -4419,6 +4438,7 @@
       "poisonous_potato": "2021-01-27 23:08:59 +0200",
       "bread": "2021-01-27 00:10:19 +0200",
       "golden_apple": "2021-01-29 21:05:14 +0200",
+      "suspicious_stew": "2021-02-12 01:00:46 +0200",
       "dried_kelp": "2021-02-01 21:08:39 +0200",
       "cooked_rabbit": "2021-01-29 22:38:24 +0200",
       "cooked_chicken": "2020-12-24 15:17:27 +0200",
