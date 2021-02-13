@@ -2424,6 +2424,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2021-02-13 20:55:52 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite": {
     "criteria": {
       "has_the_recipe": "2020-12-24 15:16:04 +0200"
@@ -3273,6 +3279,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2021-01-29 22:49:31 +0200",
+      "minecraft:blaze": "2021-02-13 20:50:05 +0200",
       "minecraft:skeleton": "2021-01-26 23:42:49 +0200",
       "minecraft:ravager": "2021-02-12 00:47:45 +0200",
       "minecraft:ghast": "2021-01-28 01:04:01 +0200",
@@ -3286,6 +3293,7 @@
       "minecraft:phantom": "2021-01-30 16:25:24 +0200",
       "minecraft:zombified_piglin": "2021-02-02 21:25:31 +0200",
       "minecraft:witch": "2021-01-28 02:39:18 +0200",
+      "minecraft:wither_skeleton": "2021-02-13 20:48:28 +0200",
       "minecraft:husk": "2021-01-29 21:10:24 +0200",
       "minecraft:cave_spider": "2021-01-30 16:31:01 +0200",
       "minecraft:piglin": "2021-01-27 00:26:50 +0200",
@@ -4339,6 +4347,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2021-02-13 19:20:56 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2020-12-24 15:16:04 +0200"
@@ -4442,6 +4456,7 @@
       "dried_kelp": "2021-02-01 21:08:39 +0200",
       "cooked_rabbit": "2021-01-29 22:38:24 +0200",
       "cooked_chicken": "2020-12-24 15:17:27 +0200",
+      "cooked_salmon": "2021-02-13 18:36:05 +0200",
       "carrot": "2021-01-27 00:40:54 +0200"
     },
     "done": false
@@ -4983,6 +4998,12 @@
   "minecraft:recipes/building_blocks/brown_wool": {
     "criteria": {
       "has_the_recipe": "2020-12-24 15:16:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2021-02-13 20:48:51 +0200"
     },
     "done": true
   },
