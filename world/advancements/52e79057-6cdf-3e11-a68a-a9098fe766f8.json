@@ -4358,6 +4358,7 @@
     "criteria": {
       "cooked_porkchop": "2021-02-08 18:30:18 +0200",
       "cooked_beef": "2021-02-13 19:06:41 +0200",
+      "rotten_flesh": "2021-02-14 02:17:15 +0200",
       "cooked_chicken": "2021-02-08 17:41:30 +0200"
     },
     "done": false
