@@ -941,6 +941,12 @@
     },
     "done": true
   },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2021-02-15 21:34:13 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_banner": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -3231,6 +3237,7 @@
       "minecraft:blaze": "2021-02-13 16:28:23 +0200",
       "minecraft:skeleton": "2021-01-31 23:36:10 +0200",
       "minecraft:ravager": "2021-02-12 00:39:39 +0200",
+      "minecraft:hoglin": "2021-02-15 20:02:56 +0200",
       "minecraft:vindicator": "2021-02-12 00:34:56 +0200",
       "minecraft:magma_cube": "2021-02-13 16:27:56 +0200",
       "minecraft:spider": "2021-02-10 04:18:44 +0200",
@@ -3238,6 +3245,7 @@
       "minecraft:slime": "2021-02-10 15:47:57 +0200",
       "minecraft:evoker": "2021-02-12 00:45:03 +0200",
       "minecraft:phantom": "2021-02-08 18:47:26 +0200",
+      "minecraft:zombified_piglin": "2021-02-15 19:59:35 +0200",
       "minecraft:witch": "2021-02-11 23:44:01 +0200",
       "minecraft:wither_skeleton": "2021-02-13 16:30:41 +0200",
       "minecraft:cave_spider": "2021-02-10 02:53:57 +0200",
@@ -3245,7 +3253,8 @@
       "minecraft:enderman": "2021-02-11 00:48:50 +0200",
       "minecraft:vex": "2021-02-12 00:48:55 +0200",
       "minecraft:zombie": "2021-02-08 18:10:54 +0200",
-      "minecraft:drowned": "2021-02-08 18:34:30 +0200"
+      "minecraft:drowned": "2021-02-08 18:34:30 +0200",
+      "minecraft:zombie_villager": "2021-02-15 20:59:01 +0200"
     },
     "done": false
   },
@@ -4357,7 +4366,9 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2021-02-08 18:30:18 +0200",
+      "cooked_mutton": "2021-02-15 20:40:04 +0200",
       "cooked_beef": "2021-02-13 19:06:41 +0200",
+      "bread": "2021-02-15 21:44:27 +0200",
       "rotten_flesh": "2021-02-14 02:17:15 +0200",
       "cooked_chicken": "2021-02-08 17:41:30 +0200"
     },
