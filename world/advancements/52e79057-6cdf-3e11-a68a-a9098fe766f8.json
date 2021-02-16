@@ -1240,9 +1240,10 @@
       "minecraft:crimson_forest": "2021-02-11 00:46:21 +0200",
       "minecraft:nether_wastes": "2021-02-11 00:45:19 +0200",
       "minecraft:soul_sand_valley": "2021-02-13 16:27:30 +0200",
-      "minecraft:basalt_deltas": "2021-02-13 16:27:31 +0200"
+      "minecraft:basalt_deltas": "2021-02-13 16:27:31 +0200",
+      "minecraft:warped_forest": "2021-02-16 22:16:06 +0200"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
@@ -3866,8 +3867,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2021-02-16 22:18:23 +0200",
       "minecraft:forest": "2021-01-31 23:25:18 +0200",
       "minecraft:mountains": "2021-02-10 03:50:50 +0200",
+      "minecraft:deep_cold_ocean": "2021-02-16 22:18:29 +0200",
+      "minecraft:beach": "2021-02-16 22:19:01 +0200",
       "minecraft:dark_forest": "2021-02-08 18:44:21 +0200",
       "minecraft:river": "2021-01-31 23:25:17 +0200",
       "minecraft:wooded_mountains": "2021-02-10 15:53:57 +0200",
@@ -4368,6 +4372,7 @@
       "cooked_porkchop": "2021-02-08 18:30:18 +0200",
       "cooked_mutton": "2021-02-15 20:40:04 +0200",
       "cooked_beef": "2021-02-13 19:06:41 +0200",
+      "chorus_fruit": "2021-02-16 21:28:44 +0200",
       "bread": "2021-02-15 21:44:27 +0200",
       "rotten_flesh": "2021-02-14 02:17:15 +0200",
       "cooked_chicken": "2021-02-08 17:41:30 +0200"
@@ -4401,6 +4406,12 @@
   "minecraft:recipes/building_blocks/red_nether_brick_slab": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2021-02-16 22:17:14 +0200"
     },
     "done": true
   },

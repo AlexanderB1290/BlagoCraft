@@ -1211,6 +1211,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/fishy_business": {
+    "criteria": {
+      "cod": "2021-02-16 22:09:50 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_gray_white_dye": {
     "criteria": {
       "has_the_recipe": "2020-12-24 15:16:03 +0200"
@@ -4446,10 +4452,12 @@
       "chorus_fruit": "2021-01-30 13:41:33 +0200",
       "baked_potato": "2021-01-31 16:01:26 +0200",
       "beef": "2021-02-01 02:37:47 +0200",
+      "tropical_fish": "2021-02-16 22:53:55 +0200",
       "apple": "2021-01-26 23:53:40 +0200",
       "potato": "2021-01-27 23:30:06 +0200",
       "cooked_cod": "2021-01-30 00:51:55 +0200",
       "poisonous_potato": "2021-01-27 23:08:59 +0200",
+      "pufferfish": "2021-02-16 22:53:45 +0200",
       "bread": "2021-01-27 00:10:19 +0200",
       "golden_apple": "2021-01-29 21:05:14 +0200",
       "suspicious_stew": "2021-02-12 01:00:46 +0200",
