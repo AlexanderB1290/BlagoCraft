@@ -1,67 +1,55 @@
-[00:00:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
-[00:01:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5742ms or 114 ticks behind
-[00:01:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5935ms or 118 ticks behind
-[00:02:06] [Server thread/INFO]: Rojy was slain by Zombified Piglin
-[00:02:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7411ms or 148 ticks behind
-[00:02:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6947ms or 138 ticks behind
-[00:03:25] [Server thread/INFO]: Rojy was slain by Zombified Piglin
-[00:03:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7128ms or 142 ticks behind
-[00:04:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5923ms or 118 ticks behind
-[00:04:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6241ms or 124 ticks behind
-[00:04:52] [Async Chat Thread - #0/INFO]: <Abadok23> azn sha lqgam
-[00:05:01] [Async Chat Thread - #0/INFO]: <Rojy> ok
-[00:05:07] [Async Chat Thread - #0/INFO]: <Abadok23> ai leka
-[00:05:11] [Async Chat Thread - #0/INFO]: <Rojy> ai
-[00:05:14] [Server thread/INFO]: Abadok23 lost connection: Disconnected
-[00:05:14] [Server thread/INFO]: Abadok23 left the game
-[00:05:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8522ms or 170 ticks behind
-[00:05:30] [Server thread/INFO]: Rojy was slain by Zombified Piglin
-[00:05:32] [Server thread/FATAL]: Error executing task on Server
-java.lang.NullPointerException: null
-	at net.minecraft.server.v1_16_R3.ChunkMapDistance.b(ChunkMapDistance.java:244) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.PlayerChunkMap.movePlayer(PlayerChunkMap.java:956) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.ChunkProviderServer.movePlayer(ChunkProviderServer.java:482) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.PlayerConnection.a(PlayerConnection.java:522) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.PacketPlayInTeleportAccept.a(SourceFile:30) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.PacketPlayInTeleportAccept.a(SourceFile:8) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.PlayerConnectionUtils.lambda$0(PlayerConnectionUtils.java:19) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.TickTask.run(SourceFile:18) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeTask(SourceFile:144) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeNext(SourceFile:118) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.bb(MinecraftServer.java:942) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.executeNext(MinecraftServer.java:935) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.IAsyncTaskHandler.executeAll(SourceFile:103) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.sleepForTick(MinecraftServer.java:918) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:851) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:164) ~[spigot-server.jar:2991-Spigot-018b9a0-f3f3094]
-	at java.lang.Thread.run(Thread.java:834) [?:?]
-[00:05:39] [Server thread/INFO]: Rojy lost connection: Disconnected
-[00:05:39] [Server thread/INFO]: Rojy left the game
-[02:14:51] [User Authenticator #6/INFO]: UUID of player Abadok23 is 52e79057-6cdf-3e11-a68a-a9098fe766f8
-[02:14:52] [Server thread/INFO]: Abadok23[/94.155.119.100:64892] logged in with entity id 12792 at ([world]12616.862144839353, 63.0, 8479.060455863695)
-[02:15:48] [Server thread/INFO]: Abadok23 lost connection: Disconnected
-[02:15:48] [Server thread/INFO]: Abadok23 left the game
-[02:15:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5031ms or 100 ticks behind
-[10:43:55] [User Authenticator #7/INFO]: UUID of player Rojy is 692e6c18-368b-3b38-9689-1f6ec654ed6a
-[10:43:56] [Server thread/INFO]: Rojy[/176.12.28.193:37085] logged in with entity id 15996 at ([world]-10.902416593762053, 98.0, -31.361327608756007)
-[10:45:14] [Server thread/INFO]: Rojy has made the advancement [Cover Me With Diamonds]
-[10:50:48] [Server thread/WARN]: Rojy moved too quickly! 33.8691067251804,0.0,0.1910901340941109
-[10:53:09] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[10:53:09] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[11:09:15] [Server thread/INFO]: Rojy was shot by Skeleton
-[11:13:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
-[11:15:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
-[11:16:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5004ms or 100 ticks behind
-[11:32:20] [Server thread/INFO]: Rojy lost connection: Disconnected
-[11:32:20] [Server thread/INFO]: Rojy left the game
-[17:51:59] [User Authenticator #8/INFO]: UUID of player Kukerka is 30de7bda-df56-36dd-8d68-7fb134078c27
-[17:51:59] [Server thread/INFO]: Kukerka[/94.155.119.100:51888] logged in with entity id 28163 at ([world]-139.09579432414088, 63.0, 91.0995362575559)
-[17:54:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5076ms or 101 ticks behind
-[17:55:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5013ms or 100 ticks behind
-[17:56:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5138ms or 102 ticks behind
-[17:57:49] [Server thread/INFO]: Kukerka lost connection: Disconnected
-[17:57:49] [Server thread/INFO]: Kukerka left the game
+[00:25:52] [Server thread/INFO]: Rojy issued server command: /trigger home
+[00:25:52] [Server thread/INFO]: [Rojy: Triggered [Home]]
+[00:44:29] [Server thread/INFO]: Rojy has made the advancement [What a Deal!]
+[00:59:32] [Server thread/WARN]: Rojy moved too quickly! -11.101558805830123,-1.0013359791121417,-2.929145739237512
+[01:17:14] [Server thread/INFO]: Rojy issued server command: /trigger home
+[01:17:14] [Server thread/INFO]: [Rojy: Triggered [Home]]
+[02:03:07] [Server thread/INFO]: Rojy burned to death
+[02:37:48] [Server thread/INFO]: Rojy lost connection: Disconnected
+[02:37:48] [Server thread/INFO]: Rojy left the game
+[05:25:33] [User Authenticator #2/INFO]: UUID of player Abadok23 is 52e79057-6cdf-3e11-a68a-a9098fe766f8
+[05:25:34] [Server thread/INFO]: Abadok23[/94.155.119.100:53472] logged in with entity id 28952 at ([world]12618.230056259461, 64.0, 8479.12871469894)
+[05:26:02] [Server thread/INFO]: Abadok23 issued server command: /trigger home
+[05:26:02] [Server thread/INFO]: [Abadok23: Triggered [Home]]
+[05:34:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5020ms or 100 ticks behind
+[05:53:37] [Server thread/INFO]: Abadok23 lost connection: Disconnected
+[05:53:37] [Server thread/INFO]: Abadok23 left the game
+[05:53:51] [User Authenticator #3/INFO]: UUID of player Abadok23 is 52e79057-6cdf-3e11-a68a-a9098fe766f8
+[05:53:52] [Server thread/INFO]: Abadok23[/94.155.119.100:53603] logged in with entity id 31873 at ([world_nether]-23.798172731808254, 67.0, 323.6375031645272)
+[05:54:03] [Server thread/INFO]: Abadok23 was slain by Zombified Piglin
+[06:35:19] [Server thread/INFO]: Abadok23 issued server command: /trigger home
+[06:35:19] [Server thread/INFO]: [Abadok23: Triggered [Home]]
+[06:42:55] [Server thread/INFO]: Abadok23 has made the advancement [Withering Heights]
+[06:44:16] [Server thread/INFO]: Abadok23 issued server command: /trigger home
+[06:44:16] [Server thread/INFO]: [Abadok23: Triggered [Home]]
+[06:45:55] [Server thread/INFO]: Abadok23 has reached the goal [The Next Generation]
+[06:46:25] [Server thread/INFO]: Abadok23 issued server command: /trigger home
+[06:46:25] [Server thread/INFO]: [Abadok23: Triggered [Home]]
+[06:55:35] [Server thread/INFO]: Abadok23 has made the advancement [Ice Bucket Challenge]
+[06:55:43] [Server thread/INFO]: Abadok23 has made the advancement [Who is Cutting Onions?]
+[06:56:14] [Server thread/INFO]: Abadok23 has made the advancement [Bring Home the Beacon]
+[07:08:49] [Server thread/INFO]: Abadok23 lost connection: Disconnected
+[07:08:49] [Server thread/INFO]: Abadok23 left the game
+[07:08:50] [User Authenticator #4/INFO]: UUID of player Abadok23 is 52e79057-6cdf-3e11-a68a-a9098fe766f8
+[07:08:51] [Server thread/INFO]: Abadok23[/94.155.119.100:53977] logged in with entity id 40093 at ([world]-14.297975427026522, 72.0, 40.013661707824845)
+[07:09:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5266ms or 105 ticks behind
+[08:09:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[08:13:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5019ms or 100 ticks behind
+[08:18:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[08:25:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5161ms or 103 ticks behind
+[08:42:05] [Server thread/INFO]: Abadok23 lost connection: Disconnected
+[08:42:05] [Server thread/INFO]: Abadok23 left the game
+[08:45:37] [User Authenticator #5/INFO]: UUID of player Abadok23 is 52e79057-6cdf-3e11-a68a-a9098fe766f8
+[08:45:38] [Server thread/INFO]: Abadok23[/94.155.119.100:54589] logged in with entity id 49001 at ([world]0.8631825145016869, 77.0, 63.129402656207844)
+[08:46:03] [Server thread/INFO]: Abadok23 lost connection: Timed out
+[08:46:03] [Server thread/INFO]: Abadok23 left the game
+[08:46:12] [User Authenticator #6/INFO]: UUID of player Abadok23 is 52e79057-6cdf-3e11-a68a-a9098fe766f8
+[08:46:13] [Server thread/INFO]: Abadok23[/94.155.119.100:54592] logged in with entity id 49089 at ([world]0.9226879788066027, 77.0, 63.0653452975799)
+[08:52:33] [Server thread/INFO]: Abadok23 issued server command: /trigger home
+[08:52:33] [Server thread/INFO]: [Abadok23: Triggered [Home]]
+[08:52:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5001ms or 100 ticks behind
+[09:11:47] [Server thread/INFO]: Abadok23 lost connection: Disconnected
+[09:11:47] [Server thread/INFO]: Abadok23 left the game
 [22:44:59] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 15m!
 [22:54:59] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 5m!
 [22:58:59] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 1m!
@@ -69,7 +57,7 @@ java.lang.NullPointerException: null
 [22:59:56] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 3s!
 [22:59:57] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 2s!
 [22:59:58] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 1s!
-[23:00:00] [Server thread/INFO]: Saving the game (this may take a moment!)
+[22:59:59] [Server thread/INFO]: Saving the game (this may take a moment!)
 [23:00:00] [Server thread/INFO]: Saved the game
 [23:00:00] [Server thread/INFO]: Attempting to restart with ./start.sh
 [23:00:00] [Server thread/INFO]: Stopping server
@@ -77,11 +65,11 @@ java.lang.NullPointerException: null
 [23:00:00] [Server thread/INFO]: Saving players
 [23:00:00] [Server thread/INFO]: Saving worlds
 [23:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved

@@ -11,6 +11,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2021-02-18 06:55:43 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brick_wall": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:56 +0200"
@@ -779,6 +785,12 @@
     },
     "done": true
   },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2021-02-18 06:56:14 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -1148,6 +1160,12 @@
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:58 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2021-02-18 06:45:55 +0200"
     },
     "done": true
   },
@@ -2332,6 +2350,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-02-18 06:55:35 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_rabbit": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:57 +0200"
@@ -3238,11 +3262,13 @@
       "minecraft:blaze": "2021-02-13 16:28:23 +0200",
       "minecraft:skeleton": "2021-01-31 23:36:10 +0200",
       "minecraft:ravager": "2021-02-12 00:39:39 +0200",
+      "minecraft:ghast": "2021-02-18 06:12:52 +0200",
       "minecraft:hoglin": "2021-02-15 20:02:56 +0200",
       "minecraft:vindicator": "2021-02-12 00:34:56 +0200",
       "minecraft:magma_cube": "2021-02-13 16:27:56 +0200",
       "minecraft:spider": "2021-02-10 04:18:44 +0200",
       "minecraft:creeper": "2021-02-08 18:29:42 +0200",
+      "minecraft:wither": "2021-02-18 06:43:40 +0200",
       "minecraft:slime": "2021-02-10 15:47:57 +0200",
       "minecraft:evoker": "2021-02-12 00:45:03 +0200",
       "minecraft:phantom": "2021-02-08 18:47:26 +0200",
@@ -4331,6 +4357,12 @@
     },
     "done": true
   },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2021-02-18 06:42:55 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
     "criteria": {
       "has_the_recipe": "2021-01-31 23:24:56 +0200"
@@ -4375,7 +4407,8 @@
       "chorus_fruit": "2021-02-16 21:28:44 +0200",
       "bread": "2021-02-15 21:44:27 +0200",
       "rotten_flesh": "2021-02-14 02:17:15 +0200",
-      "cooked_chicken": "2021-02-08 17:41:30 +0200"
+      "cooked_chicken": "2021-02-08 17:41:30 +0200",
+      "carrot": "2021-02-18 05:56:49 +0200"
     },
     "done": false
   },
