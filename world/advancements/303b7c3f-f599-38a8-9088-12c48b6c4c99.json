@@ -1175,6 +1175,12 @@
     },
     "done": true
   },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2021-02-23 01:05:06 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/honey_bottle": {
     "criteria": {
       "has_honey_block": "2020-10-17 18:57:03 +0300"
@@ -2185,6 +2191,12 @@
   "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
       "has_the_recipe": "2020-10-31 15:57:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2021-02-22 23:44:19 +0200"
     },
     "done": true
   },
