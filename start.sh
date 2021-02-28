@@ -1,5 +1,6 @@
 #!/bin/sh
 time_stamp=$(date +'%m/%d/%Y')
+git add .
 git commit -a -m "BlagoCraft server backup ${time_stamp}"
 git push
 git merge
