@@ -1,0 +1,6 @@
+# Set the message sent to the player here! You can use '&' color characters!
+# Make sure to include %x, %y and %z as placeholders for the coordinates!
+# You can now also set whether the latest death log should be enabled or not! This feature logs the last death of the player (Includes time and location)
+message: '&8[&6PDL&8] &7You died at x: &b%x &7y: &b%y &7z: &b%z&7!'
+enable-death-log: true
+use-permission-for-log: true
