@@ -1,29 +1,3 @@
-[12:46:09] [User Authenticator #1/INFO]: UUID of player Abadok23 is 09de271f-5ec4-46fb-8796-82dbd499931d
-[12:46:10] [Server thread/INFO]: Abadok23[/94.155.119.100:56429] logged in with entity id 4675 at ([world]12755.291716435477, 16.0, 9391.839093543482)
-[12:46:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5008ms or 100 ticks behind
-[12:46:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5555ms or 111 ticks behind
-[12:48:01] [Server thread/INFO]: Abadok23 issued server command: /trigger home
-[12:48:01] [Server thread/INFO]: [Abadok23: Triggered [Home]]
-[12:48:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5051ms or 101 ticks behind
-[12:49:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5010ms or 100 ticks behind
-[12:50:01] [Server thread/INFO]: Abadok23 issued server command: /trigger hom
-[12:50:07] [Server thread/INFO]: Abadok23 issued server command: /trigger home
-[12:50:07] [Server thread/INFO]: [Abadok23: Triggered [Home]]
-[13:38:51] [Server thread/INFO]: Abadok23 issued server command: /trigger home
-[13:38:51] [Server thread/INFO]: [Abadok23: Triggered [Home]]
-[13:44:47] [Server thread/INFO]: Abadok23 issued server command: /trigger home
-[13:44:47] [Server thread/INFO]: [Abadok23: Triggered [Home]]
-[13:48:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5051ms or 101 ticks behind
-[13:48:31] [Server thread/INFO]: Scanning for legacy world dragon fight...
-[13:48:31] [Server thread/INFO]: Found that the dragon has been killed in this world already.
-[13:49:23] [Server thread/WARN]: Abadok23 moved too quickly! 1.366501850119819,-8.530091635158556,24.254651517516436
-[13:49:23] [Server thread/WARN]: Abadok23 moved too quickly! 1.3322730886992553,-8.233415566721483,23.43783414817267
-[13:49:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5002ms or 100 ticks behind
-[13:51:37] [Server thread/INFO]: Abadok23 issued server command: /trigger home
-[13:51:37] [Server thread/INFO]: [Abadok23: Triggered [Home]]
-[13:51:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5026ms or 100 ticks behind
-[13:53:04] [Server thread/INFO]: Abadok23 lost connection: Disconnected
-[13:53:05] [Server thread/INFO]: Abadok23 left the game
 [22:44:59] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 15m!
 [22:54:59] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 5m!
 [22:58:59] [pool-4-thread-1/INFO]: UltimateAutoRestart: Server restart in 1m!
@@ -39,8 +13,8 @@
 [23:00:00] [Server thread/INFO]: [AntiCreeper] Disabling AntiCreeper v1.0
 [23:00:00] [Server thread/INFO]: [UltimateAutoRestart] Disabling UltimateAutoRestart vBuild 42a
 [23:00:00] [Server thread/INFO]: Saving players
-[23:00:00] [Server thread/INFO]: Saving worlds
-[23:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:00:01] [Server thread/INFO]: Saving worlds
+[23:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
 [23:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
 [23:00:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
 [23:00:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
