@@ -1121,6 +1121,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2021-03-07 23:47:03 +0200"
+    },
+    "done": true
+  },
   "vanillatweaks:tag": {
     "criteria": {
       "tick": "2021-02-28 15:42:18 +0200"
